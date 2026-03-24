@@ -134,7 +134,7 @@ function JsonLd() {
         longitude: 7.4246,
       },
       telephone: "+33645636107",
-      email: "guillaume@ceres.agency",
+      sameAs: ["https://www.linkedin.com/in/delachetguillaume/"],
       priceRange: "$$$$",
       currenciesAccepted: "EUR",
       paymentAccepted: "Virement bancaire",
