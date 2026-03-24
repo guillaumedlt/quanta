@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: "Secteurs d'intervention IA à Monaco",
   description:
     "Gestion de patrimoine, banque privée, cabinets d'avocats, immobilier de luxe, hôtellerie, commerce, santé, services professionnels. L'IA pour Monaco.",
-  alternates: { canonical: "https://factory-ai.com/secteurs" },
+  alternates: { canonical: "https://factorymonaco.com/secteurs" },
   openGraph: {
     title: "Secteurs d'intervention IA à Monaco",
     description:
       "Gestion de patrimoine, banque privée, cabinets d'avocats, immobilier de luxe, hôtellerie, commerce, santé, services professionnels. L'IA pour Monaco.",
-    url: "https://factory-ai.com/secteurs",
+    url: "https://factorymonaco.com/secteurs",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

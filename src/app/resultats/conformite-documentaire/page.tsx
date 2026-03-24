@@ -10,7 +10,7 @@ const caseStudy = caseStudies.find((c) => c.slug === "conformite-documentaire")!
 export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Factory`,
   description: "Zéro échéance documentaire manquée depuis le déploiement. Découvrez comment Factory a automatisé le suivi des documents d'identité pour un cabinet monégasque.",
-  alternates: { canonical: `https://factory-ai.com/resultats/${caseStudy.slug}` },
+  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

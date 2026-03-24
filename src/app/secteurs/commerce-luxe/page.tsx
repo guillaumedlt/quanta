@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: "IA pour le commerce de luxe a Monaco | Factory AI",
   description:
     "CRM augmente, stocks predictifs, clienteling automatise et campagnes personnalisees pour les boutiques de luxe du Carre d'Or a Monaco.",
-  alternates: { canonical: "https://factory-ai.com/secteurs/commerce-luxe" },
+  alternates: { canonical: "https://factorymonaco.com/secteurs/commerce-luxe" },
   openGraph: {
     title: "IA pour le commerce de luxe a Monaco | Factory AI",
     description:
       "CRM augmente, stocks predictifs, clienteling automatise et campagnes personnalisees pour les boutiques de luxe du Carre d'Or a Monaco.",
-    url: "https://factory-ai.com/secteurs/commerce-luxe",
+    url: "https://factorymonaco.com/secteurs/commerce-luxe",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

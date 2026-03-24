@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   title: "Automatisation des processus par IA à Monaco",
   description:
     "Automatisation intelligente pour entreprises monégasques. Extraction documentaire, classification, conformité KYC/AML et workflows orchestrés par IA.",
-  alternates: { canonical: "https://factory-ai.com/expertise/automatisation-processus" },
+  alternates: { canonical: "https://factorymonaco.com/expertise/automatisation-processus" },
   openGraph: {
     title: "Automatisation des processus par IA à Monaco",
     description:
       "Automatisation intelligente pour entreprises monégasques. Extraction documentaire, classification, conformité KYC/AML et workflows orchestrés par IA.",
-    url: "https://factory-ai.com/expertise/automatisation-processus",
+    url: "https://factorymonaco.com/expertise/automatisation-processus",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

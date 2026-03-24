@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: "IA pour l'hotellerie et la restauration a Monaco | Factory AI",
   description:
     "Yield management, analyse des avis clients, contenus multilingues et facturation automatisee pour les hotels et restaurants de Monaco grace a l'IA.",
-  alternates: { canonical: "https://factory-ai.com/secteurs/hotellerie-restauration" },
+  alternates: { canonical: "https://factorymonaco.com/secteurs/hotellerie-restauration" },
   openGraph: {
     title: "IA pour l'hotellerie et la restauration a Monaco | Factory AI",
     description:
       "Yield management, analyse des avis clients, contenus multilingues et facturation automatisee pour les hotels et restaurants de Monaco grace a l'IA.",
-    url: "https://factory-ai.com/secteurs/hotellerie-restauration",
+    url: "https://factorymonaco.com/secteurs/hotellerie-restauration",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

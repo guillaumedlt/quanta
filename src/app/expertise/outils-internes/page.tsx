@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   title: "Outils internes sur mesure à Monaco",
   description:
     "CRM, dashboards, portails clients : applications metier developpees 10x plus vite grace a l'IA. Factory construit vos outils internes a Monaco.",
-  alternates: { canonical: "https://factory-ai.com/expertise/outils-internes" },
+  alternates: { canonical: "https://factorymonaco.com/expertise/outils-internes" },
   openGraph: {
     title: "Outils internes sur mesure à Monaco",
     description:
       "CRM, dashboards, portails clients : applications metier developpees 10x plus vite grace a l'IA. Factory construit vos outils internes a Monaco.",
-    url: "https://factory-ai.com/expertise/outils-internes",
+    url: "https://factorymonaco.com/expertise/outils-internes",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

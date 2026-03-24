@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: "Questions fréquentes sur l'IA en entreprise",
   description:
     "Réponses aux questions les plus courantes sur l'intégration de l'IA en entreprise à Monaco. Coûts, délais, confidentialité, méthode.",
-  alternates: { canonical: "https://factory-ai.com/faq" },
+  alternates: { canonical: "https://factorymonaco.com/faq" },
   openGraph: {
     title: "Questions fréquentes sur l'IA en entreprise",
     description:
       "Réponses aux questions les plus courantes sur l'intégration de l'IA en entreprise à Monaco. Coûts, délais, confidentialité, méthode.",
-    url: "https://factory-ai.com/faq",
+    url: "https://factorymonaco.com/faq",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

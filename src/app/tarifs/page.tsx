@@ -11,12 +11,12 @@ export const metadata: Metadata = {
   title: "Tarifs et investissement IA",
   description:
     "Grilles tarifaires indicatives pour nos missions IA à Monaco. Audit, automatisation, développement sur mesure, formation. ROI dès les premiers mois.",
-  alternates: { canonical: "https://factory-ai.com/tarifs" },
+  alternates: { canonical: "https://factorymonaco.com/tarifs" },
   openGraph: {
     title: "Tarifs et investissement IA",
     description:
       "Grilles tarifaires indicatives pour nos missions IA à Monaco. Audit, automatisation, développement sur mesure, formation. ROI dès les premiers mois.",
-    url: "https://factory-ai.com/tarifs",
+    url: "https://factorymonaco.com/tarifs",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

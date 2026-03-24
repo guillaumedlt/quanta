@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   title: "Audit & stratégie IA à Monaco",
   description:
     "Audit IA approfondi pour entreprises à Monaco. Cartographie des processus, identification des opportunités d'automatisation et feuille de route priorisée par ROI.",
-  alternates: { canonical: "https://factory-ai.com/expertise/audit-strategie-ia" },
+  alternates: { canonical: "https://factorymonaco.com/expertise/audit-strategie-ia" },
   openGraph: {
     title: "Audit & stratégie IA à Monaco",
     description:
       "Audit IA approfondi pour entreprises à Monaco. Cartographie des processus, identification des opportunités d'automatisation et feuille de route priorisée par ROI.",
-    url: "https://factory-ai.com/expertise/audit-strategie-ia",
+    url: "https://factorymonaco.com/expertise/audit-strategie-ia",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

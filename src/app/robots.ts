@@ -28,6 +28,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://factory-ai.com/sitemap.xml",
+    sitemap: "https://factorymonaco.com/sitemap.xml",
   };
 }

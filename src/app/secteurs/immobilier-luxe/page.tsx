@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: "IA pour l'immobilier de luxe à Monaco",
   description:
     "Automatisez brochures de prestige, matching acheteurs, veille urbanistique et gestion documentaire pour l'immobilier de luxe a Monaco.",
-  alternates: { canonical: "https://factory-ai.com/secteurs/immobilier-luxe" },
+  alternates: { canonical: "https://factorymonaco.com/secteurs/immobilier-luxe" },
   openGraph: {
     title: "IA pour l'immobilier de luxe à Monaco",
     description:
       "Automatisez brochures de prestige, matching acheteurs, veille urbanistique et gestion documentaire pour l'immobilier de luxe a Monaco.",
-    url: "https://factory-ai.com/secteurs/immobilier-luxe",
+    url: "https://factorymonaco.com/secteurs/immobilier-luxe",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

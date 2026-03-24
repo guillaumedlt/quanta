@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   title: "Marketing & acquisition IA à Monaco",
   description:
     "Sites web livres en 2 semaines, SEO par IA, campagnes d'acquisition optimisees. Factory construit votre machine de croissance digitale a Monaco.",
-  alternates: { canonical: "https://factory-ai.com/expertise/marketing-acquisition" },
+  alternates: { canonical: "https://factorymonaco.com/expertise/marketing-acquisition" },
   openGraph: {
     title: "Marketing & acquisition IA à Monaco",
     description:
       "Sites web livres en 2 semaines, SEO par IA, campagnes d'acquisition optimisees. Factory construit votre machine de croissance digitale a Monaco.",
-    url: "https://factory-ai.com/expertise/marketing-acquisition",
+    url: "https://factorymonaco.com/expertise/marketing-acquisition",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

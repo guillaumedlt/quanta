@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   title: "Résultats et cas clients",
   description:
     "Résultats documentés de nos missions IA à Monaco. Sociétés de gestion, cabinets juridiques, immobilier, hôtellerie : découvrez les gains concrets.",
-  alternates: { canonical: "https://factory-ai.com/resultats" },
+  alternates: { canonical: "https://factorymonaco.com/resultats" },
   openGraph: {
     title: "Résultats et cas clients",
     description:
       "Résultats documentés de nos missions IA à Monaco. Sociétés de gestion, cabinets juridiques, immobilier, hôtellerie : découvrez les gains concrets.",
-    url: "https://factory-ai.com/resultats",
+    url: "https://factorymonaco.com/resultats",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   title: "Glossaire IA et termes techniques",
   description:
     "Définitions claires des termes clés de l'intelligence artificielle et de la réglementation monégasque. KYC, LCB-FT, LLM, RAG, OCR et plus.",
-  alternates: { canonical: "https://factory-ai.com/glossaire" },
+  alternates: { canonical: "https://factorymonaco.com/glossaire" },
   openGraph: {
     title: "Glossaire IA et termes techniques",
     description:
       "Définitions claires des termes clés de l'intelligence artificielle et de la réglementation monégasque. KYC, LCB-FT, LLM, RAG, OCR et plus.",
-    url: "https://factory-ai.com/glossaire",
+    url: "https://factorymonaco.com/glossaire",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

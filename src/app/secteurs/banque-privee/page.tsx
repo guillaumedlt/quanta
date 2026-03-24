@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: "IA pour la banque privée à Monaco",
   description:
     "Accelerez KYC, KYB et due diligence grace a l'IA. Scoring risques, reporting reglementaire et anti-blanchiment pour banques privees a Monaco.",
-  alternates: { canonical: "https://factory-ai.com/secteurs/banque-privee" },
+  alternates: { canonical: "https://factorymonaco.com/secteurs/banque-privee" },
   openGraph: {
     title: "IA pour la banque privée à Monaco",
     description:
       "Accelerez KYC, KYB et due diligence grace a l'IA. Scoring risques, reporting reglementaire et anti-blanchiment pour banques privees a Monaco.",
-    url: "https://factory-ai.com/secteurs/banque-privee",
+    url: "https://factorymonaco.com/secteurs/banque-privee",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

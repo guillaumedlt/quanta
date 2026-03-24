@@ -8,7 +8,7 @@ const post = blogPosts.find((p) => p.slug === "creer-site-web-ia-2-semaines")!;
 export const metadata: Metadata = {
   title: post.title,
   description: post.description,
-  alternates: { canonical: `https://factory-ai.com/blog/${post.slug}` },
+  alternates: { canonical: `https://factorymonaco.com/blog/${post.slug}` },
   openGraph: { title: post.title, description: post.description, type: "article", publishedTime: post.date, authors: ["Guillaume"] },
 };
 

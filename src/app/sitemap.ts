@@ -3,7 +3,7 @@ import { blogPosts } from "@/lib/blog";
 import { caseStudies } from "@/lib/cases";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://factory-ai.com";
+  const base = "https://factorymonaco.com";
   const now = new Date("2026-03-23");
 
   const expertises = [

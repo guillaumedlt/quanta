@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   title: "Développement IA sur mesure à Monaco",
   description:
     "Solutions IA sur mesure pour Monaco. Assistants juridiques, veille réglementaire, KYC augmenté. Architecture souveraine, données protégées, modèles spécialisés.",
-  alternates: { canonical: "https://factory-ai.com/expertise/developpement-ia-sur-mesure" },
+  alternates: { canonical: "https://factorymonaco.com/expertise/developpement-ia-sur-mesure" },
   openGraph: {
     title: "Développement IA sur mesure à Monaco",
     description:
       "Solutions IA sur mesure pour Monaco. Assistants juridiques, veille réglementaire, KYC augmenté. Architecture souveraine, données protégées, modèles spécialisés.",
-    url: "https://factory-ai.com/expertise/developpement-ia-sur-mesure",
+    url: "https://factorymonaco.com/expertise/developpement-ia-sur-mesure",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

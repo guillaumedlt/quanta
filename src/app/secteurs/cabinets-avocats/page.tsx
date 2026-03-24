@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: "IA pour les cabinets d'avocats à Monaco",
   description:
     "Optimisez redaction d'actes, recherche juridique et gestion de dossiers grace a l'IA. Solutions adaptees au droit monegasque, SAM et SASURE.",
-  alternates: { canonical: "https://factory-ai.com/secteurs/cabinets-avocats" },
+  alternates: { canonical: "https://factorymonaco.com/secteurs/cabinets-avocats" },
   openGraph: {
     title: "IA pour les cabinets d'avocats à Monaco",
     description:
       "Optimisez redaction d'actes, recherche juridique et gestion de dossiers grace a l'IA. Solutions adaptees au droit monegasque, SAM et SASURE.",
-    url: "https://factory-ai.com/secteurs/cabinets-avocats",
+    url: "https://factorymonaco.com/secteurs/cabinets-avocats",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

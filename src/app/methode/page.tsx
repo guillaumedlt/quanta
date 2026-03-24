@@ -11,12 +11,12 @@ export const metadata: Metadata = {
   title: "Notre méthode d'intervention",
   description:
     "Immersion, diagnostic, déploiement, transmission. Quatre phases pour intégrer l'IA dans votre organisation à Monaco avec rigueur et résultats mesurables.",
-  alternates: { canonical: "https://factory-ai.com/methode" },
+  alternates: { canonical: "https://factorymonaco.com/methode" },
   openGraph: {
     title: "Notre méthode d'intervention",
     description:
       "Immersion, diagnostic, déploiement, transmission. Quatre phases pour intégrer l'IA dans votre organisation à Monaco avec rigueur et résultats mesurables.",
-    url: "https://factory-ai.com/methode",
+    url: "https://factorymonaco.com/methode",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

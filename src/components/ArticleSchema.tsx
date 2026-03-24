@@ -14,11 +14,11 @@ export default function ArticleSchema({ post }: { post: BlogPost }) {
     publisher: {
       "@type": "Organization",
       name: "Factory",
-      url: "https://factory-ai.com",
+      url: "https://factorymonaco.com",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://factory-ai.com/blog/${post.slug}`,
+      "@id": `https://factorymonaco.com/blog/${post.slug}`,
     },
   };
 

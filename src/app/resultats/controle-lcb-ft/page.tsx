@@ -10,7 +10,7 @@ const caseStudy = caseStudies.find((c) => c.slug === "controle-lcb-ft")!;
 export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Factory`,
   description: "Une société de gestion monégasque réduit de 90 % le temps de vérification LCB-FT grâce au filtrage automatisé et au scoring de risque déployés par Factory.",
-  alternates: { canonical: `https://factory-ai.com/resultats/${caseStudy.slug}` },
+  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

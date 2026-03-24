@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: "IA pour les services professionnels a Monaco | Factory AI",
   description:
     "OCR, classement predictif, facturation, echeances et correspondance automatises pour cabinets comptables, fiduciaires et prestataires a Monaco.",
-  alternates: { canonical: "https://factory-ai.com/secteurs/services-professionnels" },
+  alternates: { canonical: "https://factorymonaco.com/secteurs/services-professionnels" },
   openGraph: {
     title: "IA pour les services professionnels a Monaco | Factory AI",
     description:
       "OCR, classement predictif, facturation, echeances et correspondance automatises pour cabinets comptables, fiduciaires et prestataires a Monaco.",
-    url: "https://factory-ai.com/secteurs/services-professionnels",
+    url: "https://factorymonaco.com/secteurs/services-professionnels",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

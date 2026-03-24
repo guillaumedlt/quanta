@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: "Nos expertises IA",
   description:
     "Audit, automatisation, développement sur mesure, marketing, outils internes et formation. Six domaines pour transformer vos opérations à Monaco.",
-  alternates: { canonical: "https://factory-ai.com/expertise" },
+  alternates: { canonical: "https://factorymonaco.com/expertise" },
   openGraph: {
     title: "Nos expertises IA",
     description:
       "Audit, automatisation, développement sur mesure, marketing, outils internes et formation. Six domaines pour transformer vos opérations à Monaco.",
-    url: "https://factory-ai.com/expertise",
+    url: "https://factorymonaco.com/expertise",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

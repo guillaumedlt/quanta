@@ -10,7 +10,7 @@ const caseStudy = caseStudies.find((c) => c.slug === "dossiers-presentation-immo
 export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Factory`,
   description: "Une agence immobilière de luxe à Monaco génère ses dossiers de présentation en 45 minutes au lieu d'une journée grâce à l'automatisation Factory.",
-  alternates: { canonical: `https://factory-ai.com/resultats/${caseStudy.slug}` },
+  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

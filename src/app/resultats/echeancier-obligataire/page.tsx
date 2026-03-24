@@ -10,7 +10,7 @@ const caseStudy = caseStudies.find((c) => c.slug === "echeancier-obligataire")!;
 export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Factory`,
   description: "Une société de gestion à Monaco génère désormais son échéancier obligataire en un clic au lieu d'une demi-journée grâce à l'extraction PDF automatisée par Factory.",
-  alternates: { canonical: `https://factory-ai.com/resultats/${caseStudy.slug}` },
+  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

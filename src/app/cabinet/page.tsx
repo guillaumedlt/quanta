@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: "Le cabinet Factory",
   description:
     "Factory est un cabinet d'expertise en intelligence artificielle fondé à Monaco. Maîtrise technique, connaissance du tissu économique monégasque, engagement de transmission.",
-  alternates: { canonical: "https://factory-ai.com/cabinet" },
+  alternates: { canonical: "https://factorymonaco.com/cabinet" },
   openGraph: {
     title: "Le cabinet Factory",
     description:
       "Factory est un cabinet d'expertise en intelligence artificielle fondé à Monaco. Maîtrise technique, connaissance du tissu économique monégasque, engagement de transmission.",
-    url: "https://factory-ai.com/cabinet",
+    url: "https://factorymonaco.com/cabinet",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

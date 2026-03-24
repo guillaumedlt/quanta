@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   title: "L'IA dans la Principauté de Monaco : état des lieux, enjeux et feuille de route",
   description:
     "White paper Factory. Analyse complète de l'écosystème monégasque face à l'intelligence artificielle. Données, cas d'usage, méthodologie et recommandations.",
-  alternates: { canonical: "https://factory-ai.com/white-paper" },
+  alternates: { canonical: "https://factorymonaco.com/white-paper" },
   openGraph: {
     title: "L'IA dans la Principauté de Monaco : état des lieux, enjeux et feuille de route",
     description: "White paper Factory. Analyse complète de l'écosystème monégasque face à l'intelligence artificielle.",
-    url: "https://factory-ai.com/white-paper",
+    url: "https://factorymonaco.com/white-paper",
     siteName: "Factory",
     locale: "fr_FR",
     type: "article",

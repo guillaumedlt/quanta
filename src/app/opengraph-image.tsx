@@ -80,7 +80,7 @@ export default async function Image() {
               fontWeight: 600,
             }}
           >
-            factory-ai.com
+            factorymonaco.com
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const caseStudy = caseStudies.find((c) => c.slug === "recherche-juridique-multi-
 export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Factory`,
   description: "Un cabinet d'avocats monégasque passe de 2 heures à 10 minutes par recherche juridique multi-juridictions grâce au moteur IA déployé par Factory.",
-  alternates: { canonical: `https://factory-ai.com/resultats/${caseStudy.slug}` },
+  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://factory-ai.com"),
+  metadataBase: new URL("https://factorymonaco.com"),
   title: {
     default: "Factory — Cabinet d'Expertise IA à Monaco",
     template: "%s | Factory",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://factory-ai.com",
+    url: "https://factorymonaco.com",
     siteName: "Factory",
     title: "Factory — Cabinet d'Expertise IA à Monaco",
     description:
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://factory-ai.com",
+    canonical: "https://factorymonaco.com",
   },
 };
 
@@ -108,8 +108,8 @@ function JsonLd() {
       name: "Factory",
       description:
         "Cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques.",
-      url: "https://factory-ai.com",
-      logo: "https://factory-ai.com/favicon.svg",
+      url: "https://factorymonaco.com",
+      logo: "https://factorymonaco.com/favicon.svg",
       founder: {
         "@type": "Person",
         name: "Guillaume Delachet",
@@ -153,12 +153,12 @@ function JsonLd() {
         "@type": "OfferCatalog",
         name: "Services Factory",
         itemListElement: [
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Audit IA", url: "https://factory-ai.com/expertise/audit-strategie-ia" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Automatisation", url: "https://factory-ai.com/expertise/automatisation-processus" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "IA sur mesure", url: "https://factory-ai.com/expertise/developpement-ia-sur-mesure" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Marketing IA", url: "https://factory-ai.com/expertise/marketing-acquisition" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Outils internes", url: "https://factory-ai.com/expertise/outils-internes" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Formation IA", url: "https://factory-ai.com/expertise/formation-ia" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Audit IA", url: "https://factorymonaco.com/expertise/audit-strategie-ia" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Automatisation", url: "https://factorymonaco.com/expertise/automatisation-processus" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "IA sur mesure", url: "https://factorymonaco.com/expertise/developpement-ia-sur-mesure" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Marketing IA", url: "https://factorymonaco.com/expertise/marketing-acquisition" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Outils internes", url: "https://factorymonaco.com/expertise/outils-internes" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Formation IA", url: "https://factorymonaco.com/expertise/formation-ia" } },
         ],
       },
     },
@@ -166,10 +166,10 @@ function JsonLd() {
       "@context": "https://schema.org",
       "@type": "WebSite",
       name: "Factory",
-      url: "https://factory-ai.com",
+      url: "https://factorymonaco.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://factory-ai.com/blog?q={search_term_string}",
+        target: "https://factorymonaco.com/blog?q={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     },

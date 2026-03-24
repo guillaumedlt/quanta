@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: "IA gestion de patrimoine à Monaco",
   description:
     "Automatisez conformite LCB-FT, KYC, reportings clients et echeanciers obligataires pour family offices et SGP a Monaco. Agents IA sur mesure.",
-  alternates: { canonical: "https://factory-ai.com/secteurs/gestion-patrimoine" },
+  alternates: { canonical: "https://factorymonaco.com/secteurs/gestion-patrimoine" },
   openGraph: {
     title: "IA gestion de patrimoine à Monaco",
     description:
       "Automatisez conformite LCB-FT, KYC, reportings clients et echeanciers obligataires pour family offices et SGP a Monaco. Agents IA sur mesure.",
-    url: "https://factory-ai.com/secteurs/gestion-patrimoine",
+    url: "https://factorymonaco.com/secteurs/gestion-patrimoine",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: "IA pour les cliniques et le bien-etre a Monaco | Factory AI",
   description:
     "Comptes rendus medicaux, dossiers patients, accreditations et communication multilingue automatises pour cliniques et centres de bien-etre a Monaco.",
-  alternates: { canonical: "https://factory-ai.com/secteurs/sante-cliniques" },
+  alternates: { canonical: "https://factorymonaco.com/secteurs/sante-cliniques" },
   openGraph: {
     title: "IA pour les cliniques et le bien-etre a Monaco | Factory AI",
     description:
       "Comptes rendus medicaux, dossiers patients, accreditations et communication multilingue automatises pour cliniques et centres de bien-etre a Monaco.",
-    url: "https://factory-ai.com/secteurs/sante-cliniques",
+    url: "https://factorymonaco.com/secteurs/sante-cliniques",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

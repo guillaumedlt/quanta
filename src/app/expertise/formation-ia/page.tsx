@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   title: "Formation IA pour entreprises à Monaco",
   description:
     "Formations IA sur mesure pour vos equipes a Monaco : prompt engineering, outils metier, IA generative. Objectif autonomie et gains de productivite.",
-  alternates: { canonical: "https://factory-ai.com/expertise/formation-ia" },
+  alternates: { canonical: "https://factorymonaco.com/expertise/formation-ia" },
   openGraph: {
     title: "Formation IA pour entreprises à Monaco",
     description:
       "Formations IA sur mesure pour vos equipes a Monaco : prompt engineering, outils metier, IA generative. Objectif autonomie et gains de productivite.",
-    url: "https://factory-ai.com/expertise/formation-ia",
+    url: "https://factorymonaco.com/expertise/formation-ia",
     siteName: "Factory",
     locale: "fr_FR",
     type: "website",

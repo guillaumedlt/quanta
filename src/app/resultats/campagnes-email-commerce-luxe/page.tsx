@@ -10,7 +10,7 @@ const caseStudy = caseStudies.find((c) => c.slug === "campagnes-email-commerce-l
 export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Factory`,
   description: "Une maison de luxe monégasque augmente de 35 % son taux d'ouverture email grâce à la segmentation IA et au contenu personnalisé déployés par Factory.",
-  alternates: { canonical: `https://factory-ai.com/resultats/${caseStudy.slug}` },
+  alternates: { canonical: `https://factorymonaco.com/resultats/${caseStudy.slug}` },
 };
 
 export default function CasePage() {
