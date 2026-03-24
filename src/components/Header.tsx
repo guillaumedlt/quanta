@@ -44,7 +44,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 px-5 pt-4">
-      <nav className={`max-w-6xl mx-auto rounded-2xl px-5 py-3.5 flex items-center justify-between transition-all duration-300 ${
+      <nav className={`max-w-6xl mx-auto rounded-2xl px-5 py-3.5 flex items-center justify-between transition-all duration-300 relative z-[100] ${
         scrolled ? "bg-dark/95 backdrop-blur-md shadow-xl shadow-black/10" : "bg-dark"
       }`}>
         <Link href="/" className="text-white text-[15px] font-semibold tracking-tight">
@@ -77,13 +77,13 @@ export default function Header() {
                 {/* Dropdown */}
                 <div
                   ref={subRef}
-                  className={`absolute top-[calc(100%+8px)] left-0 transition-all duration-200 ${
+                  className={`absolute top-[calc(100%+8px)] left-0 z-[100] transition-all duration-200 ${
                     subOpen ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-2 pointer-events-none"
                   }`}
                   onMouseEnter={openSub}
                   onMouseLeave={closeSub}
                 >
-                  <div className="bg-dark/95 backdrop-blur-md border border-white/[0.08] rounded-xl shadow-2xl shadow-black/30 p-2 w-56 relative z-[60]">
+                  <div className="bg-dark backdrop-blur-md border border-white/[0.08] rounded-xl shadow-2xl shadow-black/50 p-2 w-56">
                     <Link
                       href="/expertise"
                       className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg hover:bg-white/[0.06] transition-colors text-[12px] text-white/50 hover:text-white mb-1"
