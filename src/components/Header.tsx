@@ -128,10 +128,10 @@ export default function Header() {
         </button>
       </nav>
 
-      {/* White paper banner */}
+      {/* White paper banner — hidden on mobile */}
       <Link
         href="/white-paper"
-        className="group max-w-6xl mx-auto mt-2 flex items-center justify-center gap-2.5 bg-dark/80 backdrop-blur-md rounded-xl px-4 py-2 transition-all hover:bg-dark"
+        className="hidden md:flex group max-w-6xl mx-auto mt-2 items-center justify-center gap-2.5 bg-dark/80 backdrop-blur-md rounded-xl px-4 py-2 transition-all hover:bg-dark"
       >
         <span className="text-[8px] font-bold uppercase tracking-wider text-dark bg-accent px-1.5 py-0.5 rounded shrink-0">
           Nouveau
@@ -163,6 +163,10 @@ export default function Header() {
               )}
             </div>
           ))}
+          <Link href="/white-paper" onClick={() => setMenuOpen(false)} className="text-[12px] text-accent hover:text-accent-dark py-1.5 flex items-center gap-1.5 mt-1">
+            <span className="text-[8px] font-bold uppercase tracking-wider text-dark bg-accent px-1.5 py-0.5 rounded">New</span>
+            White paper IA Monaco
+          </Link>
           <Link href="/contact" onClick={() => setMenuOpen(false)} className="bg-accent text-dark text-[13px] font-semibold px-4 py-2.5 rounded-lg text-center mt-2">
             Solliciter un entretien
           </Link>
