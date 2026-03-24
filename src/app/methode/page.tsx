@@ -71,6 +71,22 @@ export default function MethodePage() {
   return (
     <PageLayout>
       <FaqSchema items={faqItems} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: "Comment intégrer l'IA dans votre entreprise à Monaco",
+          description: "Protocole en quatre phases pour transformer vos opérations avec l'intelligence artificielle.",
+          totalTime: "P12W",
+          step: [
+            { "@type": "HowToStep", name: "Immersion", text: "Entretiens individuels avec chaque partie prenante. Observation des processus en conditions réelles. Cartographie des flux documentaires et points de friction.", url: "https://factorymonaco.com/methode#section-immersion" },
+            { "@type": "HowToStep", name: "Diagnostic", text: "Analyse structurée de chaque processus selon cinq critères : volume, fréquence, complexité, potentiel d'automatisation et contraintes réglementaires.", url: "https://factorymonaco.com/methode#section-diagnostic" },
+            { "@type": "HowToStep", name: "Déploiement", text: "Mise en œuvre des solutions retenues, en commençant par les leviers à fort impact et faible complexité. Cycle court : prototype, test, ajustement, production.", url: "https://factorymonaco.com/methode#section-deploiement" },
+            { "@type": "HowToStep", name: "Transmission", text: "Formation approfondie des équipes. Documentation complète. Mise en place d'indicateurs de suivi. Objectif : autonomie totale de votre organisation.", url: "https://factorymonaco.com/methode#section-transmission" },
+          ],
+        }) }}
+      />
 
       {/* Hero with illustration */}
       <div className="pt-32 pb-10 sm:pt-36 sm:pb-16 bg-surface">

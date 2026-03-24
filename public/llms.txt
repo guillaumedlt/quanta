@@ -1,6 +1,19 @@
 # Factory — Cabinet d'Expertise IA à Monaco
 
-> Factory est un cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques.
+> Factory est un cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques. Fondé par Guillaume Delachet. Basé dans la Principauté de Monaco.
+
+## À propos
+Factory accompagne les entreprises de Monaco dans leur transformation IA : audit de processus, automatisation documentaire, développement sur mesure (assistants juridiques droit monégasque, KYC augmenté, veille réglementaire), marketing digital, outils internes et formation. Expertise sectorielle : gestion de patrimoine, banque privée, cabinets d'avocats, immobilier de luxe, hôtellerie, commerce de luxe, santé, services professionnels. Connaissance intime de l'environnement réglementaire monégasque (SICCFIN, CCAF, loi n°1.565, loi n°1.362).
+
+## Résultats documentés
+- 4 jours/mois récupérés sur la gestion documentaire (société de gestion)
+- -80% du temps de production d'actes juridiques (cabinet d'avocats)
+- 0 échéance manquée depuis le déploiement (alertes automatiques)
+- -90% du temps de vérification KYC/LCB-FT
+- Réponse aux avis clients en 4h au lieu de 72h (hôtellerie)
+
+## Méthode
+Quatre phases : Immersion (1-2 semaines), Diagnostic (1 semaine), Déploiement (4-8 semaines), Transmission (2 semaines). Premiers résultats mesurables dès le premier mois.
 
 ## Pages principales
 - Accueil : /

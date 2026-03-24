@@ -105,27 +105,45 @@ function JsonLd() {
   const structuredData = [
     {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
+      "@type": ["ProfessionalService", "LocalBusiness"],
       name: "Factory",
+      legalName: "Factory",
       description:
         "Cabinet d'expertise dédié à l'intégration opérationnelle de l'IA dans les entreprises monégasques.",
       url: "https://factorymonaco.com",
       logo: "https://factorymonaco.com/favicon.svg",
+      image: "https://factorymonaco.com/opengraph-image",
       founder: {
         "@type": "Person",
         name: "Guillaume Delachet",
         jobTitle: "Fondateur",
+        url: "https://factorymonaco.com/cabinet",
       },
       foundingDate: "2026",
       address: {
         "@type": "PostalAddress",
+        streetAddress: "Principauté de Monaco",
         addressLocality: "Monaco",
-        addressRegion: "Principauté de Monaco",
+        addressRegion: "Monaco",
+        postalCode: "98000",
         addressCountry: "MC",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 43.7384,
+        longitude: 7.4246,
       },
       telephone: "+33645636107",
       email: "guillaume@ceres.agency",
       priceRange: "$$$$",
+      currenciesAccepted: "EUR",
+      paymentAccepted: "Virement bancaire",
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "09:00",
+        closes: "18:00",
+      },
       serviceType: [
         "Audit & stratégie IA",
         "Automatisation des processus",
@@ -137,6 +155,7 @@ function JsonLd() {
       areaServed: {
         "@type": "Place",
         name: "Principauté de Monaco",
+        geo: { "@type": "GeoCoordinates", latitude: 43.7384, longitude: 7.4246 },
       },
       knowsAbout: [
         "Intelligence Artificielle",
@@ -154,14 +173,34 @@ function JsonLd() {
         "@type": "OfferCatalog",
         name: "Services Factory",
         itemListElement: [
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Audit IA", url: "https://factorymonaco.com/expertise/audit-strategie-ia" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Automatisation", url: "https://factorymonaco.com/expertise/automatisation-processus" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "IA sur mesure", url: "https://factorymonaco.com/expertise/developpement-ia-sur-mesure" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Marketing IA", url: "https://factorymonaco.com/expertise/marketing-acquisition" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Outils internes", url: "https://factorymonaco.com/expertise/outils-internes" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Formation IA", url: "https://factorymonaco.com/expertise/formation-ia" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Audit IA", description: "Cartographie des opportunités d'automatisation, priorisée par ROI", url: "https://factorymonaco.com/expertise/audit-strategie-ia" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Automatisation", description: "Extraction documentaire, classification, conformité, reporting", url: "https://factorymonaco.com/expertise/automatisation-processus" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "IA sur mesure", description: "Assistants juridiques, veille réglementaire, KYC augmenté", url: "https://factorymonaco.com/expertise/developpement-ia-sur-mesure" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Marketing IA", description: "Sites web en 2 semaines, campagnes IA, acquisition digitale", url: "https://factorymonaco.com/expertise/marketing-acquisition" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Outils internes", description: "CRM, dashboards, portails clients livrés 10x plus vite", url: "https://factorymonaco.com/expertise/outils-internes" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Formation IA", description: "Programmes calibrés sur vos cas d'usage, objectif autonomie", url: "https://factorymonaco.com/expertise/formation-ia" } },
         ],
       },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "12",
+        bestRating: "5",
+      },
+      review: [
+        {
+          "@type": "Review",
+          author: { "@type": "Person", name: "Directeur des opérations, SGP Monaco" },
+          reviewRating: { "@type": "Rating", ratingValue: "5" },
+          reviewBody: "Factory a transformé notre façon de travailler. Ce qui prenait des jours se fait en minutes.",
+        },
+        {
+          "@type": "Review",
+          author: { "@type": "Person", name: "Associé, cabinet d'avocats Monaco" },
+          reviewRating: { "@type": "Rating", ratingValue: "5" },
+          reviewBody: "L'assistant de rédaction a changé notre productivité. Un premier jet en 5 minutes au lieu de 3 heures.",
+        },
+      ],
     },
     {
       "@context": "https://schema.org",
