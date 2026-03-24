@@ -83,7 +83,7 @@ export default function Header() {
                   onMouseEnter={openSub}
                   onMouseLeave={closeSub}
                 >
-                  <div className="bg-dark/95 backdrop-blur-md border border-white/[0.08] rounded-xl shadow-2xl shadow-black/30 p-2 w-56">
+                  <div className="bg-dark/95 backdrop-blur-md border border-white/[0.08] rounded-xl shadow-2xl shadow-black/30 p-2 w-56 relative z-[60]">
                     <Link
                       href="/expertise"
                       className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg hover:bg-white/[0.06] transition-colors text-[12px] text-white/50 hover:text-white mb-1"
