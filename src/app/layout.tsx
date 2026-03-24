@@ -183,7 +183,7 @@ function JsonLd() {
       },
       aggregateRating: {
         "@type": "AggregateRating",
-        ratingValue: "4.9",
+        ratingValue: "5",
         reviewCount: "12",
         bestRating: "5",
       },
