@@ -8,9 +8,17 @@ import Link from "next/link";
 const caseStudy = caseStudies.find((c) => c.slug === "recherche-juridique-multi-juridictions")!;
 
 export const metadata: Metadata = {
-  title: `${caseStudy.title} | Cas client Quanta`,
+  title: "Recherche juridique multi-juridictions | Quanta",
   description: "Un cabinet d'avocats monégasque passe de 2 heures à 10 minutes par recherche juridique multi-juridictions grâce au moteur IA déployé par Quanta.",
   alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
+  openGraph: {
+    title: "Recherche juridique multi-juridictions | Quanta",
+    description: "Un cabinet d'avocats monégasque passe de 2 heures à 10 minutes par recherche juridique multi-juridictions grâce au moteur IA déployé par Quanta.",
+    url: `https://quantamonaco.com/resultats/${caseStudy.slug}`,
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "article",
+  },
 };
 
 export default function CasePage() {

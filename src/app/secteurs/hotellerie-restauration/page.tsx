@@ -7,12 +7,12 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "IA pour l'hotellerie et la restauration a Monaco | Quanta AI",
+  title: "IA pour hôtellerie et restauration à Monaco",
   description:
     "Yield management, analyse des avis clients, contenus multilingues et facturation automatisee pour les hotels et restaurants de Monaco grace a l'IA.",
   alternates: { canonical: "https://quantamonaco.com/secteurs/hotellerie-restauration" },
   openGraph: {
-    title: "IA pour l'hotellerie et la restauration a Monaco | Quanta AI",
+    title: "IA pour hôtellerie et restauration à Monaco",
     description:
       "Yield management, analyse des avis clients, contenus multilingues et facturation automatisee pour les hotels et restaurants de Monaco grace a l'IA.",
     url: "https://quantamonaco.com/secteurs/hotellerie-restauration",

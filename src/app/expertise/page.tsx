@@ -7,12 +7,12 @@ import ExpertiseShowcase from "@/components/ExpertiseShowcase";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Nos expertises IA",
+  title: "Expertises IA pour entreprises monégasques",
   description:
     "Audit, automatisation, développement sur mesure, marketing, outils internes et formation. Six domaines pour transformer vos opérations à Monaco.",
   alternates: { canonical: "https://quantamonaco.com/expertise" },
   openGraph: {
-    title: "Nos expertises IA",
+    title: "Expertises IA pour entreprises monégasques",
     description:
       "Audit, automatisation, développement sur mesure, marketing, outils internes et formation. Six domaines pour transformer vos opérations à Monaco.",
     url: "https://quantamonaco.com/expertise",

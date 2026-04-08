@@ -7,12 +7,12 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "IA pour les cliniques et le bien-etre a Monaco | Quanta AI",
+  title: "IA pour cliniques et bien-être à Monaco",
   description:
     "Comptes rendus medicaux, dossiers patients, accreditations et communication multilingue automatises pour cliniques et centres de bien-etre a Monaco.",
   alternates: { canonical: "https://quantamonaco.com/secteurs/sante-cliniques" },
   openGraph: {
-    title: "IA pour les cliniques et le bien-etre a Monaco | Quanta AI",
+    title: "IA pour cliniques et bien-être à Monaco",
     description:
       "Comptes rendus medicaux, dossiers patients, accreditations et communication multilingue automatises pour cliniques et centres de bien-etre a Monaco.",
     url: "https://quantamonaco.com/secteurs/sante-cliniques",

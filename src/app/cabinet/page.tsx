@@ -4,14 +4,14 @@ import PageHeader from "@/components/PageHeader";
 import RevealOnScroll from "@/components/RevealOnScroll";
 
 export const metadata: Metadata = {
-  title: "Le cabinet Quanta",
+  title: "Le cabinet d'expertise IA à Monaco",
   description:
-    "Quanta est un cabinet d'expertise en intelligence artificielle fondé à Monaco. Maîtrise technique, connaissance du tissu économique monégasque, engagement de transmission.",
+    "Quanta, cabinet d'expertise en intelligence artificielle fondé à Monaco. Maîtrise technique, connaissance du tissu économique monégasque, transmission.",
   alternates: { canonical: "https://quantamonaco.com/cabinet" },
   openGraph: {
-    title: "Le cabinet Quanta",
+    title: "Le cabinet d'expertise IA à Monaco",
     description:
-      "Quanta est un cabinet d'expertise en intelligence artificielle fondé à Monaco. Maîtrise technique, connaissance du tissu économique monégasque, engagement de transmission.",
+      "Quanta, cabinet d'expertise en intelligence artificielle fondé à Monaco. Maîtrise technique, connaissance du tissu économique monégasque, transmission.",
     url: "https://quantamonaco.com/cabinet",
     siteName: "Quanta",
     locale: "fr_FR",

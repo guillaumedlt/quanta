@@ -7,12 +7,12 @@ import FaqSchema from "@/components/FaqSchema";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "L'IA dans la Principauté de Monaco : état des lieux, enjeux et feuille de route",
+  title: "White Paper IA Monaco : opportunités 2026",
   description:
     "White paper Quanta. Analyse complète de l'écosystème monégasque face à l'intelligence artificielle. Données, cas d'usage, méthodologie et recommandations.",
   alternates: { canonical: "https://quantamonaco.com/white-paper" },
   openGraph: {
-    title: "L'IA dans la Principauté de Monaco : état des lieux, enjeux et feuille de route",
+    title: "White Paper IA Monaco : opportunités 2026",
     description: "White paper Quanta. Analyse complète de l'écosystème monégasque face à l'intelligence artificielle.",
     url: "https://quantamonaco.com/white-paper",
     siteName: "Quanta",

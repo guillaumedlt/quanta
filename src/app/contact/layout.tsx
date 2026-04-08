@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact - Solliciter un entretien IA Monaco",
   description:
     "Contactez Quanta pour prendre rendez-vous avec notre cabinet de conseil IA à Monaco. Premier entretien confidentiel et sans engagement, réponse sous 24h.",
   alternates: { canonical: "https://quantamonaco.com/contact" },
   openGraph: {
-    title: "Contact",
+    title: "Contact - Solliciter un entretien IA Monaco",
     description:
       "Contactez Quanta pour prendre rendez-vous avec notre cabinet de conseil IA à Monaco. Premier entretien confidentiel et sans engagement, réponse sous 24h.",
     url: "https://quantamonaco.com/contact",

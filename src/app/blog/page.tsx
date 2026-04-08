@@ -7,7 +7,7 @@ import RevealOnScroll from "@/components/RevealOnScroll";
 import { blogPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog IA Monaco",
+  title: "Blog Intelligence Artificielle à Monaco",
   description:
     "Analyses, guides pratiques et retours d'expérience sur l'intégration de l'intelligence artificielle dans les entreprises monégasques. Par Quanta.",
   alternates: { canonical: "https://quantamonaco.com/blog" },

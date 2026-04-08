@@ -11,7 +11,7 @@ export type BlogPost = {
 export const blogPosts: BlogPost[] = [
   {
     slug: "ia-monaco-etat-des-lieux-2026",
-    title: "Intelligence artificielle à Monaco : état des lieux en 2026",
+    title: "IA à Monaco : état des lieux en 2026",
     description: "Où en sont les entreprises monégasques dans leur adoption de l'IA ? Analyse sectorielle, freins identifiés et opportunités concrètes pour la Principauté.",
     date: "2026-03-20",
     readTime: "8 min",
@@ -20,7 +20,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "automatiser-conformite-lcb-ft-monaco",
-    title: "Automatiser la conformité LCB-FT à Monaco : guide complet",
+    title: "Automatiser la conformité LCB-FT à Monaco",
     description: "Comment l'IA transforme les processus de lutte contre le blanchiment dans les sociétés de gestion et banques privées de la Principauté.",
     date: "2026-03-15",
     readTime: "10 min",
@@ -29,7 +29,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ia-gestion-patrimoine-monaco",
-    title: "Comment l'IA transforme la gestion de patrimoine à Monaco",
+    title: "IA et gestion de patrimoine à Monaco",
     description: "Collecte documentaire, échéanciers, reporting SICCFIN : les cas d'usage concrets de l'IA pour les SGP et family offices monégasques.",
     date: "2026-03-10",
     readTime: "9 min",
@@ -37,7 +37,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ia-cabinets-avocats-droit-monegasque",
-    title: "IA et droit monégasque : ce que les cabinets doivent savoir",
+    title: "IA et droit monégasque : guide pour cabinets",
     description: "Rédaction d'actes, recherche juridique, transcription d'audiences. L'IA au service des professionnels du droit à Monaco.",
     date: "2026-03-05",
     readTime: "8 min",
@@ -70,7 +70,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "former-equipes-ia-generative",
     title: "Former ses équipes à l'IA générative : par où commencer",
-    description: "Programme en 4 niveaux pour embarquer vos collaborateurs. Du prompt engineering aux cas d'usage métier avancés.",
+    description: "Programme en 4 niveaux pour former vos équipes à l'IA générative à Monaco. Du prompt engineering aux cas d'usage métier avancés pour entreprises monégasques.",
     date: "2026-02-10",
     readTime: "7 min",
     category: "Guide",
@@ -93,7 +93,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "extended-monaco-programme-digital-principaute",
-    title: "Extended Monaco : comment la Principauté accélère sa transformation digitale",
+    title: "Extended Monaco : le programme digital de la Principauté",
     description: "Le programme Extended Monaco, lancé par le Gouvernement, pose les bases de la digitalisation. Où en est-on en 2026 et quelles opportunités pour les entreprises ?",
     date: "2026-03-28",
     readTime: "9 min",
@@ -102,7 +102,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "chatgpt-claude-entreprise-monaco-quel-llm-choisir",
-    title: "ChatGPT, Claude, Mistral : quel LLM choisir pour votre entreprise à Monaco ?",
+    title: "ChatGPT, Claude, Mistral : quel LLM pour Monaco ?",
     description: "Comparaison objective des grands modèles de langage pour un usage professionnel. Confidentialité, performance, coût et cas d'usage monégasques.",
     date: "2026-03-27",
     readTime: "10 min",
@@ -111,7 +111,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "rgpd-donnees-personnelles-ia-monaco",
-    title: "RGPD et IA à Monaco : ce que dit la loi n°1.565 et comment s'y conformer",
+    title: "RGPD et IA à Monaco : loi n°1.565 et conformité",
     description: "La nouvelle loi monégasque sur la protection des données impose des règles précises pour l'utilisation de l'IA. Guide de conformité complet.",
     date: "2026-03-26",
     readTime: "8 min",
@@ -119,7 +119,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "family-office-monaco-digitalisation-ia",
-    title: "Family offices à Monaco : le guide complet de la digitalisation par l'IA",
+    title: "Family offices à Monaco : digitalisation par l'IA",
     description: "Reporting, collecte documentaire, conformité, relation client. Comment les family offices monégasques utilisent l'IA pour servir mieux avec moins.",
     date: "2026-03-25",
     readTime: "11 min",
@@ -127,7 +127,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ia-generative-monaco-opportunites-risques",
-    title: "IA générative à Monaco : opportunités, risques et bonnes pratiques",
+    title: "IA générative à Monaco : opportunités et risques",
     description: "ChatGPT, Midjourney, Claude dans le contexte monégasque. Ce que les dirigeants doivent savoir avant de déployer l'IA générative dans leur entreprise.",
     date: "2026-03-24",
     readTime: "9 min",
@@ -135,7 +135,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "automatiser-facturation-comptabilite-monaco",
-    title: "Automatiser la facturation et la comptabilité à Monaco avec l'IA",
+    title: "Automatiser facturation et comptabilité à Monaco",
     description: "OCR, rapprochement automatique, contrôle TVA, génération de factures. Guide pratique pour les entreprises de la Principauté.",
     date: "2026-03-23",
     readTime: "8 min",
@@ -143,7 +143,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "agent-ia-autonome-entreprise-monaco",
-    title: "Agents IA autonomes : la prochaine révolution pour les entreprises monégasques",
+    title: "Agents IA autonomes : révolution pour Monaco",
     description: "Les agents IA ne se contentent plus de répondre aux questions. Ils exécutent des tâches complètes. Ce que ça change pour Monaco.",
     date: "2026-03-22",
     readTime: "9 min",
