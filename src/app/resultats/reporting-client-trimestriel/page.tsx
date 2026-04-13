@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Quanta`,
   description: "Un family office monégasque économise 6 jours par an en automatisant la génération de ses rapports trimestriels clients grâce aux solutions Quanta.",
   alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
+  openGraph: {
+    title: `${caseStudy.title} | Cas client Quanta`,
+    description: "Un family office monégasque économise 6 jours par an en automatisant la génération de ses rapports trimestriels clients grâce aux solutions Quanta.",
+    url: `https://quantamonaco.com/resultats/${caseStudy.slug}`,
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "article",
+  },
 };
 
 export default function CasePage() {

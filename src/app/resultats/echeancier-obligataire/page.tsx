@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Quanta`,
   description: "Une société de gestion à Monaco génère désormais son échéancier obligataire en un clic au lieu d'une demi-journée grâce à l'extraction PDF automatisée par Quanta.",
   alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
+  openGraph: {
+    title: `${caseStudy.title} | Cas client Quanta`,
+    description: "Une société de gestion à Monaco génère désormais son échéancier obligataire en un clic au lieu d'une demi-journée grâce à l'extraction PDF automatisée par Quanta.",
+    url: `https://quantamonaco.com/resultats/${caseStudy.slug}`,
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "article",
+  },
 };
 
 export default function CasePage() {

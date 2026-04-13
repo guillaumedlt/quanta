@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Quanta`,
   description: "Zéro échéance documentaire manquée depuis le déploiement. Découvrez comment Quanta a automatisé le suivi des documents d'identité pour un cabinet monégasque.",
   alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
+  openGraph: {
+    title: `${caseStudy.title} | Cas client Quanta`,
+    description: "Zéro échéance documentaire manquée depuis le déploiement. Découvrez comment Quanta a automatisé le suivi des documents d'identité pour un cabinet monégasque.",
+    url: `https://quantamonaco.com/resultats/${caseStudy.slug}`,
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "article",
+  },
 };
 
 export default function CasePage() {

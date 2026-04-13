@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Quanta`,
   description: "Une maison de luxe monégasque augmente de 35 % son taux d'ouverture email grâce à la segmentation IA et au contenu personnalisé déployés par Quanta.",
   alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
+  openGraph: {
+    title: `${caseStudy.title} | Cas client Quanta`,
+    description: "Une maison de luxe monégasque augmente de 35 % son taux d'ouverture email grâce à la segmentation IA et au contenu personnalisé déployés par Quanta.",
+    url: `https://quantamonaco.com/resultats/${caseStudy.slug}`,
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "article",
+  },
 };
 
 export default function CasePage() {

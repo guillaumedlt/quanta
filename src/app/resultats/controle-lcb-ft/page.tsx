@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Quanta`,
   description: "Une société de gestion monégasque réduit de 90 % le temps de vérification LCB-FT grâce au filtrage automatisé et au scoring de risque déployés par Quanta.",
   alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
+  openGraph: {
+    title: `${caseStudy.title} | Cas client Quanta`,
+    description: "Une société de gestion monégasque réduit de 90 % le temps de vérification LCB-FT grâce au filtrage automatisé et au scoring de risque déployés par Quanta.",
+    url: `https://quantamonaco.com/resultats/${caseStudy.slug}`,
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "article",
+  },
 };
 
 export default function CasePage() {

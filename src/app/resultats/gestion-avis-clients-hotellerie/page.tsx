@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Quanta`,
   description: "Un hôtel de luxe à Monaco répond désormais aux avis clients en 4 heures au lieu de 72 grâce à l'analyse de sentiment et aux réponses IA déployées par Quanta.",
   alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
+  openGraph: {
+    title: `${caseStudy.title} | Cas client Quanta`,
+    description: "Un hôtel de luxe à Monaco répond désormais aux avis clients en 4 heures au lieu de 72 grâce à l'analyse de sentiment et aux réponses IA déployées par Quanta.",
+    url: `https://quantamonaco.com/resultats/${caseStudy.slug}`,
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "article",
+  },
 };
 
 export default function CasePage() {

@@ -11,6 +11,15 @@ export const metadata: Metadata = {
   description:
     "Analyses, guides pratiques et retours d'expérience sur l'intégration de l'intelligence artificielle dans les entreprises monégasques. Par Quanta.",
   alternates: { canonical: "https://quantamonaco.com/blog" },
+  openGraph: {
+    title: "Blog Intelligence Artificielle à Monaco",
+    description:
+      "Analyses, guides pratiques et retours d'expérience sur l'intégration de l'intelligence artificielle dans les entreprises monégasques. Par Quanta.",
+    url: "https://quantamonaco.com/blog",
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function BlogPage() {

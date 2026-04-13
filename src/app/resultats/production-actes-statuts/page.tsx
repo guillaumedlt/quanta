@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Quanta`,
   description: "Un cabinet juridique monégasque réduit de 80 % le temps de rédaction de statuts grâce à un assistant IA calibré sur le droit monégasque par Quanta.",
   alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
+  openGraph: {
+    title: `${caseStudy.title} | Cas client Quanta`,
+    description: "Un cabinet juridique monégasque réduit de 80 % le temps de rédaction de statuts grâce à un assistant IA calibré sur le droit monégasque par Quanta.",
+    url: `https://quantamonaco.com/resultats/${caseStudy.slug}`,
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "article",
+  },
 };
 
 export default function CasePage() {

@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: `${caseStudy.title} | Cas client Quanta`,
   description: "Comment une société de gestion monégasque a automatisé le traitement de 150 relevés bancaires PDF par mois et récupéré 4 jours de travail grâce à Quanta.",
   alternates: { canonical: `https://quantamonaco.com/resultats/${caseStudy.slug}` },
+  openGraph: {
+    title: `${caseStudy.title} | Cas client Quanta`,
+    description: "Comment une société de gestion monégasque a automatisé le traitement de 150 relevés bancaires PDF par mois et récupéré 4 jours de travail grâce à Quanta.",
+    url: `https://quantamonaco.com/resultats/${caseStudy.slug}`,
+    siteName: "Quanta",
+    locale: "fr_FR",
+    type: "article",
+  },
 };
 
 export default function CasePage() {
