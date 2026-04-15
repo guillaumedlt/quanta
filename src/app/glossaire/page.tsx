@@ -5,12 +5,12 @@ import RevealOnScroll from "@/components/RevealOnScroll";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Glossaire IA et termes techniques",
+  title: "Glossaire IA Monaco : termes et définitions",
   description:
     "Définitions claires des termes clés de l'intelligence artificielle et de la réglementation monégasque. KYC, LCB-FT, LLM, RAG, OCR et plus.",
   alternates: { canonical: "https://quantamonaco.com/glossaire" },
   openGraph: {
-    title: "Glossaire IA et termes techniques",
+    title: "Glossaire IA Monaco : termes et définitions",
     description:
       "Définitions claires des termes clés de l'intelligence artificielle et de la réglementation monégasque. KYC, LCB-FT, LLM, RAG, OCR et plus.",
     url: "https://quantamonaco.com/glossaire",
@@ -234,7 +234,7 @@ export default function GlossairePage() {
     <PageLayout>
       <PageHeader
         tag="Glossaire"
-        title="Glossaire IA et termes techniques."
+        title="Glossaire IA Monaco : termes et définitions."
         description="Définitions claires et accessibles des termes clés de l'intelligence artificielle, de l'automatisation et de la réglementation monégasque."
       />
 

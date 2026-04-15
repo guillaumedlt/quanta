@@ -8,12 +8,12 @@ import StepTimeline from "@/components/StepTimeline";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Notre méthode d'intervention",
+  title: "Méthode d'intégration IA à Monaco en 4 phases",
   description:
     "Immersion, diagnostic, déploiement, transmission. Quatre phases pour intégrer l'IA dans votre organisation à Monaco avec rigueur et résultats mesurables.",
   alternates: { canonical: "https://quantamonaco.com/methode" },
   openGraph: {
-    title: "Notre méthode d'intervention",
+    title: "Méthode d'intégration IA à Monaco en 4 phases",
     description:
       "Immersion, diagnostic, déploiement, transmission. Quatre phases pour intégrer l'IA dans votre organisation à Monaco avec rigueur et résultats mesurables.",
     url: "https://quantamonaco.com/methode",

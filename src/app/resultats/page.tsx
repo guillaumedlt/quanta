@@ -9,12 +9,12 @@ import { caseStudies } from "@/lib/cases";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Résultats et cas clients",
+  title: "Résultats et cas clients IA à Monaco",
   description:
     "Résultats documentés de nos missions IA à Monaco. Sociétés de gestion, cabinets juridiques, immobilier, hôtellerie : découvrez les gains concrets.",
   alternates: { canonical: "https://quantamonaco.com/resultats" },
   openGraph: {
-    title: "Résultats et cas clients",
+    title: "Résultats et cas clients IA à Monaco",
     description:
       "Résultats documentés de nos missions IA à Monaco. Sociétés de gestion, cabinets juridiques, immobilier, hôtellerie : découvrez les gains concrets.",
     url: "https://quantamonaco.com/resultats",

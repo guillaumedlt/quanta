@@ -8,12 +8,12 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Tarifs et investissement IA",
+  title: "Tarifs cabinet IA Monaco : audit et automatisation",
   description:
     "Grilles tarifaires indicatives pour nos missions IA à Monaco. Audit, automatisation, développement sur mesure, formation. ROI dès les premiers mois.",
   alternates: { canonical: "https://quantamonaco.com/tarifs" },
   openGraph: {
-    title: "Tarifs et investissement IA",
+    title: "Tarifs cabinet IA Monaco : audit et automatisation",
     description:
       "Grilles tarifaires indicatives pour nos missions IA à Monaco. Audit, automatisation, développement sur mesure, formation. ROI dès les premiers mois.",
     url: "https://quantamonaco.com/tarifs",

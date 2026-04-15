@@ -7,12 +7,12 @@ import RevealOnScroll from "@/components/RevealOnScroll";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Questions fréquentes sur l'IA en entreprise",
+  title: "FAQ IA Monaco : questions sur l'IA en entreprise",
   description:
     "FAQ Quanta : réponses sur l'IA pour les entreprises monégasques. Automatisation, coûts, méthode, confidentialité, secteurs et délais d'un projet IA à Monaco.",
   alternates: { canonical: "https://quantamonaco.com/faq" },
   openGraph: {
-    title: "Questions fréquentes sur l'IA en entreprise",
+    title: "FAQ IA Monaco : questions sur l'IA en entreprise",
     description:
       "FAQ Quanta : réponses sur l'IA pour les entreprises monégasques. Automatisation, coûts, méthode, confidentialité, secteurs et délais d'un projet IA à Monaco.",
     url: "https://quantamonaco.com/faq",
@@ -178,7 +178,7 @@ export default function FaqPage() {
 
       <PageHeader
         tag="FAQ"
-        title="Questions fréquentes sur l'IA en entreprise."
+        title="FAQ IA Monaco : questions sur l'IA en entreprise."
         description="Réponses claires et directes aux interrogations les plus courantes sur l'intégration de l'intelligence artificielle à Monaco. Coûts, délais, confidentialité, méthode."
       />
 
