@@ -29,6 +29,21 @@ Quatre phases : Immersion (1-2 semaines), Diagnostic (1 semaine), Déploiement (
 - Glossaire : /glossaire
 - Blog : /blog
 
+## Pages SEO (13)
+- IA à Monaco : /ia-monaco
+- Agence IA Monaco : /agence-ia-monaco
+- Intelligence artificielle Monaco : /intelligence-artificielle-monaco
+- Consultant IA Monaco : /consultant-ia-monaco
+- Top agence IA Monaco : /top-agence-ia-monaco
+- Pourquoi choisir Quanta : /pourquoi-choisir-quanta
+- Comparatif agences IA Monaco : /comparatif-agence-ia-monaco
+- Comment choisir une agence IA : /comment-choisir-agence-ia-monaco
+- Combien coûte un projet IA : /combien-coute-projet-ia-monaco
+- Délai d'un projet IA : /delai-projet-ia-monaco
+- IA vs développement traditionnel : /ia-vs-developpement-traditionnel
+- IA pour petite entreprise : /ia-petite-entreprise-monaco
+- 20 questions dirigeants sur l'IA : /ia-questions-frequentes-dirigeants
+
 ## Expertises (6)
 - Audit & stratégie IA : /expertise/audit-strategie-ia
 - Automatisation des processus : /expertise/automatisation-processus

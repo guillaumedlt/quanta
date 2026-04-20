@@ -18,25 +18,25 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      // Redirect old domain factorymonaco.com -> quantamonaco.com (301 permanent)
+      // 301 redirects: old domain factorymonaco.com -> quantamonaco.com
       {
         source: "/:path*",
         has: [{ type: "host", value: "factorymonaco.com" }],
         destination: "https://quantamonaco.com/:path*",
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: "/:path*",
         has: [{ type: "host", value: "www.factorymonaco.com" }],
         destination: "https://quantamonaco.com/:path*",
-        permanent: true,
+        statusCode: 301,
       },
-      // Redirect www.quantamonaco.com -> quantamonaco.com
+      // 301 redirect: www -> non-www
       {
         source: "/:path*",
         has: [{ type: "host", value: "www.quantamonaco.com" }],
         destination: "https://quantamonaco.com/:path*",
-        permanent: true,
+        statusCode: 301,
       },
     ];
   },

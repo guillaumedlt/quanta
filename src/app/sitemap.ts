@@ -4,7 +4,7 @@ import { caseStudies } from "@/lib/cases";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://quantamonaco.com";
-  const now = new Date("2026-03-23");
+  const now = new Date("2026-04-20");
 
   const expertises = [
     "audit-strategie-ia", "automatisation-processus", "developpement-ia-sur-mesure",

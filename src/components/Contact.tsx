@@ -28,6 +28,10 @@ export default function Contact() {
             <Link href="/blog" className="hover:text-foreground transition-colors">Blog</Link>
             <span className="text-foreground/15">·</span>
             <Link href="/faq" className="hover:text-foreground transition-colors">FAQ</Link>
+            <span className="text-foreground/15">·</span>
+            <Link href="/ia-monaco" className="hover:text-foreground transition-colors">IA Monaco</Link>
+            <span className="text-foreground/15">·</span>
+            <Link href="/agence-ia-monaco" className="hover:text-foreground transition-colors">Agence IA</Link>
           </div>
         </div>
       </div>
