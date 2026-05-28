@@ -7,14 +7,14 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "IA pour les services professionnels a Monaco | Quanta AI",
+  title: "IA pour les services professionnels à Monaco | Quanta AI",
   description:
-    "OCR, classement predictif, facturation, echeances et correspondance automatises pour cabinets comptables, fiduciaires et prestataires a Monaco.",
+    "OCR, classement prédictif, facturation, échéances et correspondance automatisés pour cabinets comptables, fiduciaires et prestataires à Monaco.",
   alternates: { canonical: "https://quantamonaco.com/secteurs/services-professionnels" },
   openGraph: {
-    title: "IA pour les services professionnels a Monaco | Quanta AI",
+    title: "IA pour les services professionnels à Monaco | Quanta AI",
     description:
-      "OCR, classement predictif, facturation, echeances et correspondance automatises pour cabinets comptables, fiduciaires et prestataires a Monaco.",
+      "OCR, classement prédictif, facturation, échéances et correspondance automatisés pour cabinets comptables, fiduciaires et prestataires à Monaco.",
     url: "https://quantamonaco.com/secteurs/services-professionnels",
     siteName: "Quanta",
     locale: "fr_FR",
@@ -24,24 +24,24 @@ export const metadata: Metadata = {
 
 const faqItems = [
   {
-    q: "L'agent connait-il les specificites fiscales monegasques ?",
-    a: "Oui. L'agent est configure pour les particularites du regime fiscal de Monaco : absence d'impot sur le revenu pour les personnes physiques, IS a 25 % pour les societes depassant le seuil de CA hors Principaute, regime specifique de TVA, cotisations CCSS, formalites RCI. Les echeances, les formulaires et les regles de calcul sont integres et mis a jour regulierement.",
+    q: "L'agent connaît-il les spécificités fiscales monégasques ?",
+    a: "Oui. L'agent est configuré pour les particularités du régime fiscal de Monaco : absence d'impôt sur le revenu pour les personnes physiques, IS à 25 % pour les sociétés dépassant le seuil de CA hors Principauté, régime spécifique de TVA, cotisations CCSS, formalités RCI. Les échéances, les formulaires et les règles de calcul sont intégrés et mis à jour régulièrement.",
   },
   {
-    q: "L'IA s'integre-t-elle avec notre logiciel comptable ?",
-    a: "Nos agents sont compatibles avec les principaux logiciels comptables utilises en Principaute : Sage, Cegid, EBP, QuickBooks, Xero, ainsi que les outils specifiques monegasques. L'integration se fait par API ou par import/export automatise. Si votre logiciel n'est pas dans la liste, nous realisons un audit technique gratuit pour evaluer la faisabilite.",
+    q: "L'IA s'intègre-t-elle avec notre logiciel comptable ?",
+    a: "Nos agents sont compatibles avec les principaux logiciels comptables utilisés en Principauté : Sage, Cegid, EBP, QuickBooks, Xero, ainsi que les outils spécifiques monégasques. L'intégration se fait par API ou par import/export automatisé. Si votre logiciel n'est pas dans la liste, nous réalisons un audit technique gratuit pour évaluer la faisabilité.",
   },
   {
-    q: "Les documents de mes clients sont-ils en securite ?",
-    a: "Toutes les donnees sont hebergees dans un environnement securise conforme aux exigences de la CCIN (Commission de Controle des Informations Nominatives) de Monaco. Aucune donnee client n'est partagee avec des tiers. Les acces sont controles par roles, chaque action est tracee et nous signons un accord de confidentialite avant toute intervention. Le chiffrement est applique en transit et au repos.",
+    q: "Les documents de mes clients sont-ils en sécurité ?",
+    a: "Toutes les données sont hébergées dans un environnement sécurisé conforme aux exigences de la CCIN (Commission de Contrôle des Informations Nominatives) de Monaco. Aucune donnée client n'est partagée avec des tiers. Les accès sont contrôlés par rôles, chaque action est tracée et nous signons un accord de confidentialité avant toute intervention. Le chiffrement est appliqué en transit et au repos.",
   },
   {
-    q: "Combien de temps faut-il pour deployer l'OCR et le classement automatique ?",
-    a: "Le deploiement prend generalement entre 2 et 4 semaines. La premiere semaine est consacree a l'analyse de votre arborescence de classement et de vos modeles de documents. Les deux semaines suivantes couvrent la configuration, les tests sur un echantillon representatif et les ajustements. La derniere semaine est dediee a la formation des collaborateurs.",
+    q: "Combien de temps faut-il pour déployer l'OCR et le classement automatique ?",
+    a: "Le déploiement prend généralement entre 2 et 4 semaines. La première semaine est consacrée à l'analyse de votre arborescence de classement et de vos modèles de documents. Les deux semaines suivantes couvrent la configuration, les tests sur un échantillon représentatif et les ajustements. La dernière semaine est dédiée à la formation des collaborateurs.",
   },
   {
     q: "Peut-on automatiser uniquement certains processus ?",
-    a: "Bien sur. Nous recommandons de commencer par le processus le plus chronophage (souvent la saisie comptable ou le classement documentaire), de valider les resultats sur 4 a 6 semaines, puis d'etendre progressivement. Cette approche progressive permet de mesurer le retour sur investissement a chaque etape et de securiser l'adhesion des equipes.",
+    a: "Bien sûr. Nous recommandons de commencer par le processus le plus chronophage (souvent la saisie comptable ou le classement documentaire), de valider les résultats sur 4 à 6 semaines, puis d'étendre progressivement. Cette approche progressive permet de mesurer le retour sur investissement à chaque étape et de sécuriser l'adhésion des équipes.",
   },
 ];
 
@@ -57,10 +57,10 @@ export default function ServicesProfessionnelsPage() {
             <div>
               <span className="text-[11px] uppercase tracking-[0.2em] text-muted font-semibold">Secteur</span>
               <h1 className="text-[2rem] sm:text-[2.5rem] font-bold mt-3 mb-5 tracking-tight leading-tight">
-                Intelligence artificielle pour les services professionnels a Monaco
+                Intelligence artificielle pour les services professionnels à Monaco
               </h1>
               <p className="text-foreground/60 text-[15px] leading-relaxed max-w-xl">
-                Automatisez la facturation, le classement documentaire et le suivi administratif de votre cabinet grace a des agents IA qui comprennent les specificites fiscales et reglementaires de la Principaute.
+                Automatisez la facturation, le classement documentaire et le suivi administratif de votre cabinet grâce à des agents IA qui comprennent les spécificités fiscales et réglementaires de la Principauté.
               </p>
             </div>
 
@@ -76,17 +76,17 @@ export default function ServicesProfessionnelsPage() {
                     </div>
                     <div className="h-px bg-white/[0.06]" />
                     <div className="flex items-center justify-between">
-                      <span className="text-[11px] text-white/50">Echeances manquees</span>
+                      <span className="text-[11px] text-white/50">Échéances manquées</span>
                       <span className="text-[13px] text-accent font-bold">0</span>
                     </div>
                     <div className="h-px bg-white/[0.06]" />
                     <div className="flex items-center justify-between">
-                      <span className="text-[11px] text-white/50">Precision OCR</span>
+                      <span className="text-[11px] text-white/50">Précision OCR</span>
                       <span className="text-[13px] text-accent font-bold">98 %</span>
                     </div>
                     <div className="h-px bg-white/[0.06]" />
                     <div className="flex items-center justify-between">
-                      <span className="text-[11px] text-white/50">Temps libere</span>
+                      <span className="text-[11px] text-white/50">Temps libéré</span>
                       <span className="text-[13px] text-accent font-bold">20 h/sem</span>
                     </div>
                   </div>
@@ -104,9 +104,9 @@ export default function ServicesProfessionnelsPage() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               {[
                 { v: 80, s: " %", p: "-", l: "temps de saisie" },
-                { v: 0, s: "", p: "", l: "echeance manquee" },
-                { v: 98, s: " %", p: "", l: "precision OCR" },
-                { v: 20, s: " h/sem", p: "", l: "temps libere par cabinet" },
+                { v: 0, s: "", p: "", l: "échéance manquée" },
+                { v: 98, s: " %", p: "", l: "précision OCR" },
+                { v: 20, s: " h/sem", p: "", l: "temps libéré par cabinet" },
               ].map((m) => (
                 <div key={m.l} className="p-5 rounded-2xl bg-surface border border-border text-center">
                   <div className="text-2xl font-bold"><AnimatedCounter value={m.v} suffix={m.s} prefix={m.p} /></div>
@@ -124,10 +124,10 @@ export default function ServicesProfessionnelsPage() {
           <RevealOnScroll>
             <div className="grid lg:grid-cols-2 gap-12">
               <p className="text-foreground/60 text-[14px] leading-relaxed">
-                Monaco abrite une concentration remarquable de cabinets comptables, de fiduciaires, de societes de domiciliation et de prestataires de services aux entreprises. Ces structures gerent quotidiennement des volumes importants de documents : factures fournisseurs, releves bancaires, declarations fiscales, dossiers de constitution aupres du RCI et formalites aupres du Departement de l&apos;Interieur. La clientele internationale avec des structures juridiques complexes (SAM, SCS, SNC, succursales) multiplie les obligations declaratives.
+                Monaco abrite une concentration remarquable de cabinets comptables, de fiduciaires, de sociétés de domiciliation et de prestataires de services aux entreprises. Ces structures gèrent quotidiennement des volumes importants de documents : factures fournisseurs, relevés bancaires, déclarations fiscales, dossiers de constitution auprès du RCI et formalités auprès du Département de l&apos;Intérieur. La clientèle internationale avec des structures juridiques complexes (SAM, SCS, SNC, succursales) multiplie les obligations déclaratives.
               </p>
               <p className="text-foreground/60 text-[14px] leading-relaxed">
-                L&apos;intelligence artificielle prend en charge les taches a faible valeur ajoutee avec une fiabilite superieure au traitement manuel. L&apos;OCR intelligent extrait les donnees avec plus de 98 % de precision, le classement predictif attribue chaque document au bon dossier, et le suivi des echeances garantit qu&apos;aucun delai n&apos;est depasse. Chaque agent est adapte aux particularites fiscales monegasques.
+                L&apos;intelligence artificielle prend en charge les tâches à faible valeur ajoutée avec une fiabilité supérieure au traitement manuel. L&apos;OCR intelligent extrait les données avec plus de 98 % de précision, le classement prédictif attribue chaque document au bon dossier, et le suivi des échéances garantit qu&apos;aucun délai n&apos;est dépassé. Chaque agent est adapté aux particularités fiscales monégasques.
               </p>
             </div>
           </RevealOnScroll>
@@ -143,37 +143,37 @@ export default function ServicesProfessionnelsPage() {
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">OCR et saisie automatique</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Extraction des donnees de chaque facture fournisseur par reconnaissance optique avancee. Pre-saisie dans votre logiciel comptable et soumission pour validation. Temps de saisie reduit de plus de 80 %, taux d&apos;erreur sous les 2 %.
+                  Extraction des données de chaque facture fournisseur par reconnaissance optique avancée. Pré-saisie dans votre logiciel comptable et soumission pour validation. Temps de saisie réduit de plus de 80 %, taux d&apos;erreur sous les 2 %.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Classement predictif des documents</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Classement prédictif des documents</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Analyse de chaque document entrant, identification du client et du type, classement automatique dans votre arborescence. Les documents multi-clients sont dispatches vers chaque dossier concerne.
+                  Analyse de chaque document entrant, identification du client et du type, classement automatique dans votre arborescence. Les documents multi-clients sont dispatchés vers chaque dossier concerné.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Suivi des echeances administratives</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Suivi des échéances administratives</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Declarations fiscales, renouvellements, assemblees generales, depot des comptes au Greffe, formalites RCI : alertes sequentielles (J-30, J-15, J-7, J-1) pour garantir qu&apos;aucun delai n&apos;est depasse.
+                  Déclarations fiscales, renouvellements, assemblées générales, dépôt des comptes au Greffe, formalités RCI : alertes séquentielles (J-30, J-15, J-7, J-1) pour garantir qu&apos;aucun délai n&apos;est dépassé.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Facturation automatisee</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Facturation automatisée</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Generation des factures a partir de vos feuilles de temps ou baremes, application des conditions negociees, envoi avec lien de paiement. Relances automatiques a J+15 et J+30.
+                  Génération des factures à partir de vos feuilles de temps ou barèmes, application des conditions négociées, envoi avec lien de paiement. Relances automatiques à J+15 et J+30.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Correspondance administrative</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Redaction assistee des courriers aux administrations monegasques (Direction des Services Fiscaux, RCI, CCSS, Departement de l&apos;Interieur). Formulaires, delais et ton adaptes a chaque interlocuteur.
+                  Rédaction assistée des courriers aux administrations monégasques (Direction des Services Fiscaux, RCI, CCSS, Département de l&apos;Intérieur). Formulaires, délais et ton adaptés à chaque interlocuteur.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Rapprochement bancaire</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Import des releves, rapprochement automatique avec factures emises ou reçues, identification des ecarts et signalement des mouvements non rapproches. Le lettrage qui prenait des heures est boucle en minutes.
+                  Import des relevés, rapprochement automatique avec factures émises ou reçues, identification des écarts et signalement des mouvements non rapprochés. Le lettrage qui prenait des heures est bouclé en minutes.
                 </p>
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function ServicesProfessionnelsPage() {
       <section className="section-padding section-surface">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
-            <h2 className="text-xl font-bold mb-6">Cabinet traditionnel vs cabinet augmente par l&apos;IA</h2>
+            <h2 className="text-xl font-bold mb-6">Cabinet traditionnel vs cabinet augmenté par l&apos;IA</h2>
             <div className="grid sm:grid-cols-2 gap-3">
               <div className="p-7 rounded-2xl bg-surface border border-border">
                 <div className="flex items-center gap-2 mb-4">
@@ -195,7 +195,7 @@ export default function ServicesProfessionnelsPage() {
                 <ul className="space-y-2">
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Saisie manuelle de chaque facture et releve
+                    Saisie manuelle de chaque facture et relevé
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
@@ -203,7 +203,7 @@ export default function ServicesProfessionnelsPage() {
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Echeances suivies par tableur avec risque d&apos;oubli
+                    Échéances suivies par tableur avec risque d&apos;oubli
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
@@ -211,7 +211,7 @@ export default function ServicesProfessionnelsPage() {
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Collaborateurs mobilises sur la saisie plutot que le conseil
+                    Collaborateurs mobilisés sur la saisie plutôt que le conseil
                   </li>
                 </ul>
               </div>
@@ -223,15 +223,15 @@ export default function ServicesProfessionnelsPage() {
                 <ul className="space-y-2">
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    OCR intelligent avec 98 % de precision sur les factures
+                    OCR intelligent avec 98 % de précision sur les factures
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    Classement automatique au bon dossier et bonne categorie
+                    Classement automatique au bon dossier et bonne catégorie
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    Zero echeance manquee grace aux alertes sequentielles
+                    Zéro échéance manquée grâce aux alertes séquentielles
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
@@ -239,7 +239,7 @@ export default function ServicesProfessionnelsPage() {
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    20 h/semaine redirigees vers le conseil client
+                    20 h/semaine redirigées vers le conseil client
                   </li>
                 </ul>
               </div>
@@ -252,7 +252,7 @@ export default function ServicesProfessionnelsPage() {
       <section className="section-padding section-tinted">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
-            <h2 className="text-xl font-bold mb-6">Questions frequentes</h2>
+            <h2 className="text-xl font-bold mb-6">Questions fréquentes</h2>
             <FAQ items={faqItems} />
           </RevealOnScroll>
           <RevealOnScroll delay={100}>
@@ -261,10 +261,10 @@ export default function ServicesProfessionnelsPage() {
               <Link href="/expertise/outils-internes" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Outils internes</Link>
               <Link href="/expertise/audit-strategie-ia" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Audit IA</Link>
               <Link href="/secteurs/cabinets-avocats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Cabinets d&apos;avocats</Link>
-              <Link href="/secteurs/banque-privee" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Banque privee</Link>
+              <Link href="/secteurs/banque-privee" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Banque privée</Link>
               <Link href="/secteurs/gestion-patrimoine" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Gestion de patrimoine</Link>
-              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Resultats</Link>
-              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Methode</Link>
+              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Résultats</Link>
+              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Méthode</Link>
             </div>
           </RevealOnScroll>
         </div>
@@ -275,10 +275,10 @@ export default function ServicesProfessionnelsPage() {
         <div className="max-w-2xl mx-auto px-6">
           <RevealOnScroll>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mb-5">
-              Liberez vos equipes de la saisie, concentrez-les sur le conseil
+              Libérez vos équipes de la saisie, concentrez-les sur le conseil
             </h2>
             <p className="text-foreground/60 text-[14px] mb-8">
-              Identifions ensemble les processus les plus chronophages de votre cabinet lors d&apos;un entretien de 30 minutes. Les premiers gains sont souvent visibles des les premieres semaines.
+              Identifions ensemble les processus les plus chronophages de votre cabinet lors d&apos;un entretien de 30 minutes. Les premiers gains sont souvent visibles dès les premières semaines.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <a

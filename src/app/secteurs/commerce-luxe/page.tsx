@@ -7,14 +7,14 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "IA pour le commerce de luxe a Monaco | Quanta AI",
+  title: "IA pour le commerce de luxe à Monaco | Quanta AI",
   description:
-    "CRM augmente, stocks predictifs, clienteling automatise et campagnes personnalisees pour les boutiques de luxe du Carre d'Or a Monaco.",
+    "CRM augmenté, stocks prédictifs, clienteling automatisé et campagnes personnalisées pour les boutiques de luxe du Carré d'Or à Monaco.",
   alternates: { canonical: "https://quantamonaco.com/secteurs/commerce-luxe" },
   openGraph: {
-    title: "IA pour le commerce de luxe a Monaco | Quanta AI",
+    title: "IA pour le commerce de luxe à Monaco | Quanta AI",
     description:
-      "CRM augmente, stocks predictifs, clienteling automatise et campagnes personnalisees pour les boutiques de luxe du Carre d'Or a Monaco.",
+      "CRM augmenté, stocks prédictifs, clienteling automatisé et campagnes personnalisées pour les boutiques de luxe du Carré d'Or à Monaco.",
     url: "https://quantamonaco.com/secteurs/commerce-luxe",
     siteName: "Quanta",
     locale: "fr_FR",
@@ -25,23 +25,23 @@ export const metadata: Metadata = {
 const faqItems = [
   {
     q: "L'IA remplace-t-elle le vendeur en boutique de luxe ?",
-    a: "Absolument pas. L'agent IA est un assistant invisible qui prepare le terrain pour le vendeur : il rassemble les informations client, suggere les produits a presenter et pre-redige les messages de relance. La relation humaine reste au coeur de l'experience en boutique. L'IA libere le vendeur des taches administratives pour qu'il consacre 100 % de son temps au client.",
+    a: "Absolument pas. L'agent IA est un assistant invisible qui prépare le terrain pour le vendeur : il rassemble les informations client, suggère les produits à présenter et pré-rédige les messages de relance. La relation humaine reste au cœur de l'expérience en boutique. L'IA libère le vendeur des tâches administratives pour qu'il consacre 100 % de son temps au client.",
   },
   {
-    q: "Comment l'agent gere-t-il les clients multi-boutiques ?",
-    a: "Lorsqu'un client visite plusieurs boutiques du meme groupe (par exemple a Monaco et a Cannes), l'agent centralise tout l'historique dans un profil unifie. Le vendeur a Monaco sait ce que le client a achete a Cannes et vice versa. Les doublons sont detectes et fusionnes automatiquement pour garantir une vue 360 degres du client.",
+    q: "Comment l'agent gère-t-il les clients multi-boutiques ?",
+    a: "Lorsqu'un client visite plusieurs boutiques du même groupe (par exemple à Monaco et à Cannes), l'agent centralise tout l'historique dans un profil unifié. Le vendeur à Monaco sait ce que le client a acheté à Cannes et vice versa. Les doublons sont détectés et fusionnés automatiquement pour garantir une vue 360 degrés du client.",
   },
   {
-    q: "Combien de temps faut-il pour deployer le CRM augmente ?",
-    a: "Le deploiement prend generalement entre 3 et 6 semaines selon la complexite de votre base clients existante et le nombre d'integrations necessaires. La premiere semaine est consacree a l'import et au nettoyage des donnees, les deux semaines suivantes a la configuration des automatisations et la derniere a la formation des equipes.",
+    q: "Combien de temps faut-il pour déployer le CRM augmenté ?",
+    a: "Le déploiement prend généralement entre 3 et 6 semaines selon la complexité de votre base clients existante et le nombre d'intégrations nécessaires. La première semaine est consacrée à l'import et au nettoyage des données, les deux semaines suivantes à la configuration des automatisations et la dernière à la formation des équipes.",
   },
   {
-    q: "Les donnees clients sont-elles securisees ?",
-    a: "Toutes les donnees sont hebergees dans un environnement securise conforme aux reglementations applicables en Principaute. Aucune donnee client n'est partagee avec des tiers ou utilisee pour entrainer des modeles externes. Les acces sont controles par roles et chaque action est tracee. Nous signons un accord de confidentialite avant toute intervention.",
+    q: "Les données clients sont-elles sécurisées ?",
+    a: "Toutes les données sont hébergées dans un environnement sécurisé conforme aux réglementations applicables en Principauté. Aucune donnée client n'est partagée avec des tiers ou utilisée pour entraîner des modèles externes. Les accès sont contrôlés par rôles et chaque action est tracée. Nous signons un accord de confidentialité avant toute intervention.",
   },
   {
     q: "L'IA fonctionne-t-elle avec notre logiciel de caisse actuel ?",
-    a: "Nos agents s'integrent avec les principaux logiciels de caisse et ERP du retail luxe (Cegid Retail, Lightspeed, RetailPro). L'integration se fait par API ou par export automatise. Si votre logiciel n'est pas dans la liste, nous realisons un audit technique gratuit pour evaluer la faisabilite de l'integration.",
+    a: "Nos agents s'intègrent avec les principaux logiciels de caisse et ERP du retail luxe (Cegid Retail, Lightspeed, RetailPro). L'intégration se fait par API ou par export automatisé. Si votre logiciel n'est pas dans la liste, nous réalisons un audit technique gratuit pour évaluer la faisabilité de l'intégration.",
   },
 ];
 
@@ -57,10 +57,10 @@ export default function CommerceLuxePage() {
             <div>
               <span className="text-[11px] uppercase tracking-[0.2em] text-muted font-semibold">Secteur</span>
               <h1 className="text-[2rem] sm:text-[2.5rem] font-bold mt-3 mb-5 tracking-tight leading-tight">
-                Intelligence artificielle pour le commerce de luxe a Monaco
+                Intelligence artificielle pour le commerce de luxe à Monaco
               </h1>
               <p className="text-foreground/60 text-[15px] leading-relaxed max-w-xl">
-                Personnalisez chaque interaction client, anticipez la demande et maximisez la performance de vos boutiques grace a des agents IA penses pour le retail haut de gamme monegasque.
+                Personnalisez chaque interaction client, anticipez la demande et maximisez la performance de vos boutiques grâce à des agents IA pensés pour le retail haut de gamme monégasque.
               </p>
             </div>
 
@@ -124,10 +124,10 @@ export default function CommerceLuxePage() {
           <RevealOnScroll>
             <div className="grid lg:grid-cols-2 gap-12">
               <p className="text-foreground/60 text-[14px] leading-relaxed">
-                Le Carre d&apos;Or, le Metropole Shopping Monte-Carlo, le One Monte-Carlo : Monaco concentre sur quelques centaines de metres les plus grandes maisons de luxe au monde. La clientele est composee de residents fortunes, de visiteurs internationaux attires par les grands evenements et de touristes haut de gamme en escale sur la Cote d&apos;Azur. Chaque client s&apos;attend a un service sur mesure, une connaissance fine de ses preferences et une reactivite sans faille.
+                Le Carré d&apos;Or, le Métropole Shopping Monte-Carlo, le One Monte-Carlo : Monaco concentre sur quelques centaines de mètres les plus grandes maisons de luxe au monde. La clientèle est composée de résidents fortunés, de visiteurs internationaux attirés par les grands événements et de touristes haut de gamme en escale sur la Côte d&apos;Azur. Chaque client s&apos;attend à un service sur mesure, une connaissance fine de ses préférences et une réactivité sans faille.
               </p>
               <p className="text-foreground/60 text-[14px] leading-relaxed">
-                L&apos;intelligence artificielle transforme les donnees clients dispersees en avantage concurrentiel tangible. Un CRM augmente enrichit automatiquement chaque profil, la gestion predictive des stocks anticipe la demande selon les evenements monegasques, et les campagnes email ultra-personnalisees generent des taux d&apos;ouverture 3 a 4 fois superieurs aux envois generiques.
+                L&apos;intelligence artificielle transforme les données clients dispersées en avantage concurrentiel tangible. Un CRM augmenté enrichit automatiquement chaque profil, la gestion prédictive des stocks anticipe la demande selon les événements monégasques, et les campagnes email ultra-personnalisées génèrent des taux d&apos;ouverture 3 à 4 fois supérieurs aux envois génériques.
               </p>
             </div>
           </RevealOnScroll>
@@ -141,39 +141,39 @@ export default function CommerceLuxePage() {
             <h2 className="text-xl font-bold mb-6">Ce que nous automatisons</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">CRM augmente par l&apos;IA</h3>
+                <h3 className="text-[14px] font-semibold mb-2">CRM augmenté par l&apos;IA</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Enrichissement automatique de chaque profil client a partir des interactions en boutique, achats en ligne et echanges par email ou WhatsApp. Fiche de preparation avant chaque visite VIP avec derniers achats, preferences et suggestions produit.
+                  Enrichissement automatique de chaque profil client à partir des interactions en boutique, achats en ligne et échanges par email ou WhatsApp. Fiche de préparation avant chaque visite VIP avec derniers achats, préférences et suggestions produit.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Stocks predictifs</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Stocks prédictifs</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Prevision de la demande par reference en croisant historique de ventes, calendrier evenementiel monegasque et tendances de recherche en ligne. Reduction des ruptures et des surstocks.
+                  Prévision de la demande par référence en croisant historique de ventes, calendrier événementiel monégasque et tendances de recherche en ligne. Réduction des ruptures et des surstocks.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Campagnes email personnalisees</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Campagnes email personnalisées</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Segmentation par habitudes d&apos;achat, budget, affinites produit et langue. Contenu sur mesure par segment : nouveautes, invitations privees, offres exclusives. Redaction en français, anglais, italien ou russe.
+                  Segmentation par habitudes d&apos;achat, budget, affinités produit et langue. Contenu sur mesure par segment : nouveautés, invitations privées, offres exclusives. Rédaction en français, anglais, italien ou russe.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Clienteling automatise</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Clienteling automatisé</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Liste quotidienne de clients a contacter avec motif suggere : anniversaire, nouveau produit, invitation, relance post-essayage. Messages pre-rediges et personnalises, prets a envoyer apres validation.
+                  Liste quotidienne de clients à contacter avec motif suggéré : anniversaire, nouveau produit, invitation, relance post-essayage. Messages pré-rédigés et personnalisés, prêts à envoyer après validation.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Analyse de performance</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Tableau de bord quotidien : CA par vendeur, panier moyen, taux de conversion, categories performantes, comparaisons N-1. Alertes sur les ecarts significatifs necessitant une action.
+                  Tableau de bord quotidien : CA par vendeur, panier moyen, taux de conversion, catégories performantes, comparaisons N-1. Alertes sur les écarts significatifs nécessitant une action.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Reporting multi-boutiques</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Consolidation des donnees pour les enseignes multi-points de vente (Monaco, Cannes, Saint-Tropez, Nice). Comparaison des performances et identification des meilleures pratiques transferables.
+                  Consolidation des données pour les enseignes multi-points de vente (Monaco, Cannes, Saint-Tropez, Nice). Comparaison des performances et identification des meilleures pratiques transférables.
                 </p>
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function CommerceLuxePage() {
       <section className="section-padding section-surface">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
-            <h2 className="text-xl font-bold mb-6">Retail classique vs retail augmente par l&apos;IA</h2>
+            <h2 className="text-xl font-bold mb-6">Retail classique vs retail augmenté par l&apos;IA</h2>
             <div className="grid sm:grid-cols-2 gap-3">
               <div className="p-7 rounded-2xl bg-surface border border-border">
                 <div className="flex items-center gap-2 mb-4">
@@ -195,23 +195,23 @@ export default function CommerceLuxePage() {
                 <ul className="space-y-2">
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Fiches clients sur tableurs, donnees fragmentees
+                    Fiches clients sur tableurs, données fragmentées
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Gestion des stocks reactive, ruptures frequentes
+                    Gestion des stocks réactive, ruptures fréquentes
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Campagnes marketing generiques, faible engagement
+                    Campagnes marketing génériques, faible engagement
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Relances manuelles, vendeurs surcharges
+                    Relances manuelles, vendeurs surchargés
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Reporting consolide manuellement chaque semaine
+                    Reporting consolidé manuellement chaque semaine
                   </li>
                 </ul>
               </div>
@@ -223,23 +223,23 @@ export default function CommerceLuxePage() {
                 <ul className="space-y-2">
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    CRM 360 enrichi automatiquement a chaque interaction
+                    CRM 360 enrichi automatiquement à chaque interaction
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    Stocks anticipes selon evenements et tendances
+                    Stocks anticipés selon événements et tendances
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    Emails personnalises avec x3 de taux d&apos;ouverture
+                    Emails personnalisés avec x3 de taux d&apos;ouverture
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    Clienteling automatise avec 25 % de conversion
+                    Clienteling automatisé avec 25 % de conversion
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    Tableaux de bord temps reel multi-boutiques
+                    Tableaux de bord temps réel multi-boutiques
                   </li>
                 </ul>
               </div>
@@ -252,7 +252,7 @@ export default function CommerceLuxePage() {
       <section className="section-padding section-tinted">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
-            <h2 className="text-xl font-bold mb-6">Questions frequentes</h2>
+            <h2 className="text-xl font-bold mb-6">Questions fréquentes</h2>
             <FAQ items={faqItems} />
           </RevealOnScroll>
           <RevealOnScroll delay={100}>
@@ -260,10 +260,10 @@ export default function CommerceLuxePage() {
               <Link href="/expertise/automatisation-processus" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Automatisation</Link>
               <Link href="/expertise/developpement-ia-sur-mesure" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">IA sur mesure</Link>
               <Link href="/expertise/marketing-acquisition" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Marketing</Link>
-              <Link href="/secteurs/hotellerie-restauration" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Hotellerie-restauration</Link>
+              <Link href="/secteurs/hotellerie-restauration" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Hôtellerie-restauration</Link>
               <Link href="/secteurs/immobilier-luxe" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Immobilier de luxe</Link>
-              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Resultats</Link>
-              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Methode</Link>
+              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Résultats</Link>
+              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Méthode</Link>
             </div>
           </RevealOnScroll>
         </div>
@@ -274,10 +274,10 @@ export default function CommerceLuxePage() {
         <div className="max-w-2xl mx-auto px-6">
           <RevealOnScroll>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mb-5">
-              Faites de chaque visite en boutique une experience memorable
+              Faites de chaque visite en boutique une expérience mémorable
             </h2>
             <p className="text-foreground/60 text-[14px] mb-8">
-              Parlons de votre strategie de clienteling et de vos enjeux de performance. Un entretien de 30 minutes suffit pour identifier les premiers leviers d&apos;optimisation adaptes a votre boutique.
+              Parlons de votre stratégie de clienteling et de vos enjeux de performance. Un entretien de 30 minutes suffit pour identifier les premiers leviers d&apos;optimisation adaptés à votre boutique.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <a

@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "IA pour hôtellerie et restauration à Monaco",
   description:
-    "Yield management, analyse des avis clients, contenus multilingues et facturation automatisee pour les hotels et restaurants de Monaco grace a l'IA.",
+    "Yield management, analyse des avis clients, contenus multilingues et facturation automatisée pour les hôtels et restaurants de Monaco grâce à l'IA.",
   alternates: { canonical: "https://quantamonaco.com/secteurs/hotellerie-restauration" },
   openGraph: {
     title: "IA pour hôtellerie et restauration à Monaco",
     description:
-      "Yield management, analyse des avis clients, contenus multilingues et facturation automatisee pour les hotels et restaurants de Monaco grace a l'IA.",
+      "Yield management, analyse des avis clients, contenus multilingues et facturation automatisée pour les hôtels et restaurants de Monaco grâce à l'IA.",
     url: "https://quantamonaco.com/secteurs/hotellerie-restauration",
     siteName: "Quanta",
     locale: "fr_FR",
@@ -24,24 +24,24 @@ export const metadata: Metadata = {
 
 const faqItems = [
   {
-    q: "L'IA peut-elle vraiment gerer le yield management pendant le Grand Prix de F1 ?",
-    a: "Oui, et c'est precisement pendant les periodes de pic que l'agent est le plus utile. Il integre les donnees historiques du Grand Prix (taux d'occupation, tarifs pratiques les annees precedentes, delai de reservation moyen), les croise avec les reservations en cours et la demande en temps reel pour recommander des ajustements tarifaires toutes les heures. Le directeur conserve le controle final sur chaque modification de prix.",
+    q: "L'IA peut-elle vraiment gérer le yield management pendant le Grand Prix de F1 ?",
+    a: "Oui, et c'est précisément pendant les périodes de pic que l'agent est le plus utile. Il intègre les données historiques du Grand Prix (taux d'occupation, tarifs pratiqués les années précédentes, délai de réservation moyen), les croise avec les réservations en cours et la demande en temps réel pour recommander des ajustements tarifaires toutes les heures. Le directeur conserve le contrôle final sur chaque modification de prix.",
   },
   {
-    q: "Comment l'agent gere-t-il les specificites linguistiques de la clientele monegasque ?",
-    a: "L'agent est entraine sur cinq langues principales (français, anglais, italien, russe, arabe) avec des adaptations culturelles pour chaque marche. Un menu traduit en arabe pour une clientele du Golfe ne sera pas formule de la meme maniere qu'une traduction destinee au marche libanais. Le ton, les formules de politesse et les references culturelles sont ajustes.",
+    q: "Comment l'agent gère-t-il les spécificités linguistiques de la clientèle monégasque ?",
+    a: "L'agent est entraîné sur cinq langues principales (français, anglais, italien, russe, arabe) avec des adaptations culturelles pour chaque marché. Un menu traduit en arabe pour une clientèle du Golfe ne sera pas formulé de la même manière qu'une traduction destinée au marché libanais. Le ton, les formules de politesse et les références culturelles sont ajustés.",
   },
   {
-    q: "L'IA s'integre-t-elle avec notre PMS et notre channel manager ?",
-    a: "Nos agents sont compatibles avec les principaux PMS du marche (Opera, Mews, Protel) et les channel managers les plus utilises (SiteMinder, D-EDGE, Cubilis). L'integration se fait par API ou par connecteur, sans modification de vos processus existants. Le deploiement prend generalement entre 2 et 4 semaines.",
+    q: "L'IA s'intègre-t-elle avec notre PMS et notre channel manager ?",
+    a: "Nos agents sont compatibles avec les principaux PMS du marché (Opera, Mews, Protel) et les channel managers les plus utilisés (SiteMinder, D-EDGE, Cubilis). L'intégration se fait par API ou par connecteur, sans modification de vos processus existants. Le déploiement prend généralement entre 2 et 4 semaines.",
   },
   {
-    q: "Quel est le cout d'un agent IA pour un hotel a Monaco ?",
-    a: "Le tarif depend du perimetre d'automatisation et du nombre de chambres ou de couverts. Nous proposons un audit initial gratuit pour identifier les processus les plus rentables a automatiser. Le retour sur investissement est generalement atteint en moins de 3 mois grace aux gains de productivite et a l'augmentation du RevPAR.",
+    q: "Quel est le coût d'un agent IA pour un hôtel à Monaco ?",
+    a: "Le tarif dépend du périmètre d'automatisation et du nombre de chambres ou de couverts. Nous proposons un audit initial gratuit pour identifier les processus les plus rentables à automatiser. Le retour sur investissement est généralement atteint en moins de 3 mois grâce aux gains de productivité et à l'augmentation du RevPAR.",
   },
   {
-    q: "Les donnees de mes clients sont-elles protegees ?",
-    a: "Toutes les donnees sont hebergees dans un environnement securise conforme aux reglementations applicables en Principaute de Monaco. Aucune donnee client n'est partagee avec des tiers. Les agents IA fonctionnent dans un perimetre cloisonne et les acces sont traces. Nous signons un accord de confidentialite avant toute intervention.",
+    q: "Les données de mes clients sont-elles protégées ?",
+    a: "Toutes les données sont hébergées dans un environnement sécurisé conforme aux réglementations applicables en Principauté de Monaco. Aucune donnée client n'est partagée avec des tiers. Les agents IA fonctionnent dans un périmètre cloisonné et les accès sont tracés. Nous signons un accord de confidentialité avant toute intervention.",
   },
 ];
 
@@ -57,10 +57,10 @@ export default function HotellerieRestaurationPage() {
             <div>
               <span className="text-[11px] uppercase tracking-[0.2em] text-muted font-semibold">Secteur</span>
               <h1 className="text-[2rem] sm:text-[2.5rem] font-bold mt-3 mb-5 tracking-tight leading-tight">
-                Intelligence artificielle pour l&apos;hotellerie et la restauration a Monaco
+                Intelligence artificielle pour l&apos;hôtellerie et la restauration à Monaco
               </h1>
               <p className="text-foreground/60 text-[15px] leading-relaxed max-w-xl">
-                Optimisez vos revenus, automatisez vos contenus multilingues et transformez les retours clients en leviers d&apos;amelioration grace a des agents IA conçus pour l&apos;excellence hospitality monegasque.
+                Optimisez vos revenus, automatisez vos contenus multilingues et transformez les retours clients en leviers d&apos;amélioration grâce à des agents IA conçus pour l&apos;excellence hospitality monégasque.
               </p>
             </div>
 
@@ -68,15 +68,15 @@ export default function HotellerieRestaurationPage() {
             <div className="hidden lg:block">
               <div className="animate-float">
                 <div className="rounded-2xl bg-dark p-6 shadow-xl border border-white/[0.06]">
-                  <div className="text-[9px] text-white/30 uppercase tracking-wider font-semibold mb-4">Tableau de bord hotel</div>
+                  <div className="text-[9px] text-white/30 uppercase tracking-wider font-semibold mb-4">Tableau de bord hôtel</div>
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
-                      <span className="text-[11px] text-white/50">RevPAR optimise</span>
+                      <span className="text-[11px] text-white/50">RevPAR optimisé</span>
                       <span className="text-[13px] text-accent font-bold">+12 %</span>
                     </div>
                     <div className="h-px bg-white/[0.06]" />
                     <div className="flex items-center justify-between">
-                      <span className="text-[11px] text-white/50">Reponse aux avis</span>
+                      <span className="text-[11px] text-white/50">Réponse aux avis</span>
                       <span className="text-[13px] text-accent font-bold">&lt; 4 h</span>
                     </div>
                     <div className="h-px bg-white/[0.06]" />
@@ -86,7 +86,7 @@ export default function HotellerieRestaurationPage() {
                     </div>
                     <div className="h-px bg-white/[0.06]" />
                     <div className="flex items-center justify-between">
-                      <span className="text-[11px] text-white/50">Temps admin libere</span>
+                      <span className="text-[11px] text-white/50">Temps admin libéré</span>
                       <span className="text-[13px] text-accent font-bold">15 h/sem</span>
                     </div>
                   </div>
@@ -104,9 +104,9 @@ export default function HotellerieRestaurationPage() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               {[
                 { v: 12, s: " %", p: "+", l: "RevPAR moyen" },
-                { v: 4, s: " h", p: "", l: "reponse aux avis" },
-                { v: 5, s: "", p: "", l: "langues automatisees" },
-                { v: 15, s: " h/sem", p: "", l: "temps admin libere" },
+                { v: 4, s: " h", p: "", l: "réponse aux avis" },
+                { v: 5, s: "", p: "", l: "langues automatisées" },
+                { v: 15, s: " h/sem", p: "", l: "temps admin libéré" },
               ].map((m) => (
                 <div key={m.l} className="p-5 rounded-2xl bg-surface border border-border text-center">
                   <div className="text-2xl font-bold"><AnimatedCounter value={m.v} suffix={m.s} prefix={m.p} /></div>
@@ -124,10 +124,10 @@ export default function HotellerieRestaurationPage() {
           <RevealOnScroll>
             <div className="grid lg:grid-cols-2 gap-12">
               <p className="text-foreground/60 text-[14px] leading-relaxed">
-                Monaco concentre une densite exceptionnelle d&apos;etablissements hoteliers de prestige et de restaurants etoiles sur un territoire de 2 km2. L&apos;Hotel de Paris, l&apos;Hermitage, le Monte-Carlo Bay, le Fairmont, le Louis XV d&apos;Alain Ducasse, le Blue Bay de Marcel Ravin : chaque adresse doit maintenir un niveau de service irreprochable face a une clientele ultra-exigeante et internationale. Le secteur fait face a des contraintes specifiques : rotation elevee du personnel saisonnier, clientele multilingue, pression sur les marges et obligation de maintenir des standards conformes a la reputation de la Principaute.
+                Monaco concentre une densité exceptionnelle d&apos;établissements hôteliers de prestige et de restaurants étoilés sur un territoire de 2 km². L&apos;Hôtel de Paris, l&apos;Hermitage, le Monte-Carlo Bay, le Fairmont, le Louis XV d&apos;Alain Ducasse, le Blue Bay de Marcel Ravin : chaque adresse doit maintenir un niveau de service irréprochable face à une clientèle ultra-exigeante et internationale. Le secteur fait face à des contraintes spécifiques : rotation élevée du personnel saisonnier, clientèle multilingue, pression sur les marges et obligation de maintenir des standards conformes à la réputation de la Principauté.
               </p>
               <p className="text-foreground/60 text-[14px] leading-relaxed">
-                L&apos;intelligence artificielle permet de resoudre cette equation impossible : offrir un service encore plus personnalise tout en reduisant la charge operationnelle. Le yield management intelligent ajuste vos tarifs en temps reel, l&apos;analyse semantique des avis clients identifie les ameliorations prioritaires, et la production automatisee de contenus multilingues libere vos equipes pour ce qui compte : l&apos;accueil et l&apos;experience sur place.
+                L&apos;intelligence artificielle permet de résoudre cette équation impossible : offrir un service encore plus personnalisé tout en réduisant la charge opérationnelle. Le yield management intelligent ajuste vos tarifs en temps réel, l&apos;analyse sémantique des avis clients identifie les améliorations prioritaires, et la production automatisée de contenus multilingues libère vos équipes pour ce qui compte : l&apos;accueil et l&apos;expérience sur place.
               </p>
             </div>
           </RevealOnScroll>
@@ -143,37 +143,37 @@ export default function HotellerieRestaurationPage() {
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Yield management intelligent</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Analyse en continu du taux d&apos;occupation, des reservations, du calendrier evenementiel (F1, Jumping, Fete nationale) et des tarifs concurrents. Ajustements tarifaires quotidiens pour maximiser le RevPAR, recalcules toutes les heures pendant les pics.
+                  Analyse en continu du taux d&apos;occupation, des réservations, du calendrier événementiel (F1, Jumping, Fête nationale) et des tarifs concurrents. Ajustements tarifaires quotidiens pour maximiser le RevPAR, recalculés toutes les heures pendant les pics.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Analyse des avis clients</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Collecte et analyse semantique sur TripAdvisor, Google, Booking.com et guides specialises. Score de sentiment par categorie, tableau de bord mensuel avec recommandations priorisees et alertes temps reel sur les avis negatifs.
+                  Collecte et analyse sémantique sur TripAdvisor, Google, Booking.com et guides spécialisés. Score de sentiment par catégorie, tableau de bord mensuel avec recommandations priorisées et alertes temps réel sur les avis négatifs.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Contenus multilingues</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Menus, newsletters, programmes d&apos;evenements traduits en anglais, italien, russe et arabe avec adaptations culturelles. Ton ajuste a l&apos;identite de votre maison, pret a publier en quelques minutes sur tous vos canaux.
+                  Menus, newsletters, programmes d&apos;événements traduits en anglais, italien, russe et arabe avec adaptations culturelles. Ton ajusté à l&apos;identité de votre maison, prêt à publier en quelques minutes sur tous vos canaux.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Facturation operationnelle</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Facturation opérationnelle</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Extraction OCR des bons de livraison, rapprochement avec les bons de commande, detection des ecarts de prix et pre-validation des factures. Rapprochement bancaire quotidien automatise.
+                  Extraction OCR des bons de livraison, rapprochement avec les bons de commande, détection des écarts de prix et pré-validation des factures. Rapprochement bancaire quotidien automatisé.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Reponses aux avis en ligne</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Réponses aux avis en ligne</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Reponses personnalisees dans la langue du client et le ton de l&apos;etablissement, soumises au directeur avant publication. Temps de reponse moyen de 48 h a moins de 4 h.
+                  Réponses personnalisées dans la langue du client et le ton de l&apos;établissement, soumises au directeur avant publication. Temps de réponse moyen de 48 h à moins de 4 h.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Prevision de frequentation</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Prévision de fréquentation</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Prediction a 7 et 14 jours en croisant historique, reservations, meteo et calendrier monegasque. Ajustement des commandes fournisseurs et plannings d&apos;equipe pour reduire le gaspillage.
+                  Prédiction à 7 et 14 jours en croisant historique, réservations, météo et calendrier monégasque. Ajustement des commandes fournisseurs et plannings d&apos;équipe pour réduire le gaspillage.
                 </p>
               </div>
             </div>
@@ -195,23 +195,23 @@ export default function HotellerieRestaurationPage() {
                 <ul className="space-y-2">
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Tarifs ajustes manuellement, souvent en retard sur la demande
+                    Tarifs ajustés manuellement, souvent en retard sur la demande
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Avis clients traites avec 48 h de delai moyen
+                    Avis clients traités avec 48 h de délai moyen
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Traductions externalisees, couteuses et lentes
+                    Traductions externalisées, coûteuses et lentes
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Facturation fournisseurs saisie a la main
+                    Facturation fournisseurs saisie à la main
                   </li>
                   <li className="text-[13px] text-foreground/40 flex items-start gap-2">
                     <span className="text-foreground/20 mt-0.5">&times;</span>
-                    Previsions de frequentation approximatives
+                    Prévisions de fréquentation approximatives
                   </li>
                 </ul>
               </div>
@@ -223,23 +223,23 @@ export default function HotellerieRestaurationPage() {
                 <ul className="space-y-2">
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    Yield management recalcule en temps reel, toutes les heures en pic
+                    Yield management recalculé en temps réel, toutes les heures en pic
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    Reponses aux avis en moins de 4 h, dans la langue du client
+                    Réponses aux avis en moins de 4 h, dans la langue du client
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    Contenus en 5 langues generes en quelques minutes
+                    Contenus en 5 langues générés en quelques minutes
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    Facturation OCR avec detection automatique des ecarts
+                    Facturation OCR avec détection automatique des écarts
                   </li>
                   <li className="text-[13px] text-white/60 flex items-start gap-2">
                     <span className="text-accent mt-0.5">&#10003;</span>
-                    Previsions a 14 jours basees sur donnees croisees
+                    Prévisions à 14 jours basées sur données croisées
                   </li>
                 </ul>
               </div>
@@ -252,7 +252,7 @@ export default function HotellerieRestaurationPage() {
       <section className="section-padding section-tinted">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
-            <h2 className="text-xl font-bold mb-6">Questions frequentes</h2>
+            <h2 className="text-xl font-bold mb-6">Questions fréquentes</h2>
             <FAQ items={faqItems} />
           </RevealOnScroll>
           <RevealOnScroll delay={100}>
@@ -262,8 +262,8 @@ export default function HotellerieRestaurationPage() {
               <Link href="/expertise/marketing-acquisition" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Marketing</Link>
               <Link href="/secteurs/commerce-luxe" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Commerce de luxe</Link>
               <Link href="/secteurs/immobilier-luxe" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Immobilier de luxe</Link>
-              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Resultats</Link>
-              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Methode</Link>
+              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Résultats</Link>
+              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Méthode</Link>
             </div>
           </RevealOnScroll>
         </div>
@@ -274,10 +274,10 @@ export default function HotellerieRestaurationPage() {
         <div className="max-w-2xl mx-auto px-6">
           <RevealOnScroll>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mb-5">
-              Offrez une experience exceptionnelle, sans surcharger vos equipes
+              Offrez une expérience exceptionnelle, sans surcharger vos équipes
             </h2>
             <p className="text-foreground/60 text-[14px] mb-8">
-              Echangeons sur les processus qui consomment le plus de temps dans votre etablissement. Nous identifierons ensemble les gains rapides accessibles grace a l&apos;IA en moins de 30 minutes.
+              Échangeons sur les processus qui consomment le plus de temps dans votre établissement. Nous identifierons ensemble les gains rapides accessibles grâce à l&apos;IA en moins de 30 minutes.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <a

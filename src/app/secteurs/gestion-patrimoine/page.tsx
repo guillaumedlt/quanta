@@ -25,23 +25,23 @@ export const metadata: Metadata = {
 const faqItems = [
   {
     q: "Vos agents IA sont-ils conformes aux exigences du SICCFIN ?",
-    a: "Oui. Nos agents sont concus pour respecter le cadre defini par la loi n° 1.362 et l'ordonnance souveraine n° 2.318. Chaque action est tracee dans un audit trail complet, les donnees sont hebergees dans l'espace europeen, et les regles de screening sont alignees sur les listes de sanctions applicables a Monaco. Nous accompagnons egalement nos clients lors des preparations aux controles CCAF.",
+    a: "Oui. Nos agents sont conçus pour respecter le cadre défini par la loi n° 1.362 et l'ordonnance souveraine n° 2.318. Chaque action est tracée dans un audit trail complet, les données sont hébergées dans l'espace européen, et les règles de screening sont alignées sur les listes de sanctions applicables à Monaco. Nous accompagnons également nos clients lors des préparations aux contrôles CCAF.",
   },
   {
-    q: "Combien de temps faut-il pour deployer un agent IA dans un family office ?",
-    a: "Le deploiement initial prend entre 4 et 8 semaines selon la complexite de vos processus et le nombre d'outils a integrer. Nous commencons par un audit de vos flux existants, puis nous configurons et entrainons l'agent sur vos donnees. La phase de validation se fait conjointement avec votre equipe conformite avant la mise en production.",
+    q: "Combien de temps faut-il pour déployer un agent IA dans un family office ?",
+    a: "Le déploiement initial prend entre 4 et 8 semaines selon la complexité de vos processus et le nombre d'outils à intégrer. Nous commençons par un audit de vos flux existants, puis nous configurons et entraînons l'agent sur vos données. La phase de validation se fait conjointement avec votre équipe conformité avant la mise en production.",
   },
   {
-    q: "Mes donnees clients restent-elles confidentielles ?",
-    a: "Absolument. Les donnees sont traitees dans un environnement cloisonne, sans transfert vers des modeles tiers. Nous proposons un hebergement sur cloud prive europeen ou on-premise selon vos exigences. Aucune donnee client n'est utilisee pour entrainer des modeles externes. Nous signons systematiquement un accord de confidentialite avant le demarrage de toute mission.",
+    q: "Mes données clients restent-elles confidentielles ?",
+    a: "Absolument. Les données sont traitées dans un environnement cloisonné, sans transfert vers des modèles tiers. Nous proposons un hébergement sur cloud privé européen ou on-premise selon vos exigences. Aucune donnée client n'est utilisée pour entraîner des modèles externes. Nous signons systématiquement un accord de confidentialité avant le démarrage de toute mission.",
   },
   {
-    q: "Vos solutions s'integrent-elles avec nos outils de gestion de portefeuille ?",
-    a: "Oui. Nous avons l'experience des principaux PMS et outils de gestion utilises en Principaute. L'integration se fait via API ou connecteurs dedies, sans modification de vos systemes existants. Si votre outil ne dispose pas d'API, nous pouvons travailler par extraction de fichiers ou par automatisation d'interface.",
+    q: "Vos solutions s'intègrent-elles avec nos outils de gestion de portefeuille ?",
+    a: "Oui. Nous avons l'expérience des principaux PMS et outils de gestion utilisés en Principauté. L'intégration se fait via API ou connecteurs dédiés, sans modification de vos systèmes existants. Si votre outil ne dispose pas d'API, nous pouvons travailler par extraction de fichiers ou par automatisation d'interface.",
   },
   {
-    q: "Quel est le cout d'un agent IA pour la gestion de patrimoine ?",
-    a: "Le cout depend du nombre de processus automatises et du volume de dossiers traites. Nous proposons un modele de facturation mensuel, sans engagement longue duree, qui inclut la maintenance, les mises a jour reglementaires et le support. Un premier entretien gratuit permet d'evaluer le perimetre et de fournir une estimation precise.",
+    q: "Quel est le coût d'un agent IA pour la gestion de patrimoine ?",
+    a: "Le coût dépend du nombre de processus automatisés et du volume de dossiers traités. Nous proposons un modèle de facturation mensuel, sans engagement longue durée, qui inclut la maintenance, les mises à jour réglementaires et le support. Un premier entretien gratuit permet d'évaluer le périmètre et de fournir une estimation précise.",
   },
 ];
 
@@ -57,10 +57,10 @@ export default function GestionPatrimoinePage() {
             <div>
               <span className="text-[11px] uppercase tracking-[0.2em] text-muted font-semibold">Secteur</span>
               <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mt-3 mb-4">
-                Intelligence artificielle pour la gestion de patrimoine a Monaco
+                Intelligence artificielle pour la gestion de patrimoine à Monaco
               </h1>
               <p className="text-foreground/60 text-[15px] leading-relaxed max-w-xl">
-                Family offices, SGP et societes de gestion : automatisez vos obligations reglementaires, votre collecte documentaire et vos reportings clients grace a des agents IA adaptes au cadre monegasque.
+                Family offices, SGP et sociétés de gestion : automatisez vos obligations réglementaires, votre collecte documentaire et vos reportings clients grâce à des agents IA adaptés au cadre monégasque.
               </p>
             </div>
             <div className="hidden lg:block">
@@ -69,11 +69,11 @@ export default function GestionPatrimoinePage() {
                   <p className="text-[10px] uppercase tracking-[0.15em] text-white/40 mb-4 font-semibold">Tableau de bord patrimoine</p>
                   <div className="space-y-3">
                     <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.04]">
-                      <span className="text-[12px] text-white/60">Dossiers KYC a jour</span>
+                      <span className="text-[12px] text-white/60">Dossiers KYC à jour</span>
                       <span className="text-[13px] font-bold text-emerald-400">95 %</span>
                     </div>
                     <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.04]">
-                      <span className="text-[12px] text-white/60">Revues periodiques</span>
+                      <span className="text-[12px] text-white/60">Revues périodiques</span>
                       <span className="text-[13px] font-bold text-amber-400">12 en cours</span>
                     </div>
                     <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.04]">
@@ -82,7 +82,7 @@ export default function GestionPatrimoinePage() {
                     </div>
                     <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.04]">
                       <span className="text-[12px] text-white/60">Reportings Q1</span>
-                      <span className="text-[13px] font-bold text-emerald-400">Generes</span>
+                      <span className="text-[13px] font-bold text-emerald-400">Générés</span>
                     </div>
                   </div>
                 </div>
@@ -101,32 +101,32 @@ export default function GestionPatrimoinePage() {
                 <div className="text-3xl font-bold text-foreground">
                   <AnimatedCounter prefix="-" value={62} suffix="%" />
                 </div>
-                <p className="text-muted text-[13px] mt-2">temps KYC et revue periodique</p>
+                <p className="text-muted text-[13px] mt-2">temps KYC et revue périodique</p>
               </div>
               <div className="p-6 rounded-2xl bg-surface border border-border text-center">
                 <div className="text-3xl font-bold text-foreground">
                   <AnimatedCounter value={95} suffix="%" />
                 </div>
-                <p className="text-muted text-[13px] mt-2">completude documentaire</p>
+                <p className="text-muted text-[13px] mt-2">complétude documentaire</p>
               </div>
               <div className="p-6 rounded-2xl bg-surface border border-border text-center">
                 <div className="text-3xl font-bold text-foreground">
                   <AnimatedCounter value={4} suffix="h/sem" />
                 </div>
-                <p className="text-muted text-[13px] mt-2">economisees par gerant</p>
+                <p className="text-muted text-[13px] mt-2">économisées par gérant</p>
               </div>
               <div className="p-6 rounded-2xl bg-surface border border-border text-center">
                 <div className="text-3xl font-bold text-foreground">
                   <AnimatedCounter value={0} />
                 </div>
-                <p className="text-muted text-[13px] mt-2">anomalie non detectee en controle</p>
+                <p className="text-muted text-[13px] mt-2">anomalie non détectée en contrôle</p>
               </div>
             </div>
           </RevealOnScroll>
         </div>
       </section>
 
-      {/* Intro condensee */}
+      {/* Intro condensée */}
       <section className="section-padding section-light">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
@@ -134,13 +134,13 @@ export default function GestionPatrimoinePage() {
               <div>
                 <h2 className="text-xl font-bold mb-4">Le constat</h2>
                 <p className="text-foreground/60 text-[14px] leading-relaxed">
-                  La Principaute impose aux acteurs du patrimoine des regles strictes supervisees par le SICCFIN et la CCAF. Conformite LCB-FT, echange automatique CRS, revues periodiques : un responsable conformite consacre en moyenne 40 % de son temps a la collecte et a la verification documentaire. Pour une structure gerant 50 a 200 relations, la charge devient insoutenable sans automatisation.
+                  La Principauté impose aux acteurs du patrimoine des règles strictes supervisées par le SICCFIN et la CCAF. Conformité LCB-FT, échange automatique CRS, revues périodiques : un responsable conformité consacre en moyenne 40 % de son temps à la collecte et à la vérification documentaire. Pour une structure gérant 50 à 200 relations, la charge devient insoutenable sans automatisation.
                 </p>
               </div>
               <div>
-                <h2 className="text-xl font-bold mb-4">L'opportunite IA</h2>
+                <h2 className="text-xl font-bold mb-4">L&apos;opportunité IA</h2>
                 <p className="text-foreground/60 text-[14px] leading-relaxed">
-                  Nos agents s'integrent a vos outils existants (PMS, GED, messagerie) pour automatiser la collecte de justificatifs, croiser les listes de sanctions en temps reel et generer des fiches de vigilance conformes. Notre connaissance des formulaires du SICCFIN et des attendus de la CCAF nous differencie des solutions generiques. Gain moyen constate : plus de 60 % sur les processus KYC.
+                  Nos agents s&apos;intègrent à vos outils existants (PMS, GED, messagerie) pour automatiser la collecte de justificatifs, croiser les listes de sanctions en temps réel et générer des fiches de vigilance conformes. Notre connaissance des formulaires du SICCFIN et des attendus de la CCAF nous différencie des solutions génériques. Gain moyen constaté : plus de 60 % sur les processus KYC.
                 </p>
               </div>
             </div>
@@ -155,39 +155,39 @@ export default function GestionPatrimoinePage() {
             <h2 className="text-xl font-bold mb-6">Ce que nous automatisons</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Collecte documentaire automatisee</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Collecte documentaire automatisée</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Envoi de demandes, relances automatiques a J+7 et J+14, extraction des informations cles et classement dans votre GED. Taux de completude : de 65 % a plus de 95 %.
+                  Envoi de demandes, relances automatiques à J+7 et J+14, extraction des informations clés et classement dans votre GED. Taux de complétude : de 65 % à plus de 95 %.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Screening et listes de sanctions</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Verification continue des beneficiaires effectifs contre les listes ONU, UE, OFAC et monegasques. Alertes structurees avec niveau de risque et mesures recommandees.
+                  Vérification continue des bénéficiaires effectifs contre les listes ONU, UE, OFAC et monégasques. Alertes structurées avec niveau de risque et mesures recommandées.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Echeanciers obligataires intelligents</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Échéanciers obligataires intelligents</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Suivi automatise des tombees de coupons, dates de call et maturites. Tableau de bord consolide chaque lundi, alertes a J-30, J-15 et J-5.
+                  Suivi automatisé des tombées de coupons, dates de call et maturités. Tableau de bord consolidé chaque lundi, alertes à J-30, J-15 et J-5.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Reporting client multidevise</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Rapports de performance trimestriels en EUR, USD et CHF integrant benchmarks, frais de gestion et commentaires de marche. Conformes aux normes GIPS.
+                  Rapports de performance trimestriels en EUR, USD et CHF intégrant benchmarks, frais de gestion et commentaires de marché. Conformes aux normes GIPS.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Revue periodique des dossiers</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Revue périodique des dossiers</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Planification et declenchement automatique selon le profil de risque. Pre-remplissage des formulaires, signalement des ecarts et documents expires.
+                  Planification et déclenchement automatique selon le profil de risque. Pré-remplissage des formulaires, signalement des écarts et documents expirés.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Veille reglementaire monegasque</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Veille réglementaire monégasque</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Surveillance quotidienne du Journal de Monaco, du SICCFIN et de la CCAF. Resumes avec analyse d'impact et recommandations concretes.
+                  Surveillance quotidienne du Journal de Monaco, du SICCFIN et de la CCAF. Résumés avec analyse d&apos;impact et recommandations concrètes.
                 </p>
               </div>
             </div>
@@ -204,21 +204,21 @@ export default function GestionPatrimoinePage() {
               <div className="p-6 rounded-2xl border border-red-200 bg-red-50/50">
                 <p className="text-[12px] uppercase tracking-[0.15em] text-red-400 font-semibold mb-4">Sans IA</p>
                 <ul className="space-y-3 text-[13px] text-foreground/60">
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Collecte documentaire manuelle, relances oubliees</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>40 % du temps conformite en verification de pieces</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Collecte documentaire manuelle, relances oubliées</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>40 % du temps conformité en vérification de pièces</li>
                   <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Screening sanctions ponctuel, risque de retard</li>
                   <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Reportings produits manuellement sur Excel</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Echeances suivies dans des tableaux disperses</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Échéances suivies dans des tableaux dispersés</li>
                 </ul>
               </div>
               <div className="p-6 rounded-2xl border border-emerald-200 bg-emerald-50/50">
                 <p className="text-[12px] uppercase tracking-[0.15em] text-emerald-500 font-semibold mb-4">Avec Quanta</p>
                 <ul className="space-y-3 text-[13px] text-foreground/60">
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Collecte automatisee avec relances a J+7 et J+14</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>95 % de completude documentaire sans effort</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Screening continu en temps reel, alertes instantanees</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Rapports generes automatiquement, valides en un clic</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Dashboard centralise avec alertes a J-30, J-15, J-5</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Collecte automatisée avec relances à J+7 et J+14</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>95 % de complétude documentaire sans effort</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Screening continu en temps réel, alertes instantanées</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Rapports générés automatiquement, validés en un clic</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Dashboard centralisé avec alertes à J-30, J-15, J-5</li>
                 </ul>
               </div>
             </div>
@@ -230,16 +230,16 @@ export default function GestionPatrimoinePage() {
       <section className="section-padding section-tinted">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
-            <h2 className="text-xl font-bold mb-6">Questions frequentes</h2>
+            <h2 className="text-xl font-bold mb-6">Questions fréquentes</h2>
             <FAQ items={faqItems} />
           </RevealOnScroll>
           <RevealOnScroll delay={100}>
             <div className="flex flex-wrap gap-3 mt-12">
-              <Link href="/expertise/audit-strategie-ia" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Audit & strategie</Link>
-              <Link href="/expertise/developpement-ia-sur-mesure" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Developpement IA sur mesure</Link>
-              <Link href="/secteurs/banque-privee" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Banque privee</Link>
-              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Tous les resultats</Link>
-              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Notre methode</Link>
+              <Link href="/expertise/audit-strategie-ia" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Audit & stratégie</Link>
+              <Link href="/expertise/developpement-ia-sur-mesure" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Développement IA sur mesure</Link>
+              <Link href="/secteurs/banque-privee" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Banque privée</Link>
+              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Tous les résultats</Link>
+              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Notre méthode</Link>
             </div>
           </RevealOnScroll>
         </div>
@@ -250,10 +250,10 @@ export default function GestionPatrimoinePage() {
         <div className="max-w-2xl mx-auto px-6">
           <RevealOnScroll>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mb-5">
-              Securisez votre conformite et liberez du temps pour la relation client
+              Sécurisez votre conformité et libérez du temps pour la relation client
             </h2>
             <p className="text-foreground/60 text-[14px] mb-8">
-              Discutons de vos enjeux reglementaires et operationnels lors d'un entretien confidentiel de 30 minutes, sans engagement.
+              Discutons de vos enjeux réglementaires et opérationnels lors d&apos;un entretien confidentiel de 30 minutes, sans engagement.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <a

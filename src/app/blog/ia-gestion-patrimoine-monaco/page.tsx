@@ -24,125 +24,125 @@ export default function Article() {
   return (
     <ArticleLayout post={post}>
       <p>
-        Les societes de gestion de portefeuille (SGP) et family offices
-        monegasques partagent un paradoxe operationnel. D&apos;un cote, ils
-        gerent des patrimoines de 10 a 500 millions d&apos;euros par client,
+        Les sociétés de gestion de portefeuille (SGP) et family offices
+        monégasques partagent un paradoxe opérationnel. D&apos;un cote, ils
+        gèrent des patrimoines de 10 à 500 millions d&apos;euros par client,
         avec une exigence de service irréprochable. De l&apos;autre, leurs
-        equipes back-office (souvent 3 a 8 personnes) passent 40 a 50 % de
-        leur temps sur des taches repetitives : collecte de documents, calcul
-        d&apos;echeanciers, mise en forme de reportings, verification de frais.
+        équipes back-office (souvent 3 à 8 personnes) passent 40 à 50 % de
+        leur temps sur des tâches répétitives : collecte de documents, calcul
+        d&apos;échéanciers, mise en formé de reportings, vérification de frais.
       </p>
 
       <p>
         L&apos;intelligence artificielle ne remplace pas le gerant dans sa
-        relation client ni dans ses decisions d&apos;investissement. Elle
-        libere le temps necessaire pour que cette relation et ces decisions
-        restent au centre de l&apos;activite. Voici comment, a travers des cas
-        d&apos;usage concrets observes dans la Principaute.
+        relation client ni dans ses décisions d&apos;investissement. Elle
+        libère le temps nécessaire pour que cette relation et ces décisions
+        restent au centre de l&apos;activité. Voici comment, a travers des cas
+        d&apos;usage concrets observes dans la Principauté.
       </p>
 
       <h2>La collecte documentaire : le premier levier</h2>
 
       <p>
-        Chaque client d&apos;une SGP monegasque genere un volume documentaire
-        considerable. Entre les pieces KYC (passeport, justificatif de
-        domicile, declaration d&apos;origine des fonds), les releves bancaires,
-        les avis d&apos;operations et les documents fiscaux, un dossier client
-        actif peut contenir 150 a 400 documents. La mise a jour de ces
-        dossiers est une obligation reglementaire permanente.
+        Chaque client d&apos;une SGP monégasque génère un volume documentaire
+        considérable. Entre les pièces KYC (passeport, justificatif de
+        domicile, déclaration d&apos;origine des fonds), les relevés bancaires,
+        les avis d&apos;opérations et les documents fiscaux, un dossier client
+        actif peut contenir 150 à 400 documents. La mise a jour de ces
+        dossiers est une obligation réglementaire permanente.
       </p>
 
       <h3>Le processus manuel</h3>
       <p>
-        Un assistant de gestion envoie des emails de relance au client ou a son
-        conseiller, recoit les documents par email ou par courrier securise, les
+        Un assistant de gestion envoie des emails de relance au client ou à son
+        conseiller, reçoit les documents par email ou par courrier sécurisé, les
         renomme selon la nomenclature interne, les classe dans le bon dossier,
-        verifie leur validite (date d&apos;expiration, coherence) et met a jour
-        la fiche client dans le systeme de gestion. Pour un portefeuille de 80
-        clients, ce processus occupe 1 a 1,5 ETP a temps plein.
+        vérifié leur validite (date d&apos;expiration, cohérence) et met a jour
+        la fiche client dans le système de gestion. Pour un portefeuille de 80
+        clients, ce processus occupe 1 à 1,5 ETP à temps plein.
       </p>
 
       <h3>Le processus augmente par IA</h3>
       <ul>
         <li>
           <strong>Reception et classification automatique</strong> : l&apos;IA
-          identifie le type de document recu (passeport, releve, K-bis, etc.)
-          et le rattache au bon dossier client avec une fiabilite de 96 %
+          identifié le type de document reçu (passeport, relevé, K-bis, etc.)
+          et le rattache au bon dossier client avec une fiabilité de 96 %
         </li>
         <li>
-          <strong>Extraction des donnees cles</strong> : date d&apos;expiration,
-          adresse, numeros d&apos;identification, montants, sont extraits et
+          <strong>Extraction des données clés</strong> : date d&apos;expiration,
+          adresse, numéros d&apos;identification, montants, sont extraits et
           compares aux informations existantes
         </li>
         <li>
-          <strong>Alertes proactives</strong> : le systeme identifie les
-          documents manquants ou expires et genere automatiquement des
-          relances personnalisees
+          <strong>Alertes proactives</strong> : le système identifié les
+          documents manquants ou expires et génère automatiquement des
+          relances personnalisées
         </li>
         <li>
-          <strong>Tableau de bord de completude</strong> : vue en temps reel du
-          statut documentaire de chaque client, avec scoring de conformite
+          <strong>Tableau de bord de complétude</strong> : vue en temps réel du
+          statut documentaire de chaque client, avec scoring de conformité
         </li>
       </ul>
 
       <blockquote>
         <p>
-          Une SGP monegasque gerant 120 clients a reduit le temps consacre a
-          la collecte documentaire de 160 heures par mois a 45 heures,
-          l&apos;equivalent de 1,2 ETP redeploye sur des taches a valeur
-          ajoutee.
+          Une SGP monégasque gerant 120 clients a réduit le temps consacre a
+          la collecte documentaire de 160 heures par mois à 45 heures,
+          l&apos;équivalent de 1,2 ETP redeploye sur des tâches a valeur
+          ajoutée.
         </p>
       </blockquote>
 
-      <h2>Echeanciers obligataires et suivi de portefeuille</h2>
+      <h2>Échéanciers obligataires et suivi de portefeuille</h2>
 
       <p>
-        Les portefeuilles geres a Monaco sont souvent constitues d&apos;une
+        Les portefeuilles gérés à Monaco sont souvent constitues d&apos;une
         part significative d&apos;obligations (corporate bonds, souverains,
-        structures). Le suivi des echeanciers (coupons, remboursements,
+        structures). Le suivi des échéanciers (coupons, remboursements,
         options de rappel) est critique mais fastidieux.
       </p>
 
-      <h3>Les defis specifiques</h3>
+      <h3>Les défis spécifiques</h3>
       <ul>
         <li>
-          Un portefeuille type contient <strong>40 a 120 lignes
+          Un portefeuille type contient <strong>40 à 120 lignes
           obligataires</strong>, chacune avec ses propres dates, conditions et
           devises
         </li>
         <li>
           Les conditions varient (taux fixe, variable, step-up, callable) et
-          sont souvent decrites dans des prospectus de 50 a 200 pages en
+          sont souvent decrites dans des prospectus de 50 à 200 pages en
           anglais
         </li>
         <li>
-          Les erreurs de suivi peuvent entrainer des pertes directes :
-          manquer une date de rappel ou un changement de taux
+          Les erreurs de suivi peuvent entraîner des pertes directes :
+          manquer une date de rappel où un changement de taux
         </li>
       </ul>
 
       <h3>L&apos;apport de l&apos;IA</h3>
       <p>
-        Les modeles de traitement du langage naturel sont capables d&apos;extraire
-        les conditions cles des prospectus obligataires et de generer des
-        echeanciers structures automatiquement. En pratique :
+        Les modèles de traitement du langage naturel sont capables d&apos;extraire
+        les conditions clés des prospectus obligataires et de générer des
+        échéanciers structures automatiquement. En pratique :
       </p>
 
       <ul>
         <li>
           Extraction des dates de coupon, taux, conditions de rappel et
-          covenants en <strong>3 a 5 minutes</strong> par obligation, contre
-          30 a 45 minutes manuellement
+          covenants en <strong>3 à 5 minutes</strong> par obligation, contre
+          30 à 45 minutes manuellement
         </li>
         <li>
-          Mise a jour automatique du calendrier consolide du portefeuille
+          Mise a jour automatique du calendrier consolidé du portefeuille
         </li>
         <li>
-          Alertes J-30, J-7 et J-1 avant chaque echeance, avec le montant
+          Alertes J-30, J-7 et J-1 avant chaque échéance, avec le montant
           attendu et la devise
         </li>
         <li>
-          Detection des incoherences entre les donnees du depositaire et les
+          Détection des incohérences entre les données du depositaire et les
           conditions du prospectus
         </li>
       </ul>
@@ -150,19 +150,19 @@ export default function Article() {
       <h2>Reporting client : du PDF artisanal au document dynamique</h2>
 
       <p>
-        Le reporting trimestriel ou mensuel est un moment cle de la relation
-        client. A Monaco, les attentes sont elevees : les clients veulent des
-        documents clairs, precis, personnalises, et disponibles rapidement
-        apres la cloture de la periode.
+        Le reporting trimestriel ou mensuel est un moment clé de la relation
+        client. À Monaco, les attentes sont élevées : les clients veulent des
+        documents clairs, précis, personnalisés, et disponibles rapidement
+        après la cloture de la période.
       </p>
 
-      <h3>La realite operationnelle</h3>
+      <h3>La réalité opérationnelle</h3>
       <p>
         Dans la plupart des SGP, la production du reporting est un processus
-        semi-manuel qui mobilise l&apos;equipe pendant 5 a 10 jours apres
-        chaque cloture. Les donnees sont extraites du systeme de gestion,
-        consolidees dans Excel, mises en forme dans PowerPoint ou InDesign,
-        puis relues et validees. Pour 80 clients, cela represente 400 a 800
+        semi-manuel qui mobilisé l&apos;équipe pendant 5 à 10 jours après
+        chaque cloture. Les données sont extraites du système de gestion,
+        consolidees dans Excel, mises en formé dans PowerPoint ou InDesign,
+        puis relues et validees. Pour 80 clients, cela représente 400 à 800
         heures de travail par an.
       </p>
 
@@ -170,23 +170,23 @@ export default function Article() {
       <ul>
         <li>
           <strong>Generation automatique</strong> : l&apos;IA produit un
-          premier jet du reporting a partir des donnees brutes, incluant les
+          premier jet du reporting à partir des données brutes, incluant les
           graphiques de performance, l&apos;allocation d&apos;actifs, les
-          commentaires de marche et l&apos;analyse de contribution
+          commentaires de marché et l&apos;analyse de contribution
         </li>
         <li>
-          <strong>Personnalisation par client</strong> : le niveau de detail,
-          la langue (francais, anglais, italien, russe) et le format
-          s&apos;adaptent automatiquement aux preferences enregistrees
+          <strong>Personnalisation par client</strong> : le niveau de détail,
+          la langue (français, anglais, italien, russe) et le format
+          s&apos;adaptent automatiquement aux préférences enregistrées
         </li>
         <li>
-          <strong>Commentaires de gestion generes</strong> : l&apos;IA
+          <strong>Commentaires de gestion générés</strong> : l&apos;IA
           propose des commentaires factuels sur la performance, les mouvements
           et les perspectives, que le gerant ajuste selon sa conviction
         </li>
         <li>
-          <strong>Controle de coherence</strong> : verification automatique
-          entre les performances affichees, les donnees du depositaire et les
+          <strong>Contrôle de cohérence</strong> : vérification automatique
+          entre les performances affichees, les données du depositaire et les
           benchmarks
         </li>
       </ul>
@@ -194,8 +194,8 @@ export default function Article() {
       <blockquote>
         <p>
           Le temps de production du reporting trimestriel est passe de 8 jours
-          ouvrés a 2 jours dans une SGP de 90 clients, avec une amelioration
-          mesuree de la satisfaction client sur la rapidite de livraison.
+          ouvrés a 2 jours dans une SGP de 90 clients, avec une amélioration
+          mesurée de la satisfaction client sur la rapidite de livraison.
         </p>
       </blockquote>
 
@@ -210,103 +210,103 @@ export default function Article() {
         </Link>.
       </p>
 
-      <h2>Calcul et verification des frais</h2>
+      <h2>Calcul et vérification des frais</h2>
 
       <p>
         La facturation dans la gestion de patrimoine est un sujet sensible. Les
         structures de frais sont souvent complexes : frais de gestion fixes,
         commissions de performance (avec high water mark), frais de
-        transaction, retrocessions. Une erreur de calcul, meme minime, peut
-        deteriorer la relation client et exposer la societe a un risque
-        reglementaire.
+        transaction, retrocessions. Une erreur de calcul, même minime, peut
+        deteriorer la relation client et exposer la société à un risque
+        réglementaire.
       </p>
 
-      <h3>Ce que l&apos;IA automatise</h3>
+      <h3>Ce que l&apos;IA automatisé</h3>
       <ul>
         <li>
           <strong>Calcul automatique</strong> des frais selon les conditions
           contractuelles de chaque client, avec gestion des cas particuliers
-          (prorata temporis, changement de grille en cours de periode)
+          (prorata temporis, changement de grille en cours de période)
         </li>
         <li>
-          <strong>Verification croisee</strong> : comparaison systematique
-          entre les frais calcules, les factures emises et les prelevements
+          <strong>Vérification croisee</strong> : comparaison systematique
+          entre les frais calculés, les factures émises et les prelevements
           effectifs sur les comptes
         </li>
         <li>
-          <strong>Detection d&apos;anomalies</strong> : identification des
-          ecarts inhabituels (frais anormalement eleves ou bas par rapport a
+          <strong>Détection d&apos;anomalies</strong> : identification des
+          écarts inhabituels (frais anormalement élevés ou bas par rapport a
           l&apos;historique du client)
         </li>
         <li>
           <strong>Generation des factures</strong> : production automatique
-          des documents de facturation conformes aux exigences monegasques
+          des documents de facturation conformes aux exigences monégasques
         </li>
       </ul>
 
       <p>
-        Le gain mesure est de <strong>85 %</strong> de reduction du temps de
-        facturation trimestrielle, avec un taux d&apos;erreur divise par 6.
+        Le gain mesure est de <strong>85 %</strong> de réduction du temps de
+        facturation trimestrielle, avec un taux d&apos;erreur divisé par 6.
       </p>
 
-      <h2>Reporting reglementaire SICCFIN</h2>
+      <h2>Reporting réglementaire SICCFIN</h2>
 
       <p>
-        Au-dela du reporting client, les SGP monegasques ont des obligations
+        Au-delà du reporting client, les SGP monégasques ont des obligations
         de reporting envers la SICCFIN. Ces rapports, qui incluent les
-        declarations de transactions suspectes, les rapports d&apos;activite
-        annuels et les declarations de soupcon, suivent des formats stricts et
-        des delais imperatifs.
+        déclarations de transactions suspectes, les rapports d&apos;activité
+        annuels et les déclarations de soupçon, suivent des formats stricts et
+        des délais imperatifs.
       </p>
 
-      <h3>L&apos;automatisation du reporting reglementaire</h3>
+      <h3>L&apos;automatisation du reporting réglementaire</h3>
       <ul>
         <li>
-          Extraction automatique des donnees necessaires depuis les systemes
+          Extraction automatique des données nécessaires depuis les systèmes
           de gestion internes
         </li>
         <li>
-          Mise en forme conforme aux templates SICCFIN
+          Mise en formé conforme aux templates SICCFIN
         </li>
         <li>
-          Pre-remplissage des champs narratifs a partir des elements du
+          Pre-remplissage des champs narratifs à partir des éléments du
           dossier
         </li>
         <li>
-          Verification de completude avant soumission, avec liste des
-          elements manquants
+          Vérification de complétude avant soumission, avec liste des
+          éléments manquants
         </li>
       </ul>
 
       <p>
-        Ce sujet est approfondi dans notre article dedie a{" "}
+        Ce sujet est approfondi dans notre article dédié a{" "}
         <Link
           href="/blog/automatiser-conformite-lcb-ft-monaco"
           className="text-accent hover:underline"
         >
-          l&apos;automatisation de la conformite LCB-FT
+          l&apos;automatisation de la conformité LCB-FT
         </Link>.
       </p>
 
-      <h2>Retours d&apos;experience concrets</h2>
+      <h2>Retours d&apos;expérience concrets</h2>
 
       <p>
-        Voici trois profils types de structures monegasques et les resultats
-        observes apres 6 mois de deploiement.
+        Voici trois profils types de structures monégasques et les résultats
+        observes après 6 mois de déploiement.
       </p>
 
-      <h3>SGP specialisee obligations (12 collaborateurs, 65 clients)</h3>
+      <h3>SGP spécialisée obligations (12 collaborateurs, 65 clients)</h3>
       <ul>
         <li>Collecte documentaire : -72 % de temps</li>
-        <li>Echeanciers obligataires : gain de 35 heures par mois</li>
-        <li>Reporting trimestriel : de 7 jours a 1,5 jour</li>
+        <li>Échéanciers obligataires : gain de 35 heures par mois</li>
+        <li>Reporting trimestriel : de 7 jours à 1,5 jour</li>
         <li>ROI a 6 mois : 3,2x l&apos;investissement</li>
       </ul>
 
       <h3>Family office multi-generationnel (6 collaborateurs, 8 familles)</h3>
       <ul>
         <li>Collecte documentaire : -65 % de temps</li>
-        <li>Reporting personnalise trilingue : de 4 jours a 1 jour</li>
+        <li>Reporting personnalisé trilingue : de 4 jours à 1 jour</li>
         <li>Erreurs de facturation : de 3-4 par trimestre a 0</li>
         <li>ROI a 6 mois : 2,5x l&apos;investissement</li>
       </ul>
@@ -314,16 +314,16 @@ export default function Article() {
       <h3>SGP diversifiee (18 collaborateurs, 140 clients)</h3>
       <ul>
         <li>Collecte documentaire : -78 % de temps</li>
-        <li>Screening PEP : faux positifs reduits de 88 %</li>
-        <li>Reporting : de 10 jours a 3 jours</li>
+        <li>Screening PEP : faux positifs réduits de 88 %</li>
+        <li>Reporting : de 10 jours à 3 jours</li>
         <li>ROI a 6 mois : 3,8x l&apos;investissement</li>
       </ul>
 
       <blockquote>
         <p>
           Le point commun de ces trois cas : aucun n&apos;a remplace de poste.
-          Dans chaque structure, le temps libere a ete reinvesti dans la
-          relation client et le developpement commercial.
+          Dans chaque structure, le temps libère a été reinvesti dans la
+          relation client et le développement commercial.
         </p>
       </blockquote>
 
@@ -334,7 +334,7 @@ export default function Article() {
           href="/expertise/audit-strategie-ia"
           className="text-accent hover:underline"
         >
-          audit strategique IA
+          audit stratégique IA
         </Link>{" "}
         est le meilleur point de depart.
       </p>
@@ -342,17 +342,17 @@ export default function Article() {
       <h2>Ce qu&apos;il faut retenir</h2>
 
       <p>
-        L&apos;IA transforme la gestion de patrimoine a Monaco sur cinq axes
-        operationnels : collecte documentaire, echeanciers, reporting client,
-        facturation et reporting reglementaire. Les gains sont concrets et
-        reproductibles : 65 a 78 % de temps economise sur la collecte, des
+        L&apos;IA transforme la gestion de patrimoine à Monaco sur cinq axes
+        opérationnels : collecte documentaire, échéanciers, reporting client,
+        facturation et reporting réglementaire. Les gains sont concrets et
+        reproductibles : 65 à 78 % de temps economise sur la collecte, des
         reportings produits en 2 jours au lieu de 8, des erreurs de
         facturation quasi eliminees. Le denominateur commun des structures qui
         reussissent leur transition : elles commencent par un processus
-        precis, mesurent les resultats, puis etendent progressivement. Le
-        temps libere ne supprime pas d&apos;emplois, il permet aux equipes de
-        se recentrer sur ce qui fait la valeur d&apos;une SGP monegasque :
-        la proximite client et la qualite du conseil.
+        précis, mesurent les résultats, puis etendent progressivement. Le
+        temps libère ne supprime pas d&apos;emplois, il permet aux équipes de
+        se recentrer sur ce qui fait la valeur d&apos;une SGP monégasque :
+        la proximite client et la qualité du conseil.
       </p>
     </ArticleLayout>
   );

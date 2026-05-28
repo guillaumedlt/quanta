@@ -23,97 +23,97 @@ export const metadata: Metadata = {
 export default function Article() {
   return (
     <ArticleLayout post={post}>
-      <h2>Le notariat monegasque : un metier d&apos;autorite face a la modernisation</h2>
+      <h2>Le notariat monégasque : un métier d&apos;autorite face à la modernisation</h2>
 
       <p>
         Monaco compte un nombre restreint d&apos;offices notariaux, mais
-        leur role est central dans la vie juridique et economique de la
-        Principaute. Les notaires monegasques interviennent sur des
-        transactions immobilieres parmi les plus elevees au monde (le
-        prix moyen au metre carre depasse 50 000 euros dans certains
+        leur rôle est central dans la vie juridique et economique de la
+        Principauté. Les notaires monégasques interviennent sur des
+        transactions immobilieres parmi les plus élevées au monde (le
+        prix moyen au metre carre dépasse 50 000 euros dans certains
         quartiers), des successions internationales impliquant plusieurs
-        juridictions, des constitutions de societes civiles particulieres
-        (SCP) et des donations entre vifs soumises a un droit monegasque
-        specifique, distinct du droit francais.
+        juridictions, des constitutions de sociétés civiles particulières
+        (SCP) et des donations entre vifs soumises à un droit monégasque
+        spécifique, distinct du droit français.
       </p>
 
       <p>
-        Chaque acte notarie a Monaco engage la responsabilite personnelle
-        du notaire. La moindre erreur dans une clause, une reference
-        cadastrale ou un calcul de droits peut entrainer des
-        consequences financieres et juridiques considerables. Cette
-        exigence de precision absolue, combinee a un volume d&apos;actes
-        en croissance constante (Monaco attire chaque annee de nouveaux
-        residents et investisseurs), cree une pression operationnelle
-        que les methodes traditionnelles peinent a absorber.
+        Chaque acte notarie à Monaco engage la responsabilite personnelle
+        du notaire. La moindre erreur dans une clause, une référence
+        cadastrale où un calcul de droits peut entraîner des
+        conséquences financières et juridiques considérables. Cette
+        exigence de précision absolue, combinee à un volume d&apos;actes
+        en croissance constante (Monaco attire chaque année de nouveaux
+        résidents et investisseurs), créé une pression opérationnelle
+        que les methodes traditionnelles peinent à absorber.
       </p>
 
       <p>
         L&apos;intelligence artificielle n&apos;a pas vocation a
-        remplacer le notaire. Son role est de l&apos;assister dans les
-        taches a haute valeur de precision et a faible valeur
-        intellectuelle : verification de references, compilation de
-        documents, recherche de precedents, pre-redaction de clauses
+        remplacer le notaire. Son rôle est de l&apos;assister dans les
+        tâches à haute valeur de précision et à faible valeur
+        intellectuelle : vérification de références, compilation de
+        documents, recherche de precedents, pre-rédaction de clauses
         standards. Le notaire conserve son autorite, son jugement et sa
         signature. L&apos;IA lui rend du temps pour exercer pleinement
-        son role de conseil.
+        son rôle de conseil.
       </p>
 
       <blockquote>
         <p>
-          Le notaire monegasque ne sera jamais remplace par une machine.
-          Mais le notaire qui utilise l&apos;IA sera plus rapide, plus
-          precis et plus disponible pour ses clients que celui qui ne
-          l&apos;utilise pas.
+          Le notaire monégasque ne sera jamais remplace par une machine.
+          Mais le notaire qui utilisé l&apos;IA sera plus rapide, plus
+          précis et plus disponible pour ses clients que celui qui ne
+          l&apos;utilisé pas.
         </p>
       </blockquote>
 
-      <h2>Assistance a la redaction d&apos;actes : precision et rapidite</h2>
+      <h2>Assistance à la rédaction d&apos;actes : précision et rapidite</h2>
 
       <p>
-        La redaction d&apos;actes est le coeur du metier notarial. Un acte
-        de vente immobiliere a Monaco comprend des dizaines de pages :
+        La rédaction d&apos;actes est le cœur du métier notarial. Un acte
+        de vente immobiliere à Monaco comprend des dizaines de pages :
         designation du bien, origine de propriete, servitudes, situation
         hypothecaire, diagnostics, conditions suspensives, clauses
-        specifiques au droit monegasque. Chaque acte est unique, mais
-        une part significative de sa structure est recurrente.
+        spécifiques au droit monégasque. Chaque acte est unique, mais
+        une part significative de sa structure est récurrente.
       </p>
 
-      <h3>Ce que l&apos;IA apporte a la redaction</h3>
+      <h3>Ce que l&apos;IA apporte à la rédaction</h3>
 
       <ul>
         <li>
-          <strong>Ventes immobilieres</strong> : l&apos;IA genere un
-          premier projet d&apos;acte a partir des informations collectees
-          (identite des parties, designation cadastrale, prix, conditions),
-          avec les clauses standards du droit monegasque pre-redigees et
-          les references legales a jour.
+          <strong>Ventes immobilieres</strong> : l&apos;IA génère un
+          premier projet d&apos;acte à partir des informations collectees
+          (identité des parties, designation cadastrale, prix, conditions),
+          avec les clauses standards du droit monégasque pré-rédigées et
+          les références légales a jour.
         </li>
         <li>
-          <strong>Donations</strong> : generation automatique des clauses
-          de reserve d&apos;usufruit, des conditions de rapport a la
-          succession, des evaluations fiscales et des references aux
-          articles du Code civil monegasque applicables.
+          <strong>Donations</strong> : génération automatique des clauses
+          de réserve d&apos;usufruit, des conditions de rapport à la
+          succession, des evaluations fiscales et des références aux
+          articles du Code civil monégasque applicables.
         </li>
         <li>
           <strong>Successions</strong> : compilation automatique de
           l&apos;inventaire successoral, calcul des droits de chaque
-          heritier selon le droit monegasque (qui differe du droit
-          francais sur la reserve hereditaire), generation de la
-          declaration de succession.
+          heritier selon le droit monégasque (qui diffère du droit
+          français sur la réserve hereditaire), génération de la
+          déclaration de succession.
         </li>
         <li>
-          <strong>Constitutions de societes</strong> : redaction des
+          <strong>Constitutions de sociétés</strong> : rédaction des
           statuts de SCP, SAM ou SCS avec les clauses obligatoires du
-          droit monegasque, les mentions legales requises et les
+          droit monégasque, les mentions légales requises et les
           formalites de publication.
         </li>
       </ul>
 
       <p>
-        Le notaire revise, ajuste et valide le projet genere par l&apos;IA.
-        Le temps de redaction d&apos;un acte de vente standard passe de
-        4 heures a 1 heure. Pour les actes complexes (succession
+        Le notaire révisé, ajuste et validé le projet génère par l&apos;IA.
+        Le temps de rédaction d&apos;un acte de vente standard passe de
+        4 heures à 1 heure. Pour les actes complexes (succession
         internationale, vente avec conditions suspensives multiples), le
         gain est encore plus significatif. Cette approche rejoint la
         methodologie que nous appliquons pour les{" "}
@@ -121,92 +121,92 @@ export default function Article() {
           href="/secteurs/cabinets-avocats"
           className="text-accent hover:underline"
         >
-          cabinets d&apos;avocats a Monaco
+          cabinets d&apos;avocats à Monaco
         </Link>
-        , ou l&apos;IA assiste egalement la redaction juridique.
+        , ou l&apos;IA assiste egalement la rédaction juridique.
       </p>
 
-      <h2>Verification cadastrale et urbanistique automatisee</h2>
+      <h2>Vérification cadastrale et urbanistique automatisée</h2>
 
       <p>
-        Avant toute transaction immobiliere, le notaire doit verifier la
-        situation cadastrale du bien : references de la parcelle,
-        superficie, limites, servitudes enregistrees, hypotheques
-        inscrites, droits reels existants. A Monaco, cette verification
+        Avant toute transaction immobiliere, le notaire doit vérifier la
+        situation cadastrale du bien : références de la parcelle,
+        superficie, limites, servitudes enregistrées, hypotheques
+        inscrites, droits réels existants. À Monaco, cette vérification
         est d&apos;autant plus critique que le territoire est
-        integralement urbanise et que chaque metre carre a une valeur
-        considerable.
+        intégralement urbanise et que chaque metre carre à une valeur
+        considérable.
       </p>
 
       <p>
-        L&apos;IA automatise la collecte et la verification croisee de
+        L&apos;IA automatisé la collecte et la vérification croisee de
         ces informations. Elle interroge les bases cadastrales, compare
-        les references de l&apos;acte avec les donnees enregistrees,
-        detecte les incoherences (superficie declaree differente de la
-        superficie cadastrale, servitude non mentionnee, hypotheque non
-        purgee) et genere un rapport de conformite que le notaire
-        valide avant de poursuivre.
+        les références de l&apos;acte avec les données enregistrées,
+        détecte les incohérences (superficie declaree différente de la
+        superficie cadastrale, servitude non mentionnée, hypotheque non
+        purgee) et génère un rapport de conformité que le notaire
+        validé avant de poursuivre.
       </p>
 
       <p>
-        Cette automatisation est particulierement utile pour les
-        programmes immobiliers neufs a Monaco, ou les references
-        cadastrales evoluent au fil des permis de construire et des
-        modifications de lots. L&apos;IA suit ces evolutions et alerte
-        le notaire si une reference utilisee dans un projet d&apos;acte
-        ne correspond plus a la realite cadastrale actuelle.
+        Cette automatisation est particulièrement utile pour les
+        programmés immobiliers neufs à Monaco, où les références
+        cadastrales évoluent au fil des permis de construire et des
+        modifications de lots. L&apos;IA suit ces évolutions et alerte
+        le notaire si une référence utilisée dans un projet d&apos;acte
+        ne correspond plus à la réalité cadastrale actuelle.
       </p>
 
-      <h2>Successions internationales : un defi specifiquement monegasque</h2>
+      <h2>Successions internationales : un défi specifiquement monégasque</h2>
 
       <p>
-        Les successions a Monaco presentent une complexite particuliere.
-        La Principaute accueille des residents de plus de 140 nationalites.
-        Lorsqu&apos;un resident monegasque de nationalite britannique
-        decede en laissant des biens immobiliers a Monaco, un portefeuille
-        de valeurs mobilieres en Suisse et un appartement a Londres, le
-        notaire monegasque doit naviguer entre le droit monegasque
-        (applicable aux immeubles situes a Monaco), le droit britannique
+        Les successions à Monaco présentent une complexité particulière.
+        La Principauté accueille des résidents de plus de 140 nationalites.
+        Lorsqu&apos;un resident monégasque de nationalité britannique
+        decede en laissant des biens immobiliers à Monaco, un portefeuille
+        de valeurs mobilieres en Suisse et un appartement à Londres, le
+        notaire monégasque doit naviguer entre le droit monégasque
+        (applicable aux immeubles situés à Monaco), le droit britannique
         (applicable aux meubles selon la loi nationale du defunt) et les
         conventions internationales eventuellement applicables.
       </p>
 
       <p>
         L&apos;IA assiste le notaire dans ce labyrinthe juridique. Elle
-        identifie les lois applicables en fonction de la nationalite du
+        identifié les lois applicables en fonction de la nationalité du
         defunt, de la localisation des biens et des conventions
-        bilaterales existantes. Elle calcule les droits de chaque
-        heritier selon chaque systeme juridique applicable. Elle detecte
-        les conflits de lois et propose des solutions documentees par
-        la jurisprudence monegasque. Pour un office notarial qui traite
+        bilaterales existantes. Elle calculé les droits de chaque
+        heritier selon chaque système juridique applicable. Elle détecte
+        les conflits de lois et propose des solutions documentées par
+        la jurisprudence monégasque. Pour un office notarial qui traité
         des dizaines de successions internationales par an, ce gain de
-        temps et de securite juridique est considerable. Notre{" "}
+        temps et de sécurité juridique est considérable. Notre{" "}
         <Link
           href="/expertise/developpement-ia-sur-mesure"
           className="text-accent hover:underline"
         >
-          expertise en developpement d&apos;IA sur mesure
+          expertise en développement d&apos;IA sur mesure
         </Link>{" "}
-        permet de configurer ces outils selon les besoins specifiques de
+        permet de configurer ces outils selon les besoins spécifiques de
         chaque office.
       </p>
 
       <blockquote>
         <p>
-          Une succession monegasque impliquant trois juridictions et cinq
+          Une succession monégasque impliquant trois juridictions et cinq
           heritiers n&apos;est pas une exception. C&apos;est le
-          quotidien. L&apos;IA transforme cette complexite en un
-          processus structure et maitrise.
+          quotidien. L&apos;IA transforme cette complexité en un
+          processus structure et maîtrise.
         </p>
       </blockquote>
 
       <h2>Archivage intelligent et recherche documentaire</h2>
 
       <p>
-        Un office notarial monegasque conserve des milliers d&apos;actes,
+        Un office notarial monégasque conserve des milliers d&apos;actes,
         certains remontant a plusieurs decennies. La recherche d&apos;un
-        acte anterieur, d&apos;une clause specifique ou d&apos;un
-        precedent dans les archives est une tache chronophage lorsque
+        acte anterieur, d&apos;une clause spécifique ou d&apos;un
+        precedent dans les archives est une tâche chronophage lorsque
         les documents sont stockes en format papier ou en PDF non
         structures.
       </p>
@@ -215,114 +215,114 @@ export default function Article() {
         L&apos;IA transforme ces archives en une base de connaissances
         interrogeable en langage naturel. Le notaire peut demander :
         &laquo; Trouve-moi tous les actes de vente du quartier de
-        Fontvieille avec clause de reserve d&apos;usufruit signes entre
-        2018 et 2023 &raquo; et obtenir les resultats en quelques
+        Fontvieille avec clause de réserve d&apos;usufruit signés entre
+        2018 et 2023 &raquo; et obtenir les résultats en quelques
         secondes. L&apos;OCR augmente par IA numerise les actes papier,
         les structure par type, par date, par parties et par clauses, et
-        les rend accessibles a la recherche semantique.
+        les rend accessibles à la recherche sémantique.
       </p>
 
       <p>
-        Cette capacite de recherche est egalement precieuse pour la
-        redaction de nouveaux actes. Le notaire peut retrouver
-        instantanement une clause qu&apos;il avait redigee pour une
+        Cette capacité de recherche est egalement precieuse pour la
+        rédaction de nouveaux actes. Le notaire peut retrouver
+        instantanement une clause qu&apos;il avait rédigée pour une
         situation similaire, un precedent jurisprudentiel cite dans un
-        acte anterieur, ou les conditions d&apos;une vente precedente du
-        meme immeuble.
+        acte anterieur, où les conditions d&apos;une vente precedente du
+        même immeuble.
       </p>
 
-      <h2>Droit de preemption de l&apos;Etat et specificites monegasques</h2>
+      <h2>Droit de preemption de l&apos;État et spécificités monégasques</h2>
 
       <p>
-        Le droit immobilier monegasque comporte des specificites que
-        tout notaire doit maitriser et que l&apos;IA doit integrer dans
-        ses assistances. Le droit de preemption de l&apos;Etat monegasque
+        Le droit immobilier monégasque comporte des spécificités que
+        tout notaire doit maîtriser et que l&apos;IA doit intégrer dans
+        ses assistances. Le droit de preemption de l&apos;État monégasque
         sur les ventes immobilieres est l&apos;une des plus
         significatives. Lorsqu&apos;un bien immobilier est vendu a
-        Monaco, l&apos;Etat dispose d&apos;un droit de preemption qui
+        Monaco, l&apos;État dispose d&apos;un droit de preemption qui
         lui permet de se substituer a l&apos;acquereur aux conditions de
         la vente.
       </p>
 
       <p>
-        L&apos;IA integre cette specificite dans le processus de
-        redaction et de suivi des actes. Elle genere automatiquement la
-        notification a l&apos;Etat, calcule les delais legaux, suit les
-        etapes de la procedure et alerte le notaire si le delai de
-        reponse approche de son echeance. Elle integre egalement les
-        autres specificites du droit monegasque : les regles de
-        publicite fonciere propres a la Principaute, les droits
-        d&apos;enregistrement specifiques, les conditions de residence
-        liees a certaines acquisitions.
+        L&apos;IA intègre cette spécificité dans le processus de
+        rédaction et de suivi des actes. Elle génère automatiquement la
+        notification a l&apos;État, calculé les délais légaux, suit les
+        étapes de la procédure et alerte le notaire si le délai de
+        réponse approche de son échéance. Elle intègre egalement les
+        autres spécificités du droit monégasque : les règles de
+        publicite fonciere propres à la Principauté, les droits
+        d&apos;enregistrement spécifiques, les conditions de residence
+        liées a certaines acquisitions.
       </p>
 
       <p>
-        La comparaison avec le notariat francais est eclairante. Si le
-        cadre general est proche (le notariat monegasque s&apos;inspire
-        du modele francais), les differences sont nombreuses et
-        consequentes : pas de fichier immobilier centralise de type
-        Fidji, des droits d&apos;enregistrement differents, des regles
-        successorales specifiques, un regime matrimonial par defaut
-        distinct. L&apos;IA doit etre formee sur le droit monegasque
-        specifiquement, et non sur le droit francais par defaut. Pour
+        La comparaison avec le notariat français est eclairante. Si le
+        cadre général est proche (le notariat monégasque s&apos;inspiré
+        du modèle français), les différences sont nombreuses et
+        consequentes : pas de fichier immobilier centralisé de type
+        Fidji, des droits d&apos;enregistrement différents, des règles
+        successorales spécifiques, un régime matrimonial par defaut
+        distinct. L&apos;IA doit être formée sur le droit monégasque
+        specifiquement, et non sur le droit français par defaut. Pour
         approfondir les enjeux juridiques, consultez notre article sur
         l&apos;
         <Link
           href="/blog/ia-cabinets-avocats-droit-monegasque"
           className="text-accent hover:underline"
         >
-          IA et le droit monegasque
+          IA et le droit monégasque
         </Link>{" "}
-        qui couvre les specificites du systeme juridique de la
-        Principaute.
+        qui couvre les spécificités du système juridique de la
+        Principauté.
       </p>
 
       <h2>Onboarding client et collecte documentaire</h2>
 
       <p>
         L&apos;ouverture d&apos;un dossier client chez un notaire
-        monegasque implique la collecte de nombreux documents : pieces
-        d&apos;identite, justificatifs de domicile, extraits d&apos;actes
-        d&apos;etat civil, documents de propriete, attestations bancaires,
-        certificats de conformite fiscale. Pour un client etranger (ce qui
-        est le cas de la majorite des clients des notaires monegasques),
-        ces documents proviennent de juridictions differentes, dans des
-        langues differentes, avec des formats differents.
+        monégasque implique la collecte de nombreux documents : pièces
+        d&apos;identité, justificatifs de domicile, extraits d&apos;actes
+        d&apos;état civil, documents de propriete, attestations bancaires,
+        certificats de conformité fiscale. Pour un client etranger (ce qui
+        est le cas de la majorite des clients des notaires monégasques),
+        ces documents proviennent de juridictions différentes, dans des
+        langues différentes, avec des formats différents.
       </p>
 
       <p>
-        L&apos;IA automatise ce processus de collecte. Un portail client
-        securise guide le client dans la soumission de ses documents. La
-        reconnaissance optique de caracteres (OCR) extrait les
-        informations pertinentes. L&apos;IA verifie la completude du
-        dossier, detecte les documents manquants et relance
+        L&apos;IA automatisé ce processus de collecte. Un portail client
+        sécurisé guide le client dans la soumission de ses documents. La
+        reconnaissance optique de caractères (OCR) extrait les
+        informations pertinentes. L&apos;IA vérifié la complétude du
+        dossier, détecte les documents manquants et relance
         automatiquement le client. Elle traduit les documents etrangers
-        et verifie leur authenticite formelle (format, cachets, dates de
+        et vérifié leur authenticite formelle (format, cachets, dates de
         validite).
       </p>
 
       <p>
-        Pour les transactions immobilieres de luxe, ou les acquereurs
+        Pour les transactions immobilieres de luxe, où les acquereurs
         sont souvent des UHNWI (Ultra High Net Worth Individuals) avec
-        des structures de detention complexes (trusts, holdings,
-        fondations), la collecte documentaire est particulierement
-        lourde. L&apos;IA structure cette complexite et garantit que
-        chaque piece du puzzle est en place avant la signature. Notre
+        des structures de détention complexes (trusts, holdings,
+        fondations), la collecte documentaire est particulièrement
+        lourde. L&apos;IA structure cette complexité et garantit que
+        chaque pièce du puzzle est en place avant la signature. Notre
         expertise dans l&apos;
         <Link
           href="/secteurs/immobilier-luxe"
           className="text-accent hover:underline"
         >
-          immobilier de luxe a Monaco
+          immobilier de luxe à Monaco
         </Link>{" "}
-        illustre ces enjeux en detail.
+        illustre ces enjeux en détail.
       </p>
 
       <blockquote>
         <p>
-          La collecte documentaire pour une vente immobiliere a Monaco
-          implique en moyenne 47 documents distincts. L&apos;IA reduit le
-          delai de constitution du dossier de 3 semaines a 5 jours.
+          La collecte documentaire pour une vente immobiliere à Monaco
+          implique en moyenne 47 documents distincts. L&apos;IA réduit le
+          délai de constitution du dossier de 3 semaines à 5 jours.
         </p>
       </blockquote>
 
@@ -330,28 +330,28 @@ export default function Article() {
 
       <p>
         Le secret professionnel du notaire est absolu. Les informations
-        confiees par les clients, la teneur des actes, les elements
-        patrimoniaux sont couverts par une obligation de confidentialite
-        qui ne souffre aucune exception. Le deploiement d&apos;outils
+        confiees par les clients, la teneur des actes, les éléments
+        patrimoniaux sont couverts par une obligation de confidentialité
+        qui ne souffre aucune exception. Le déploiement d&apos;outils
         d&apos;IA dans un office notarial doit respecter cette exigence
         sans compromis.
       </p>
 
       <p>
         Les solutions que nous deployons pour les offices notariaux
-        monegasques fonctionnent en environnement cloisonne. Les donnees
-        des clients ne sont jamais transmises a des serveurs tiers. Les
-        modeles d&apos;IA sont deployes localement ou sur des serveurs
-        dedies avec un chiffrement de bout en bout. Aucune donnee
-        client n&apos;est utilisee pour entrainer des modeles
-        partages. L&apos;historique des requetes est journalise pour
-        la tracabilite mais accessible uniquement aux personnes
+        monégasques fonctionnent en environnement cloisonné. Les données
+        des clients ne sont jamais transmises à des serveurs tiers. Les
+        modèles d&apos;IA sont déployés localement ou sur des serveurs
+        dédiés avec un chiffrement de bout en bout. Aucune donnée
+        client n&apos;est utilisée pour entraîner des modèles
+        partagés. L&apos;historique des requetes est journalise pour
+        la traçabilité mais accessible uniquement aux personnes
         habilitees de l&apos;office.
       </p>
 
       <p>
         Cette architecture garantit que l&apos;IA est un outil au service
-        du notaire, sous son controle total, dans le respect absolu du
+        du notaire, sous son contrôle total, dans le respect absolu du
         secret professionnel qui fonde la confiance de ses clients.
       </p>
 
@@ -359,22 +359,22 @@ export default function Article() {
 
       <p>
         L&apos;intelligence artificielle offre aux offices notariaux
-        monegasques des outils concrets pour gagner en precision, en
-        rapidite et en securite juridique :
+        monégasques des outils concrets pour gagner en précision, en
+        rapidite et en sécurité juridique :
       </p>
 
       <ul>
         <li>
           L&apos;
-          <strong>assistance a la redaction d&apos;actes</strong> reduit
+          <strong>assistance à la rédaction d&apos;actes</strong> réduit
           le temps de production de 75 % pour les actes standards (ventes,
-          donations, constitutions de societes) tout en integrant les
-          references legales a jour.
+          donations, constitutions de sociétés) tout en intégrant les
+          références légales a jour.
         </li>
         <li>
           La{" "}
-          <strong>verification cadastrale automatisee</strong> detecte les
-          incoherences et les anomalies avant la signature, eliminant une
+          <strong>vérification cadastrale automatisée</strong> détecte les
+          incohérences et les anomalies avant la signature, eliminant une
           source majeure d&apos;erreurs.
         </li>
         <li>
@@ -391,25 +391,25 @@ export default function Article() {
         </li>
         <li>
           Les{" "}
-          <strong>specificites monegasques</strong> (droit de preemption,
-          droits d&apos;enregistrement, regime matrimonial) sont
-          nativement integrees dans les outils, sans confusion avec le
-          droit francais.
+          <strong>spécificités monégasques</strong> (droit de preemption,
+          droits d&apos;enregistrement, régime matrimonial) sont
+          nativement intégrées dans les outils, sans confusion avec le
+          droit français.
         </li>
         <li>
           La{" "}
-          <strong>confidentialite absolue</strong> est garantie par un
-          deploiement en environnement cloisonne, sans transmission de
-          donnees a des tiers.
+          <strong>confidentialité absolue</strong> est garantie par un
+          déploiement en environnement cloisonné, sans transmission de
+          données à des tiers.
         </li>
       </ul>
 
       <p>
-        Le notariat monegasque a toujours ete un metier d&apos;excellence
+        Le notariat monégasque a toujours été un métier d&apos;excellence
         et de rigueur. L&apos;IA ne change pas cette nature. Elle donne
-        au notaire les moyens de l&apos;exercer avec une precision et une
+        au notaire les moyens de l&apos;exercer avec une précision et une
         efficacite que les outils traditionnels ne permettent plus face
-        a la complexite croissante des dossiers et des reglementations.
+        à la complexité croissante des dossiers et des réglementations.
       </p>
     </ArticleLayout>
   );

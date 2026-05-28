@@ -9,12 +9,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "IA pour les cabinets d'avocats à Monaco",
   description:
-    "Optimisez redaction d'actes, recherche juridique et gestion de dossiers grace a l'IA. Solutions adaptees au droit monegasque, SAM et SASURE.",
+    "Optimisez rédaction d'actes, recherche juridique et gestion de dossiers grâce à l'IA. Solutions adaptées au droit monégasque, SAM et SASURE.",
   alternates: { canonical: "https://quantamonaco.com/secteurs/cabinets-avocats" },
   openGraph: {
     title: "IA pour les cabinets d'avocats à Monaco",
     description:
-      "Optimisez redaction d'actes, recherche juridique et gestion de dossiers grace a l'IA. Solutions adaptees au droit monegasque, SAM et SASURE.",
+      "Optimisez rédaction d'actes, recherche juridique et gestion de dossiers grâce à l'IA. Solutions adaptées au droit monégasque, SAM et SASURE.",
     url: "https://quantamonaco.com/secteurs/cabinets-avocats",
     siteName: "Quanta",
     locale: "fr_FR",
@@ -25,23 +25,23 @@ export const metadata: Metadata = {
 const faqItems = [
   {
     q: "Le secret professionnel est-il garanti ?",
-    a: "Oui, integralement. Les donnees de votre cabinet sont traitees dans un environnement totalement cloisonne. Aucune information n'est partagee avec des modeles tiers ni utilisee pour entrainer des systemes externes. Nous proposons un hebergement sur cloud prive europeen ou on-premise. Un accord de confidentialite renforce est signe avant le demarrage de toute mission, en conformite avec les regles deontologiques de l'Ordre des avocats de Monaco.",
+    a: "Oui, intégralement. Les données de votre cabinet sont traitées dans un environnement totalement cloisonné. Aucune information n'est partagée avec des modèles tiers ni utilisée pour entraîner des systèmes externes. Nous proposons un hébergement sur cloud privé européen ou on-premise. Un accord de confidentialité renforcé est signé avant le démarrage de toute mission, en conformité avec les règles déontologiques de l'Ordre des avocats de Monaco.",
   },
   {
-    q: "L'IA connait-elle reellement le droit monegasque ?",
-    a: "Nos agents sont specialement entraines sur le corpus legislatif monegasque : Code civil, Code de procedure civile, Code des obligations, lois specifiques (loi n° 1.362 LCB-FT, lois sur les SAM, SASURE, SCS), ainsi que la jurisprudence du Tribunal supreme et des juridictions monegasques. Ils sont regulierement mis a jour lors de la publication de nouveaux textes dans le Journal de Monaco.",
+    q: "L'IA connaît-elle réellement le droit monégasque ?",
+    a: "Nos agents sont spécialement entraînés sur le corpus législatif monégasque : Code civil, Code de procédure civile, Code des obligations, lois spécifiques (loi n° 1.362 LCB-FT, lois sur les SAM, SASURE, SCS), ainsi que la jurisprudence du Tribunal suprême et des juridictions monégasques. Ils sont régulièrement mis à jour lors de la publication de nouveaux textes dans le Journal de Monaco.",
   },
   {
     q: "L'IA peut-elle remplacer un collaborateur juridique ?",
-    a: "Non, et ce n'est pas l'objectif. L'agent IA est un outil d'augmentation qui accelere les taches de recherche, de redaction et de suivi. L'analyse juridique, le conseil strategique et la prise de decision restent du ressort de l'avocat. L'IA permet a chaque collaborateur de traiter davantage de dossiers avec la meme rigueur, sans augmenter ses horaires.",
+    a: "Non, et ce n'est pas l'objectif. L'agent IA est un outil d'augmentation qui accélère les tâches de recherche, de rédaction et de suivi. L'analyse juridique, le conseil stratégique et la prise de décision restent du ressort de l'avocat. L'IA permet à chaque collaborateur de traiter davantage de dossiers avec la même rigueur, sans augmenter ses horaires.",
   },
   {
-    q: "Comment se passe l'integration avec notre logiciel de gestion de cabinet ?",
-    a: "Nous nous integrons aux principaux logiciels de gestion de cabinet via API ou connecteurs dedies. Si votre outil ne dispose pas d'API, nous pouvons travailler par extraction de fichiers ou automatisation d'interface. L'integration est transparente pour les utilisateurs finaux : l'agent apparait comme un assistant accessible depuis leur interface habituelle.",
+    q: "Comment se passe l'intégration avec notre logiciel de gestion de cabinet ?",
+    a: "Nous nous intégrons aux principaux logiciels de gestion de cabinet via API ou connecteurs dédiés. Si votre outil ne dispose pas d'API, nous pouvons travailler par extraction de fichiers ou automatisation d'interface. L'intégration est transparente pour les utilisateurs finaux : l'agent apparaît comme un assistant accessible depuis leur interface habituelle.",
   },
   {
-    q: "Quel budget prevoir pour un cabinet de 5 a 10 avocats ?",
-    a: "Le cout depend du nombre d'agents deployes et des processus couverts. Nous proposons un modele de facturation mensuel, sans engagement longue duree, qui inclut la maintenance, les mises a jour des bases juridiques et le support. Un premier entretien gratuit permet d'evaluer vos besoins specifiques et de fournir une estimation detaillee.",
+    q: "Quel budget prévoir pour un cabinet de 5 à 10 avocats ?",
+    a: "Le coût dépend du nombre d'agents déployés et des processus couverts. Nous proposons un modèle de facturation mensuel, sans engagement longue durée, qui inclut la maintenance, les mises à jour des bases juridiques et le support. Un premier entretien gratuit permet d'évaluer vos besoins spécifiques et de fournir une estimation détaillée.",
   },
 ];
 
@@ -57,10 +57,10 @@ export default function CabinetsAvocatsPage() {
             <div>
               <span className="text-[11px] uppercase tracking-[0.2em] text-muted font-semibold">Secteur</span>
               <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mt-3 mb-4">
-                Intelligence artificielle pour les cabinets d'avocats a Monaco
+                Intelligence artificielle pour les cabinets d&apos;avocats à Monaco
               </h1>
               <p className="text-foreground/60 text-[15px] leading-relaxed max-w-xl">
-                Accelerez la redaction d'actes, la recherche en droit monegasque et la gestion de vos dossiers grace a des agents IA formes aux specificites juridiques de la Principaute.
+                Accélérez la rédaction d&apos;actes, la recherche en droit monégasque et la gestion de vos dossiers grâce à des agents IA formés aux spécificités juridiques de la Principauté.
               </p>
             </div>
             <div className="hidden lg:block">
@@ -74,14 +74,14 @@ export default function CabinetsAvocatsPage() {
                     </div>
                     <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.04]">
                       <span className="text-[12px] text-white/60">Recherche jurisprudence</span>
-                      <span className="text-[13px] font-bold text-emerald-400">12 resultats</span>
+                      <span className="text-[13px] font-bold text-emerald-400">12 résultats</span>
                     </div>
                     <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.04]">
-                      <span className="text-[12px] text-white/60">Echeances en cours</span>
+                      <span className="text-[12px] text-white/60">Échéances en cours</span>
                       <span className="text-[13px] font-bold text-amber-400">4 cette semaine</span>
                     </div>
                     <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.04]">
-                      <span className="text-[12px] text-white/60">Contrats analyses</span>
+                      <span className="text-[12px] text-white/60">Contrats analysés</span>
                       <span className="text-[13px] font-bold text-white/80">38 ce mois</span>
                     </div>
                   </div>
@@ -113,20 +113,20 @@ export default function CabinetsAvocatsPage() {
                 <div className="text-3xl font-bold text-foreground">
                   <AnimatedCounter value={0} />
                 </div>
-                <p className="text-muted text-[13px] mt-2">echeance procedurale manquee</p>
+                <p className="text-muted text-[13px] mt-2">échéance procédurale manquée</p>
               </div>
               <div className="p-6 rounded-2xl bg-surface border border-border text-center">
                 <div className="text-3xl font-bold text-foreground">
                   <AnimatedCounter value={4} suffix=" langues" />
                 </div>
-                <p className="text-muted text-[13px] mt-2">correspondance automatisee</p>
+                <p className="text-muted text-[13px] mt-2">correspondance automatisée</p>
               </div>
             </div>
           </RevealOnScroll>
         </div>
       </section>
 
-      {/* Intro condensee */}
+      {/* Intro condensée */}
       <section className="section-padding section-light">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
@@ -134,13 +134,13 @@ export default function CabinetsAvocatsPage() {
               <div>
                 <h2 className="text-xl font-bold mb-4">Le constat</h2>
                 <p className="text-foreground/60 text-[14px] leading-relaxed">
-                  Le systeme juridique monegasque possede des particularites notables : code civil propre, juridictions specifiques et formes societaires uniques (SAM, SASURE). Les cabinets interviennent dans un contexte multilingue et multijuridictionnel pour une clientele HNWI. Chaque heure consacree a des taches repetitives est soustraite au conseil strategique.
+                  Le système juridique monégasque possède des particularités notables : code civil propre, juridictions spécifiques et formes sociétaires uniques (SAM, SASURE). Les cabinets interviennent dans un contexte multilingue et multijuridictionnel pour une clientèle HNWI. Chaque heure consacrée à des tâches répétitives est soustraite au conseil stratégique.
                 </p>
               </div>
               <div>
-                <h2 className="text-xl font-bold mb-4">L'opportunite IA</h2>
+                <h2 className="text-xl font-bold mb-4">L&apos;opportunité IA</h2>
                 <p className="text-foreground/60 text-[14px] leading-relaxed">
-                  Nos agents sont entraines sur les textes legislatifs monegasques, la jurisprudence du Tribunal supreme et les formulaires du Greffe general. Premiers jets fiables, recherche instantanee, suivi des echeances. La confidentialite est garantie : environnement cloisonne, aucun partage avec des modeles tiers.
+                  Nos agents sont entraînés sur les textes législatifs monégasques, la jurisprudence du Tribunal suprême et les formulaires du Greffe général. Premiers jets fiables, recherche instantanée, suivi des échéances. La confidentialité est garantie : environnement cloisonné, aucun partage avec des modèles tiers.
                 </p>
               </div>
             </div>
@@ -155,39 +155,39 @@ export default function CabinetsAvocatsPage() {
             <h2 className="text-xl font-bold mb-6">Ce que nous automatisons</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Redaction de statuts et d'actes</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Rédaction de statuts et d&apos;actes</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Projet de statuts SASURE ou SAM en 15 minutes. Clauses obligatoires, mentions RCI et variantes optionnelles integrees automatiquement.
+                  Projet de statuts SASURE ou SAM en 15 minutes. Clauses obligatoires, mentions RCI et variantes optionnelles intégrées automatiquement.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Recherche de jurisprudence</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Interrogation en langage naturel de la jurisprudence monegasque. Decisions pertinentes identifiees, passages cles extraits et classes par pertinence.
+                  Interrogation en langage naturel de la jurisprudence monégasque. Décisions pertinentes identifiées, passages clés extraits et classés par pertinence.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Transcription d'audiences</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Transcription d&apos;audiences</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Transcription fidele avec identification des intervenants. Resume structure : arguments de chaque partie, observations du juge, points de suivi.
+                  Transcription fidèle avec identification des intervenants. Résumé structuré : arguments de chaque partie, observations du juge, points de suivi.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Analyse de contrats</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Identification des clauses a risque, incoherences avec le Code des obligations, mentions manquantes. Memo structure par niveau de risque en quelques minutes.
+                  Identification des clauses à risque, incohérences avec le Code des obligations, mentions manquantes. Mémo structuré par niveau de risque en quelques minutes.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-[14px] font-semibold mb-2">Gestion des dossiers et echeances</h3>
+                <h3 className="text-[14px] font-semibold mb-2">Gestion des dossiers et échéances</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Calcul automatique des delais de procedure (signification, appel, pourvoi). Alertes aux collaborateurs, surveillance des prescriptions en continu.
+                  Calcul automatique des délais de procédure (signification, appel, pourvoi). Alertes aux collaborateurs, surveillance des prescriptions en continu.
                 </p>
               </div>
               <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
                 <h3 className="text-[14px] font-semibold mb-2">Correspondance client multilingue</h3>
                 <p className="text-white/45 text-[13px] leading-relaxed">
-                  Traduction en anglais, italien ou russe avec terminologie juridique appropriee. Precision technique preservee pour la clientele internationale.
+                  Traduction en anglais, italien ou russe avec terminologie juridique appropriée. Précision technique préservée pour la clientèle internationale.
                 </p>
               </div>
             </div>
@@ -204,21 +204,21 @@ export default function CabinetsAvocatsPage() {
               <div className="p-6 rounded-2xl border border-red-200 bg-red-50/50">
                 <p className="text-[12px] uppercase tracking-[0.15em] text-red-400 font-semibold mb-4">Sans IA</p>
                 <ul className="space-y-3 text-[13px] text-foreground/60">
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>3 a 4 heures pour rediger des statuts de SAM</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>3 à 4 heures pour rédiger des statuts de SAM</li>
                   <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Recherche jurisprudentielle manuelle, 2h par sujet</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Suivi des echeances dans des tableaux disperses</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Traduction externalisee, delais et couts eleves</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Analyse de contrats chronophage et repetitive</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Suivi des échéances dans des tableaux dispersés</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Traduction externalisée, délais et coûts élevés</li>
+                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">✕</span>Analyse de contrats chronophage et répétitive</li>
                 </ul>
               </div>
               <div className="p-6 rounded-2xl border border-emerald-200 bg-emerald-50/50">
                 <p className="text-[12px] uppercase tracking-[0.15em] text-emerald-500 font-semibold mb-4">Avec Quanta</p>
                 <ul className="space-y-3 text-[13px] text-foreground/60">
                   <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Premier jet de statuts en 15 minutes</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Recherche instantanee en langage naturel</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Alertes automatiques, zero echeance manquee</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Traduction integree en 4 langues, terminologie juridique</li>
-                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Memo d'analyse en minutes avec references legales</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Recherche instantanée en langage naturel</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Alertes automatiques, zéro échéance manquée</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Traduction intégrée en 4 langues, terminologie juridique</li>
+                  <li className="flex items-start gap-2"><span className="text-emerald-500 mt-0.5">✓</span>Mémo d&apos;analyse en minutes avec références légales</li>
                 </ul>
               </div>
             </div>
@@ -230,17 +230,17 @@ export default function CabinetsAvocatsPage() {
       <section className="section-padding section-tinted">
         <div className="max-w-6xl mx-auto px-6">
           <RevealOnScroll>
-            <h2 className="text-xl font-bold mb-6">Questions frequentes</h2>
+            <h2 className="text-xl font-bold mb-6">Questions fréquentes</h2>
             <FAQ items={faqItems} />
           </RevealOnScroll>
           <RevealOnScroll delay={100}>
             <div className="flex flex-wrap gap-3 mt-12">
-              <Link href="/expertise/audit-strategie-ia" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Audit & strategie</Link>
-              <Link href="/expertise/developpement-ia-sur-mesure" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Developpement IA sur mesure</Link>
+              <Link href="/expertise/audit-strategie-ia" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Audit & stratégie</Link>
+              <Link href="/expertise/developpement-ia-sur-mesure" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Développement IA sur mesure</Link>
               <Link href="/secteurs/gestion-patrimoine" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Gestion de patrimoine</Link>
-              <Link href="/secteurs/banque-privee" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Banque privee</Link>
-              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Tous les resultats</Link>
-              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Notre methode</Link>
+              <Link href="/secteurs/banque-privee" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Banque privée</Link>
+              <Link href="/resultats" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Tous les résultats</Link>
+              <Link href="/methode" className="text-[12px] text-muted bg-surface-dark px-3 py-1.5 rounded-lg hover:text-foreground transition-colors">Notre méthode</Link>
             </div>
           </RevealOnScroll>
         </div>
@@ -251,10 +251,10 @@ export default function CabinetsAvocatsPage() {
         <div className="max-w-2xl mx-auto px-6">
           <RevealOnScroll>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mb-5">
-              Concentrez-vous sur le conseil, laissez l'IA gerer la charge documentaire
+              Concentrez-vous sur le conseil, laissez l&apos;IA gérer la charge documentaire
             </h2>
             <p className="text-foreground/60 text-[14px] mb-8">
-              Presentons-nous lors d'un entretien de 30 minutes pour explorer comment l'IA peut s'integrer dans la pratique quotidienne de votre cabinet, en toute confidentialite.
+              Présentons-nous lors d&apos;un entretien de 30 minutes pour explorer comment l&apos;IA peut s&apos;intégrer dans la pratique quotidienne de votre cabinet, en toute confidentialité.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <a
