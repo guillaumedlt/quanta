@@ -42,6 +42,13 @@ export default function Footer() {
               <Link href="/combien-coute-projet-ia-monaco" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">Tarifs projet IA</Link>
               <Link href="/comparatif-agence-ia-monaco" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">Comparatif agences</Link>
             </nav>
+
+            <h4 className="text-[10px] uppercase tracking-[0.2em] text-muted font-semibold mb-3 mt-6">Conformité &amp; LCB-FT</h4>
+            <nav className="flex flex-col gap-2" aria-label="Conformité">
+              <Link href="/automatiser-kyc-monaco" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">Automatiser le KYC</Link>
+              <Link href="/ia-conformite-loi-1362-monaco" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">IA et loi n° 1.362</Link>
+              <Link href="/ia-siccffin-monaco" className="text-[13px] text-foreground/50 hover:text-foreground transition-colors">IA et reporting SICCFIN</Link>
+            </nav>
           </div>
           <div>
             <h4 className="text-[10px] uppercase tracking-[0.2em] text-muted font-semibold mb-3">Contact</h4>

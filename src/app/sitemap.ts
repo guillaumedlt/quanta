@@ -46,6 +46,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/ia-questions-frequentes-dirigeants`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/top-agence-ia-monaco`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },
     { url: `${base}/agents-ia-monaco`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },
+    // Regulatory pillar pages — high AEO/GEO value
+    { url: `${base}/automatiser-kyc-monaco`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/ia-conformite-loi-1362-monaco`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/ia-siccffin-monaco`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     ...expertises.map((slug) => ({
       url: `${base}/expertise/${slug}`,
       lastModified: now,
