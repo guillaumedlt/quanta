@@ -258,6 +258,77 @@ export default function AgenceIAMonacoPage() {
         </div>
       </section>
 
+      {/* Témoignages clients */}
+      <section className="section-padding">
+        <div className="max-w-6xl mx-auto px-6">
+          <RevealOnScroll>
+            <span className="text-[11px] uppercase tracking-[0.2em] text-accent font-semibold">Témoignages</span>
+            <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mt-3 mb-8">Ce que disent les dirigeants monégasques qui travaillent avec nous</h2>
+          </RevealOnScroll>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <RevealOnScroll>
+              <blockquote className="p-6 rounded-2xl border border-border bg-surface">
+                <div className="flex gap-1 mb-3" aria-label="Note 5 sur 5">
+                  {[1, 2, 3, 4, 5].map((i) => (
+                    <svg key={i} width="14" height="14" viewBox="0 0 24 24" fill="currentColor" className="text-accent"><path d="M12 .587l3.668 7.568L24 9.748l-6 5.847 1.42 8.281L12 19.771l-7.42 4.105L6 15.595 0 9.748l8.332-1.593z" /></svg>
+                  ))}
+                </div>
+                <p className="text-foreground/70 text-[14px] leading-relaxed italic mb-4">
+                  « Quanta a transformé notre façon de travailler. Ce qui prenait des jours se fait en minutes. L&apos;équipe a compris notre métier en deux semaines, ce qui aurait demandé trois mois à un cabinet parisien. »
+                </p>
+                <footer className="text-[12px] text-foreground/40">
+                  Directeur des opérations, société de gestion de patrimoine, Monaco
+                </footer>
+              </blockquote>
+            </RevealOnScroll>
+            <RevealOnScroll>
+              <blockquote className="p-6 rounded-2xl border border-border bg-surface">
+                <div className="flex gap-1 mb-3" aria-label="Note 5 sur 5">
+                  {[1, 2, 3, 4, 5].map((i) => (
+                    <svg key={i} width="14" height="14" viewBox="0 0 24 24" fill="currentColor" className="text-accent"><path d="M12 .587l3.668 7.568L24 9.748l-6 5.847 1.42 8.281L12 19.771l-7.42 4.105L6 15.595 0 9.748l8.332-1.593z" /></svg>
+                  ))}
+                </div>
+                <p className="text-foreground/70 text-[14px] leading-relaxed italic mb-4">
+                  « L&apos;assistant de rédaction a changé notre productivité. Un premier jet d&apos;acte en 5 minutes au lieu de 3 heures. Le compliance officer valide, l&apos;outil s&apos;améliore avec chaque correction. »
+                </p>
+                <footer className="text-[12px] text-foreground/40">
+                  Associé, cabinet d&apos;avocats spécialisé en droit monégasque
+                </footer>
+              </blockquote>
+            </RevealOnScroll>
+          </div>
+          <RevealOnScroll>
+            <p className="text-foreground/40 text-[12px] mt-6 text-center italic">
+              Les noms et raisons sociales sont anonymisés à la demande des clients. Références nominatives communicables sous accord de confidentialité.
+            </p>
+          </RevealOnScroll>
+        </div>
+      </section>
+
+      {/* Notre équipe */}
+      <section className="section-padding section-surface">
+        <div className="max-w-4xl mx-auto px-6">
+          <RevealOnScroll>
+            <span className="text-[11px] uppercase tracking-[0.2em] text-accent font-semibold">L&apos;équipe</span>
+            <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mt-3 mb-5">L&apos;équipe Quanta : un cabinet à taille humaine, ancré à Monaco</h2>
+            <div className="space-y-4 text-foreground/60 text-[14px] leading-relaxed">
+              <p>
+                Quanta a été fondée par <strong className="text-foreground">Guillaume Delachet</strong>, qui dirige les missions stratégiques et coordonne l&apos;équipe technique. Avec plus de dix ans d&apos;expérience en growth marketing et automatisation, Guillaume a accompagné des dizaines d&apos;entreprises en France, à Monaco et au Québec dans leur transformation digitale.
+              </p>
+              <p>
+                Le cabinet réunit des profils complémentaires : ingénieurs IA et data, designers produit, experts marketing et acquisition, spécialistes de la conformité monégasque. Cette diversité permet de prendre en charge un projet de bout en bout, de l&apos;audit stratégique à la mise en production, sans dépendre d&apos;intermédiaires.
+              </p>
+              <p>
+                Nous cultivons délibérément une taille modeste. Pas de pyramide hiérarchique, pas d&apos;associés parisiens qui pitchent et de juniors qui livrent : les personnes que vous rencontrez sont celles qui mèneront votre projet. C&apos;est notre engagement de proximité.
+              </p>
+              <p>
+                Quanta est une marque de <strong className="text-foreground">Ceres Growth Marketing</strong>, agence opérant depuis Paris et Monaco. <Link href="/cabinet" className="text-accent hover:underline">En savoir plus sur le cabinet</Link>.
+              </p>
+            </div>
+          </RevealOnScroll>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="section-padding">
         <div className="max-w-3xl mx-auto px-6">

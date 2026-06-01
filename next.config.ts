@@ -38,6 +38,22 @@ const nextConfig: NextConfig = {
         destination: "https://quantamonaco.com/:path*",
         statusCode: 301,
       },
+      // SEO consolidation: cannibalising landings -> pillars
+      {
+        source: "/intelligence-artificielle-monaco",
+        destination: "/ia-monaco",
+        permanent: true,
+      },
+      {
+        source: "/top-agence-ia-monaco",
+        destination: "/agence-ia-monaco",
+        permanent: true,
+      },
+      {
+        source: "/pourquoi-choisir-quanta",
+        destination: "/agence-ia-monaco",
+        permanent: true,
+      },
     ];
   },
 };

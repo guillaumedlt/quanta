@@ -295,7 +295,7 @@ export default function CombienCouteProjetIAMonacoPage() {
             {[
               { title: "Tarifs détaillés IA à Monaco", href: "/tarifs" },
               { title: "Comment choisir son agence IA", href: "/comment-choisir-agence-ia-monaco" },
-              { title: "Pourquoi choisir Quanta à Monaco", href: "/pourquoi-choisir-quanta" },
+              { title: "Pourquoi choisir Quanta à Monaco", href: "/agence-ia-monaco" },
               { title: "Délais d&apos;un projet IA à Monaco", href: "/delai-projet-ia-monaco" },
               { title: "Cas clients dans la Principauté", href: "/resultats" },
               { title: "5 processus rentables à automatiser", href: "/blog/5-processus-rentables-automatiser" },

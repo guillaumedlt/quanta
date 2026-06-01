@@ -253,7 +253,7 @@ export default function ComparatifAgenceIAMonacoPage() {
           <div className="grid sm:grid-cols-2 gap-3">
             {[
               { title: "Comment choisir son agence IA à Monaco", href: "/comment-choisir-agence-ia-monaco" },
-              { title: "Pourquoi choisir Quanta à Monaco", href: "/pourquoi-choisir-quanta" },
+              { title: "Pourquoi choisir Quanta à Monaco", href: "/agence-ia-monaco" },
               { title: "Combien coûte un projet IA à Monaco", href: "/combien-coute-projet-ia-monaco" },
               { title: "Agence IA à Monaco : panorama", href: "/agence-ia-monaco" },
               { title: "Consultant IA à Monaco", href: "/consultant-ia-monaco" },

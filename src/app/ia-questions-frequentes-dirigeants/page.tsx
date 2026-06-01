@@ -292,7 +292,7 @@ export default function IAQuestionsDirigeantsPage() {
           </RevealOnScroll>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              { title: "Pourquoi choisir Quanta comme cabinet IA", href: "/pourquoi-choisir-quanta" },
+              { title: "Pourquoi choisir Quanta comme cabinet IA", href: "/agence-ia-monaco" },
               { title: "Notre méthode d'intégration IA", href: "/methode" },
               { title: "Résultats et études de cas", href: "/resultats" },
               { title: "Tarifs des missions IA à Monaco", href: "/tarifs" },

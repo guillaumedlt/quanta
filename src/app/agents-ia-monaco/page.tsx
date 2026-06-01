@@ -252,7 +252,7 @@ export default function AgentsIAMonaco() {
                 Solliciter un entretien
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="group-hover:translate-x-0.5 transition-transform"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
               </Link>
-              <Link href="/top-agence-ia-monaco" className="bg-surface text-foreground font-medium px-6 py-3 rounded-xl text-[13px] border border-border hover:border-foreground/20 transition-all">Top agence IA Monaco</Link>
+              <Link href="/agence-ia-monaco" className="bg-surface text-foreground font-medium px-6 py-3 rounded-xl text-[13px] border border-border hover:border-foreground/20 transition-all">Agence IA Monaco</Link>
             </div>
           </RevealOnScroll>
         </div>
