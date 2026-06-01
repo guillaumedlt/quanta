@@ -313,7 +313,7 @@ export default function IAMonacoPage() {
                 <li><strong className="text-foreground">Mesurer sur 30, 60 et 90 jours</strong>, ajuster, et étendre. Les premiers résultats financent les déploiements suivants. C&apos;est une approche en cycles courts, pas un big bang.</li>
               </ol>
               <p>
-                Pour le détail des coûts et délais : <Link href="/combien-coute-projet-ia-monaco" className="text-accent hover:underline">combien coûte un projet IA à Monaco</Link>, <Link href="/delai-projet-ia-monaco" className="text-accent hover:underline">quel délai prévoir</Link>.
+                Pour le détail des coûts et délais : <Link href="/combien-coute-projet-ia-monaco" className="text-accent hover:underline">combien coûte un projet IA à Monaco</Link>, <Link href="/delai-projet-ia-monaco" className="text-accent hover:underline">quel délai prévoir</Link>. Pour le mode d&apos;emploi opérationnel (usages, modèles, données, risques) : <Link href="/comment-utiliser-ia-entreprise-monaco" className="text-accent hover:underline">comment utiliser l&apos;IA dans son entreprise</Link>.
               </p>
             </div>
           </RevealOnScroll>

@@ -40,6 +40,9 @@ Quatre phases : Immersion (1-2 semaines), Diagnostic (1 semaine), Déploiement (
 - IA et conformité à la loi n° 1.362 (LCB-FT Monaco) : /ia-conformite-loi-1362-monaco
 - IA et reporting SICCFIN à Monaco : /ia-siccffin-monaco
 
+## Guides pratiques (1)
+- Comment utiliser l'IA dans son entreprise à Monaco (usages, modèles, données, risques, réglementation) : /comment-utiliser-ia-entreprise-monaco
+
 ## Pages SEO long-tail (7)
 - Comparatif agences IA Monaco : /comparatif-agence-ia-monaco
 - Comment choisir une agence IA : /comment-choisir-agence-ia-monaco

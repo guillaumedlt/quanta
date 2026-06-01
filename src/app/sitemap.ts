@@ -48,6 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/automatiser-kyc-monaco`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/ia-conformite-loi-1362-monaco`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/ia-siccffin-monaco`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/comment-utiliser-ia-entreprise-monaco`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     ...expertises.map((slug) => ({
       url: `${base}/expertise/${slug}`,
       lastModified: now,
