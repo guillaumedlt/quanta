@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
-import WhitePaperBanner from "@/components/WhitePaperBanner";
-import MobileWhitePaperToast from "@/components/MobileWhitePaperToast";
+import WhitePaperToast from "@/components/WhitePaperToast";
 import Hero from "@/components/Hero";
 import LogoBar from "@/components/LogoBar";
 import Expertise from "@/components/Expertise";
@@ -30,7 +29,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-      <MobileWhitePaperToast />
+      <WhitePaperToast />
     </>
   );
 }

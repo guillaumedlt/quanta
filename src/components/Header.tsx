@@ -128,22 +128,6 @@ export default function Header() {
         </button>
       </nav>
 
-      {/* White paper banner — hidden on mobile */}
-      <Link
-        href="/white-paper"
-        className="hidden md:flex group max-w-6xl mx-auto mt-2 items-center justify-center gap-2.5 bg-dark/80 backdrop-blur-md rounded-xl px-4 py-2 transition-all hover:bg-dark"
-      >
-        <span className="text-[8px] font-bold uppercase tracking-wider text-dark bg-accent px-1.5 py-0.5 rounded shrink-0">
-          Nouveau
-        </span>
-        <span className="text-[11px] text-white/50 group-hover:text-white/80 transition-colors truncate">
-          White paper : L&apos;IA dans la Principauté de Monaco
-        </span>
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="text-white/20 group-hover:text-accent group-hover:translate-x-0.5 transition-all shrink-0">
-          <path d="M5 12h14M12 5l7 7-7 7" />
-        </svg>
-      </Link>
-
       {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden bg-dark rounded-2xl mt-2 px-5 py-5 flex flex-col gap-1 animate-fade-in">
