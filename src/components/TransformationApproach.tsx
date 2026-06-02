@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const pillars = [
   {
     title: "Étape par étape",
@@ -24,19 +22,66 @@ export default function TransformationApproach() {
     <section className="my-12 sm:my-16 mx-4">
       <div className="relative rounded-[2rem] overflow-hidden bg-gradient-to-br from-accent-light/40 via-background to-surface border border-border/50 p-6 sm:p-10 lg:p-14">
         <div className="grid lg:grid-cols-[1fr_1.3fr] gap-8 lg:gap-12 items-center">
-          {/* Editorial photo */}
-          <div className="relative aspect-[4/5] lg:aspect-[3/4] rounded-2xl overflow-hidden order-2 lg:order-1">
-            <Image
-              src="https://images.unsplash.com/photo-1633114127188-99b4dd741180?w=1600&q=80&auto=format&fit=crop"
-              alt="Collaborateurs en discussion autour d'un projet IA — Quanta accompagne dans la durée"
-              fill
-              sizes="(max-width: 1024px) 100vw, 600px"
-              className="object-cover grayscale contrast-[1.05]"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-dark/30 via-transparent to-transparent" />
-            <p className="absolute bottom-2 right-3 text-[10px] text-white/40">
-              Microsoft 365 / Unsplash
-            </p>
+          {/* Abstract illustration: progressive transformation journey */}
+          <div className="relative aspect-[4/5] lg:aspect-[3/4] rounded-2xl overflow-hidden order-2 lg:order-1 bg-gradient-to-br from-accent-light/30 via-background/50 to-surface border border-border/40">
+            <svg
+              viewBox="0 0 400 500"
+              className="absolute inset-0 w-full h-full text-foreground"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              aria-label="Illustration : transformation progressive en quatre étapes"
+            >
+              {/* Soft background orb */}
+              <circle cx="280" cy="120" r="170" fill="currentColor" opacity="0.04" />
+              <circle cx="120" cy="380" r="130" fill="currentColor" opacity="0.03" />
+
+              {/* Subtle grid */}
+              <defs>
+                <pattern id="ta-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" strokeWidth="0.5" opacity="0.06" />
+                </pattern>
+              </defs>
+              <rect width="400" height="500" fill="url(#ta-grid)" />
+
+              {/* Ascending journey path (dashed) */}
+              <path
+                d="M 50 430 C 100 400 140 380 180 320 C 220 260 250 220 290 160 C 320 120 340 90 360 60"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                opacity="0.25"
+                strokeDasharray="3,5"
+                strokeLinecap="round"
+              />
+
+              {/* 4 milestones — grow as journey progresses */}
+              <g className="text-accent">
+                {/* Step 1 — Immersion */}
+                <circle cx="50" cy="430" r="7" fill="currentColor" />
+                <circle cx="50" cy="430" r="14" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.3" />
+
+                {/* Step 2 — Diagnostic */}
+                <circle cx="180" cy="320" r="9" fill="currentColor" />
+                <circle cx="180" cy="320" r="18" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.3" />
+
+                {/* Step 3 — Déploiement */}
+                <circle cx="290" cy="160" r="11" fill="currentColor" />
+                <circle cx="290" cy="160" r="22" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.3" />
+
+                {/* Step 4 — Transmission (with pulse rings) */}
+                <circle cx="360" cy="60" r="14" fill="currentColor" />
+                <circle cx="360" cy="60" r="26" fill="none" stroke="currentColor" strokeWidth="1.2" opacity="0.4" />
+                <circle cx="360" cy="60" r="40" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.2" />
+              </g>
+
+              {/* Tiny labels */}
+              <g className="fill-foreground/40" fontSize="9" fontFamily="ui-sans-serif, system-ui" letterSpacing="0.1em">
+                <text x="50" y="460" textAnchor="middle">01</text>
+                <text x="180" y="355" textAnchor="middle">02</text>
+                <text x="290" y="195" textAnchor="middle">03</text>
+                <text x="360" y="95" textAnchor="middle">04</text>
+              </g>
+            </svg>
           </div>
 
           {/* Content */}
