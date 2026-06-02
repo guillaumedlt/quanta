@@ -9,6 +9,7 @@ import Sectors from "@/components/Sectors";
 import Results from "@/components/Results";
 import Cabinet from "@/components/Cabinet";
 import MonacoPresence from "@/components/MonacoPresence";
+import TransformationApproach from "@/components/TransformationApproach";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -19,6 +20,7 @@ export default function Home() {
       <main>
         <Hero />
         <LogoBar />
+        <TransformationApproach />
         <Conviction />
         <Expertise />
         <Method />

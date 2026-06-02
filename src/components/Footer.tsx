@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid sm:grid-cols-4 gap-10 mb-12">
           <div>
             <Link href="/" className="text-[15px] font-semibold tracking-tight">Quanta<span className="text-accent text-[10px] align-top ml-0.5">&#8482;</span></Link>
-            <p className="text-[13px] text-muted leading-relaxed mt-2.5">Cabinet d&apos;expertise IA.<br />Principauté de Monaco.</p>
+            <p className="text-[13px] text-muted leading-relaxed mt-2.5">Partenaire de transformation IA.<br />Principauté de Monaco.</p>
             <p className="text-[11px] text-foreground/25 leading-relaxed mt-3">The Office Monaco<br />Une marque de Ceres Growth Marketing<br />128 rue de la Boétie, 75008 Paris</p>
           </div>
           <div>

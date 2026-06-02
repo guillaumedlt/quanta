@@ -28,7 +28,7 @@ export default function Hero() {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="animate-fade-up">
             <span className="inline-flex text-[11px] uppercase tracking-[0.2em] font-semibold bg-accent text-dark px-3 py-1.5 rounded-md shadow-md shadow-accent/20">
-              Cabinet d&apos;expertise IA · Monaco
+              Partenaire de transformation IA · Monaco
             </span>
           </div>
 
@@ -37,12 +37,12 @@ export default function Hero() {
           </h1>
 
           <p className="animate-fade-up delay-200 text-[15px] text-foreground/60 max-w-xl mx-auto mb-8 leading-relaxed">
-            Quanta est un cabinet d&apos;expertise dédié à l&apos;intégration opérationnelle de l&apos;IA dans les organisations de la Principauté. Nous intervenons là où la technologie rencontre la réalité de vos métiers.
+            Quanta est votre partenaire de transformation IA à Monaco. Comme les grands cabinets ont accompagné la révolution digitale, nous accompagnons celle de l&apos;IA — sur la durée, à votre rythme, avec vos équipes.
           </p>
 
           <div className="animate-fade-up delay-300 flex flex-wrap items-center justify-center gap-3">
             <Link href="/contact" className="group bg-accent text-dark font-semibold px-6 py-3 rounded-xl text-[13px] hover:bg-accent-dark transition-all inline-flex items-center gap-2 shadow-lg shadow-accent/20">
-              Solliciter un entretien
+              Parlons de votre projet
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="group-hover:translate-x-0.5 transition-transform"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
             </Link>
             <Link href="/methode" className="group text-foreground/70 font-medium text-[13px] hover:text-foreground transition-colors inline-flex items-center gap-1.5 px-3 py-3">

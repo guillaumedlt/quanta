@@ -25,7 +25,7 @@ export default function CabinetPage() {
       <PageHeader
         tag="Le cabinet"
         title="Quanta."
-        description="Cabinet d'expertise en intelligence artificielle fondé à Monaco par Guillaume."
+        description="Partenaire de transformation IA fondé à Monaco par Guillaume. Nous accompagnons les entreprises monégasques sur la durée — à leur rythme, avec leurs équipes."
       />
 
       <section className="section-padding section-light">
@@ -77,7 +77,7 @@ export default function CabinetPage() {
           <RevealOnScroll>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mb-5">Échangeons sur vos enjeux.</h2>
             <a href="https://wa.me/33645636107" className="group bg-accent text-dark font-semibold px-6 py-3 rounded-xl text-[13px] hover:bg-accent-dark transition-all inline-flex items-center gap-2 shadow-lg shadow-accent/20">
-              Solliciter un entretien
+              Parlons-en
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="group-hover:translate-x-0.5 transition-transform"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
             </a>
           </RevealOnScroll>

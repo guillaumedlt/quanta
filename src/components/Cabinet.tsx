@@ -27,7 +27,7 @@ export default function Cabinet() {
             <span className="text-[11px] uppercase tracking-[0.2em] text-accent font-semibold">Le cabinet</span>
             <h2 className="text-[1.75rem] sm:text-3xl font-bold mt-3 mb-6 tracking-tight">Quanta.</h2>
             <p className="text-white/45 text-[14px] leading-relaxed mb-8">
-              Cabinet d&apos;expertise IA fondé à Monaco par Guillaume. Maîtrise technique de dernière génération, connaissance intime de l&apos;environnement réglementaire de la Principauté.
+              Partenaire de transformation IA fondé à Monaco par Guillaume. Nous accompagnons les entreprises monégasques sur la durée, avec une maîtrise technique de pointe et une connaissance intime du cadre réglementaire de la Principauté.
             </p>
 
             <div className="space-y-3">
